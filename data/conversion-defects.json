@@ -1,0 +1,3894 @@
+{
+  "asOf": "2026-10-23",
+  "items": [
+    {
+      "key": "CONAMER1001932-18578",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Reconciliation report is not present",
+      "subledger": "PO",
+      "relatedObject": "Reconciliation report is not present",
+      "severity": "Medium",
+      "status": "Retest",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-03-18",
+      "targetRetestDate": "2026-11-04",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-20134",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "PO-Matched AP Invoices Load Issue - Legal Entity Mismatch",
+      "subledger": "AP",
+      "relatedObject": "PO-Matched AP Invoices Load Issue",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-05-18",
+      "targetRetestDate": "2026-10-28",
+      "notes": "Setting the AP Invoice Legal Entity based on the Distributions Segment1 value manually for loading the record for unit testing."
+    },
+    {
+      "key": "CONAMER1001932-20171",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "AP Invoices Load Issue for AWT Line Type",
+      "subledger": "AP",
+      "relatedObject": "AP Invoices Load Issue for AWT Line Type",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-05-19",
+      "targetRetestDate": "2026-10-28",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-20172",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Duplicate legal entity names in Oracle Cloud",
+      "subledger": "AP",
+      "relatedObject": "Duplicate legal entity names in Oracle Cloud",
+      "severity": "Critical",
+      "status": "In Progress",
+      "owner": "Anthony Gold",
+      "dateIdentified": "2026-05-19",
+      "targetRetestDate": "2026-10-28",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-20419",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Project Cost Unit Testing - Enhancements",
+      "subledger": "PA",
+      "relatedObject": "Project Cost Unit Testing",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-05-28",
+      "targetRetestDate": "2026-11-04",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-20420",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Multiple tax lines are not allowed to be loaded with same tax rate code in one invoice",
+      "subledger": "AP",
+      "relatedObject": "Multiple tax lines are not allowed to be loaded with same tax rate code in one invoice",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-05-28",
+      "targetRetestDate": "2026-10-28",
+      "notes": "Create EBS tax rates in Oracle Cloud till the time tax engine design is finalized"
+    },
+    {
+      "key": "CONAMER1001932-20455",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "New Attributes required for Item Conversion - Coupa Contract Number, Coupa Supplier,",
+      "subledger": "INV",
+      "relatedObject": "New Attributes required for Item",
+      "severity": "Medium",
+      "status": "On Hold",
+      "owner": "Prerna Thadani",
+      "dateIdentified": "2026-06-09",
+      "targetRetestDate": "2027-12-31",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-20465",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Determine Exchange Rate - Due to Differences Between AP Invoice BU and Project Ledger BU",
+      "subledger": "PA",
+      "relatedObject": "Determine Exchange Rate",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-06-11",
+      "targetRetestDate": "2026-11-04",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-20470",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "AP invoices linked to projects could not be validated",
+      "subledger": "AP",
+      "relatedObject": "AP invoices linked to projects could not be validated",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-06-12",
+      "targetRetestDate": "2026-10-28",
+      "notes": "Load invoices with their actual accounting date"
+    },
+    {
+      "key": "CONAMER1001932-20523",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Legacy Supplier Number to be captured in Cloud Supplier records during Conversion",
+      "subledger": "PO",
+      "relatedObject": "Legacy Supplier Number to be captured in Cloud Supplier records during",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-06-18",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-21828",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Fixed Assets Profile Report - Record Counts",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Profile Report",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-07-14",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Profile report program to be updated"
+    },
+    {
+      "key": "CONAMER1001932-21875",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P035 & P590 Banks, Branches, InternalBankAccounts - Legal Entity not found in BANK_ATTR1 cross reference",
+      "subledger": "CM",
+      "relatedObject": "P035 & P590 Banks, Branches, InternalBankAccounts",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Subhaya Das",
+      "dateIdentified": "2026-07-17",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-22751",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Projects Conversion - ProjectClassification ClassCode Missing from Config and Crosswalk",
+      "subledger": "PA",
+      "relatedObject": "Projects",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-07-23",
+      "targetRetestDate": "2027-01-08",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-22752",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590/ACC - Projects Conversion R1 P2 - RRDD Missing from Crosswalk",
+      "subledger": "PA",
+      "relatedObject": "Projects",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-07-23",
+      "targetRetestDate": "2027-01-08",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-22825",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Supplier Conversion - Profile Report - Geography Validation - Geo Combinations only validated in Profiling report for US based vendors.",
+      "subledger": "PO",
+      "relatedObject": "Supplier",
+      "severity": "Critical",
+      "status": "On Hold",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-07-31",
+      "targetRetestDate": "2026-12-14",
+      "notes": "N?A"
+    },
+    {
+      "key": "CONAMER1001932-23131",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "ProjectCosts Conversion - Need Unique Join from Blackline to AP Invoice",
+      "subledger": "PA",
+      "relatedObject": "ProjectCosts",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-08-10",
+      "targetRetestDate": "2026-11-04",
+      "notes": "Potential workarounds to be discussed."
+    },
+    {
+      "key": "CONAMER1001932-23155",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Projects Conversion - Closed Projects AND Approved not being Converted as Expected",
+      "subledger": "PA",
+      "relatedObject": "Projects",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-08-18",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23186",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Suppliers Header Conversion R1 P2 - Add Cloud duplicate checks in the profile report for SIT",
+      "subledger": "PO",
+      "relatedObject": "Suppliers Header",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-08-20",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23196",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590/ACC - Projects Conversion R1 P2 - PMHireDate after ProjectStartDate",
+      "subledger": "PA",
+      "relatedObject": "Projects",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "asaloni",
+      "dateIdentified": "2026-08-21",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Not yet determined."
+    },
+    {
+      "key": "CONAMER1001932-23199",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "ACC - Projects Conversion R1 P2 - ProjectCompletionDate is Blank in Legacy Source",
+      "subledger": "PA",
+      "relatedObject": "Projects",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-08-21",
+      "targetRetestDate": "2027-01-08",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-23200",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 - Map Assets to EWAPPM Categories which cannot be reclassed in EBS",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-08-21",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23210",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Item Master Conversion R1 P2 - R1 Country Selection missing GUAM",
+      "subledger": "INV",
+      "relatedObject": "Item Master",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-08-26",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - however for R1 P2 we will load data as is (W/O Guam)."
+    },
+    {
+      "key": "CONAMER1001932-23211",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 Item Master Conversion - R1 P2 -  Items RTA Item Mapping Confirmation",
+      "subledger": "INV",
+      "relatedObject": "P590 Item Master",
+      "severity": "Low",
+      "status": "In Progress",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-08-26",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - however for R1 P2 we will load data as is (with Attribure7 blank as per the existing RTA ItemListing)."
+    },
+    {
+      "key": "CONAMER1001932-23213",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Suppliers Header Conversion R1 P2- Leave AWT Group Name blank for Colombia BU for SIT",
+      "subledger": "PO",
+      "relatedObject": "Suppliers Header",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-08-26",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Letting these records error out during P2 loads. Will update the conversion code for SIT to leave the AWT_GROUP_NAME blank for Colombia BUs"
+    },
+    {
+      "key": "CONAMER1001932-23214",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Item Master Conversion R1 P2 - Records missing Target UNSPSC Code Mapping",
+      "subledger": "INV",
+      "relatedObject": "Item Master",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-08-26",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Update UNSPSC Code mapping with missing item records for R1 P2 upload. To be retested with R1 SIT '"
+    },
+    {
+      "key": "CONAMER1001932-23216",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "ACC - Projects Conversions R1 P2 -  Project Name should be generated using the format: \"Project Number\" - \"Project Name\" for ACC Data Extract ",
+      "subledger": "PA",
+      "relatedObject": "Projects Conversions",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-08-26",
+      "targetRetestDate": "2027-01-08",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-23218",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Sites Conversion R1 P2 - Add Reporting to Profile Report for SIT - Supplier Sites with Hold Reason but no Hold Flags set",
+      "subledger": "PO",
+      "relatedObject": "Supplier Sites",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-08-26",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Loaded with the Hold Reason blanked out"
+    },
+    {
+      "key": "CONAMER1001932-23219",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Sites Conversion R1 P2 - Incorrect translation logic in code for Site Attribute4",
+      "subledger": "PO",
+      "relatedObject": "Supplier Sites",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-08-26",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23226",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590/ACC Project & Tasks Conversion R1 P2 -Profile Report -  Project Tasks are Missing Completion Date",
+      "subledger": "PA",
+      "relatedObject": "P590/ACC Project & Tasks",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-08-27",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23264",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Address Conversion R1 P2 - Additional Reporting - Supplier Notification Method",
+      "subledger": "PO",
+      "relatedObject": "Supplier Address",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-08-27",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - 6 records failed to load"
+    },
+    {
+      "key": "CONAMER1001932-23266",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Address Conversion R1 P2 - Update Reporting - Invalid Supplier Address and Site Emails not being caught in current reporting",
+      "subledger": "PO",
+      "relatedObject": "Supplier Address",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-08-27",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - these records errored out during loads"
+    },
+    {
+      "key": "CONAMER1001932-23268",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Address Conversion R1 P2 - Update Reporting - Remove Party Site Name from Supplier Site Unique Check",
+      "subledger": "PO",
+      "relatedObject": "Supplier Address",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-08-27",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - Let these records error out during loads since it only affected 4 records"
+    },
+    {
+      "key": "CONAMER1001932-23269",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Bank Conversion R1 P2 - Duplicate Bank Records in Banks and Branches Conversion",
+      "subledger": "CM",
+      "relatedObject": "Bank",
+      "severity": "High",
+      "status": "Triage",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-08-28",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Need to figure out whether we consolidate these banks or break them out into separate records in Cloud."
+    },
+    {
+      "key": "CONAMER1001932-23270",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Asset Conversion R1 P2 - Missing FA Books IE USD & UK EUR",
+      "subledger": "FA",
+      "relatedObject": "Fixed Asset",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Alex Payne",
+      "dateIdentified": "2026-08-31",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - no impact on Release 1 though as the impacted companies are only in subsequent releases for for P590"
+    },
+    {
+      "key": "CONAMER1001932-23280",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 Fixed Assets Conversion R1 P2 - Prefix Supplier Name and Number with EBS Instance if Supplier does not exist in Cloud",
+      "subledger": "FA",
+      "relatedObject": "P590 Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-08-31",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23306",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Asset Conversion  R1 P2- P590 Additional FA Books to be added to FSD Exclusion List",
+      "subledger": "FA",
+      "relatedObject": "Fixed Asset",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-04",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - were not excluded for R1 P2 but should be for all other releases and test cycles going forward"
+    },
+    {
+      "key": "CONAMER1001932-23308",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 - Treatment of UPS CORP books (P590/P035)",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-04",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - currently included in R1 P2 pull and US companies in P590 UPS CORP books caused critical - exclusion error (inability to determine scope) but no direct impact on R1 P2 overall load volumes"
+    },
+    {
+      "key": "CONAMER1001932-23312",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Item Master Conversion R1 P2 - Category Set During P2 Loads",
+      "subledger": "INV",
+      "relatedObject": "Item Master",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Prerna Thadani",
+      "dateIdentified": "2026-09-04",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Need confirmation from functional team on if there's any setup that would default the category at the time of item creation if blank. Need resolution on missing item category mapping for SIT conversions."
+    },
+    {
+      "key": "CONAMER1001932-23313",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Item Master Conversion R1 P2  Recon Report Special Characters",
+      "subledger": "INV",
+      "relatedObject": "Item Master",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-09-04",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Update recon report for SIT conversions to resolve issue with special characters."
+    },
+    {
+      "key": "CONAMER1001932-23315",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "ACC - Project Budget Conversion - R1 P2 - 2 Budgets in ACC/ACC Extract for 1 Project",
+      "subledger": "PA",
+      "relatedObject": "Project Budget",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Glenn Siedlarczyk",
+      "dateIdentified": "2026-09-07",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - Not loaded in R1 P2 for Budget conversion (as project itself not loaded in R1 P2 Project & Task conversion)"
+    },
+    {
+      "key": "CONAMER1001932-23331",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Item Master Conversion R1 P2 - Wrong Legacy to Cloud OU mapping (UPSCO DO).",
+      "subledger": "INV",
+      "relatedObject": "Item Master",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-09-08",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - loaded wrong in R1 P2 (found in recon report) - defect to be resolvled and retested in R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23333",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project Conversion - R1 P2 - Duplicate Project Classification Records",
+      "subledger": "PA",
+      "relatedObject": "Project",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-08",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Need to determine why duplicate project classifications are coming through and what next steps are to resolve them."
+    },
+    {
+      "key": "CONAMER1001932-23339",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Distribution Conversions/PO Headers - R1 P2 - Missing XREF Location Code",
+      "subledger": "PO",
+      "relatedObject": "PO Distribution Conversions/PO Headers -",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Mani Varadan",
+      "dateIdentified": "2026-09-09",
+      "targetRetestDate": "2027-01-08",
+      "notes": "For R1 P2, these distirbutions will be loaded without a location code but needs to be addressed before R1 SIT starts"
+    },
+    {
+      "key": "CONAMER1001932-23355",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Distributions Conversion - R1 P2 - Investigate PO Conversion errors due to related Projects not being converted.",
+      "subledger": "PO",
+      "relatedObject": "PO Distributions",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-09-10",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Records for R1 P2 that could not be loaded are excluded from R1 P2 load but must be resolved prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23440",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Bank Conversion R1 P2 - Mismatch BIC Code Between Legacy/Target and Loaded",
+      "subledger": "CM",
+      "relatedObject": "Bank",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-10",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Need to understand why the BIC Code was not loaded and/or loaded different than what was converted. Need clarification on Oracle's validation against the BIC Code values."
+    },
+    {
+      "key": "CONAMER1001932-23441",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Bank Conversion R1 P2 - Mismatch Alternate Name Between Legacy/Target and Loaded",
+      "subledger": "CM",
+      "relatedObject": "Bank",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-09-10",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Need to understand why the Alternate Name was not loaded against the Bank and Branch record. Potentially due to duplicate records and/or validation occurring in Oracle Cloud at the time of loading that is causing the alternate name to be ignored."
+    },
+    {
+      "key": "CONAMER1001932-23442",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Bank Conversions R1 P2 - Mismatch Bank/Branch Name Between Legacy/Target and Loaded",
+      "subledger": "CM",
+      "relatedObject": "Bank Conversions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-09-10",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Potentially a reporting issue, we are seeing that several of the affected records have special/unicode characters that are slightly off between target and loaded. Need to investigate further and resolve in the report."
+    },
+    {
+      "key": "CONAMER1001932-23443",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Bank Conversion R1 P2 - Duplicate Branch Records in Banks and Branches Conversion",
+      "subledger": "CM",
+      "relatedObject": "Bank",
+      "severity": "High",
+      "status": "Triage",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-09-10",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Need to figure out whether we consolidate these branches or break them out into separate records in Cloud."
+    },
+    {
+      "key": "CONAMER1001932-23444",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 -  Supplier Bank Conversion - R1 P2 - Leading Spaces/Special Characters Causing Bank/Branch Load Issues",
+      "subledger": "CM",
+      "relatedObject": "Supplier Bank",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-11",
+      "targetRetestDate": "2026-09-15",
+      "notes": "Need to understand why these characters are included in the names first- from there we can determine whether any data cleanup and/or code logic updates are needed."
+    },
+    {
+      "key": "CONAMER1001932-23445",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Bank Conversion R1 P2 - Duplicate Attribute1 for Internal Bank Accounts REST API",
+      "subledger": "CM",
+      "relatedObject": "Bank",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-09-11",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Need to understand what is causing the duplicate record before next steps"
+    },
+    {
+      "key": "CONAMER1001932-23448",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Payee Conversion R1 P2 - Remove Exclusive Payment Flag, Remittance Delivery Method, Remittance Email from conversion - not required.",
+      "subledger": "PO",
+      "relatedObject": "Supplier Payee",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-11",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23449",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Headers Conversion R1 P2 - Issue with EBS PO Header Email Address during Data Extraction",
+      "subledger": "PO",
+      "relatedObject": "PO Headers",
+      "severity": "Low",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-11",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - Leaving this field blank for P2"
+    },
+    {
+      "key": "CONAMER1001932-23454",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Bank Conversion R1 P2 - Recon Report Improvement: Difference in Y/Yes, N/No",
+      "subledger": "CM",
+      "relatedObject": "Bank",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-09-14",
+      "targetRetestDate": "",
+      "notes": "N/A - manually explained in R1 P2 Recon Report (notes) - should be fixed though for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23455",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Bank Conversion R1 P2 - Attribute1 for Internal Bank Accounts Blank - Not critical error on Profile report or Load Error",
+      "subledger": "CM",
+      "relatedObject": "Bank",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-09-14",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - need to be investigated and fixed before R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23456",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Bank Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "CM",
+      "relatedObject": "Bank",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-14",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23457",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "ACC - Projects Tasks Conversion - R1 P2 -  Recon -Projects EndDate Defaulted upon Load",
+      "subledger": "PA",
+      "relatedObject": "Projects Tasks",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Rohit Gupta",
+      "dateIdentified": "2026-09-14",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23458",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "ACC - Projects Tasks & Classifications Conversion - R1 P2 Recon - Leading Space in Project Name not Loaded",
+      "subledger": "PA",
+      "relatedObject": "Projects Tasks & Classifications",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Glenn Siedlarczyk",
+      "dateIdentified": "2026-09-14",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23459",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590/ACC - Projects Tasks Conversion R1 P2 - Recon Leading Spaces/Quotation Marks not Loaded in Project Description",
+      "subledger": "PA",
+      "relatedObject": "Projects Tasks",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-14",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23460",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Projects Tasks Conversion R1 P2 -  Recon - Project Task EndDate Defaulted upon Load",
+      "subledger": "PA",
+      "relatedObject": "Projects Tasks",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Rohit Gupta",
+      "dateIdentified": "2026-09-14",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23462",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 ACC - Project Budgets Conversion R1 P2 - Missing Calendar Periods in DEV5 for Project Budgets",
+      "subledger": "PA",
+      "relatedObject": "Project Budgets",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Saloni A Hemani",
+      "dateIdentified": "2026-09-14",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Need to review calendar period setups for projects and confirm these missing periods should be set up going forward with the business."
+    },
+    {
+      "key": "CONAMER1001932-23465",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590/ACC Project & Task Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PA",
+      "relatedObject": "P590/ACC Project & Task",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-15",
+      "targetRetestDate": "2026-11-16",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23466",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 - Load Error - FLEX No Dynamic Inserts",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alex Payne",
+      "dateIdentified": "2026-09-15",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23467",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 -  Load Error - FA_CATEGORY_BOOK_DEFAULTS",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alex Payne",
+      "dateIdentified": "2026-09-15",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23468",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 - Load Error - ATTRIBUTE_NUMBER4 Invalid",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alex Payne",
+      "dateIdentified": "2026-09-15",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23469",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 - Load Error - FLEX Combination Disabled",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alex Payne",
+      "dateIdentified": "2026-09-15",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23478",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Attachments Conversion R1 P2 - Zscaler Server API Load Issue",
+      "subledger": "AP",
+      "relatedObject": "Supplier Attachments",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-15",
+      "targetRetestDate": "",
+      "notes": "Let records fall out for P2 loads since over 99% of records were still loaded."
+    },
+    {
+      "key": "CONAMER1001932-23484",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Headers Conversion R1 P2 - Attribute 4/Attribute 5 Mix up",
+      "subledger": "PO",
+      "relatedObject": "Supplier Headers",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "2026-11-30",
+      "notes": "For R1 P2 load files were manually adjusted to load Attribute 4 values transformed into Attribute 5. However, this also meant that actual Cloud Attribute 4 values were overwritten in the transformation."
+    },
+    {
+      "key": "CONAMER1001932-23485",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Headers Conversion R1 P2 - Special Characters not correctly Displayed Target Value only",
+      "subledger": "PO",
+      "relatedObject": "Supplier Headers",
+      "severity": "Low",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A for R1 P2 - needs to be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23486",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Headers/Site/Site Assignment/Addresses Conversions R1 P2 - Leading/Lagging Blank Spaces on Names dropped on upload",
+      "subledger": "PO",
+      "relatedObject": "Supplier Headers/Site/Site Assignment/Addresses Conversions",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - needs to be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23487",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Header Conversion R1 P2 -One Time Flag, Tax Country Code, State Reportable Tax Flag & Withholding Tax Flag not Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Header",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - needs to be investigated and resolved for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23488",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Header/Site/Site Assignment/Addresses Conversion R1 P2 - Vendor/Vendor Alternate Name/Attribute 6/Address Line 3 \" not properly loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Header/Site/Site Assignment/Addresses",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - needs to be investigate and addressed/fixed before R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23489",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Headers Conversion R1 P2 - Parent Vendor Name not transformed or loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Headers",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Christian Dylla",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - was loaded without parent vendor name in R1 P2 - needs to be reviewed and fixed before R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23490",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Header Conversion R1 P2 - Special Characters not properly displayed/converted (Target & Loaded Value)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Header",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - needs to be addressed and fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23491",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Headers Conversion R1 P2 - Federal Reportable Flag Logic/Loading difference",
+      "subledger": "PO",
+      "relatedObject": "Supplier Headers",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - needs to be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23492",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Headers Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "Supplier Headers",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23493",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Record Count in Recon Report",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23494",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Attribute7 is correct in Cloud but showing up without the leading 0 in the report",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - needs to be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23495",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Loaded Attribute 6 Name wrong - contains ,,,,,,,,,",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be investigated and address before R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23496",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Accounts Conversion R1 P2 - Add reporting for Bank Accounts without Bank Account Assignments in load file",
+      "subledger": "AP",
+      "relatedObject": "Supplier Bank Accounts",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - these records failed to load"
+    },
+    {
+      "key": "CONAMER1001932-23497",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Attribute 4 Loaded Value Different from Transformed Value",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - root cause must be identified and fixed in time for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23500",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Different Payment Method loaded than Target Value (converted value)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23501",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Exclude Freight Flag Target Value not loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23502",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Attribute 13 (VAT Registration Number) Target Value not loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23503",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Always Take Discount Flag Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23504",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Terms Name Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23505",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Pay Group Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23506",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Payment & Invoice Currency Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23507",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Gapless Invoice Number Flag Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23508",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Country of Origin Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23509",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - No Legacy Fax in Recon report, but Target & Loaded Values",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-16",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23517",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - No Email (target/loaded) but Notification Method (Target) Set to email",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be understood & corrected prior to R1 SITN"
+    },
+    {
+      "key": "CONAMER1001932-23518",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Notification Method Blank  even though Legacy is PRINT/NONE (and no target FAX or email)\t",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & documented & corrected prior to R1 SITN"
+    },
+    {
+      "key": "CONAMER1001932-23519",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Primary Pay Site Flag Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23520",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Pay Site Flag Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23521",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong RFQ Only Site Flag Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23522",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Party Site Name Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23523",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23526",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project & Tasks Conversion R1 P2 - Missing Project Category Lines for some projects",
+      "subledger": "PA",
+      "relatedObject": "Project & Tasks",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Rohit Gupta",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - correct updated mapping has to be in place for R1 SIT the latest"
+    },
+    {
+      "key": "CONAMER1001932-23538",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Distribution Conversion R1 P2 - Change to \"Deliver-to person name\" Conversion Logic to Account for employees not present in Cloud",
+      "subledger": "PO",
+      "relatedObject": "PO Distribution",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "2026-11-30",
+      "notes": "For R1 P2, the change will be made manually in the FBID upload files to default per BU - note that this will result in a difference between Target & Loaded on the recon Report for R1 P2 also. Change must be implemented fully for R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23539",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Additions Conversion R1 P2 - Recon - Leading Spaces in Legacy EBS Values",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Additions",
+      "severity": "Low",
+      "status": "Triage",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23540",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Open PO Conversion R1 P2 - EBS Book UOM to be mapped to BOOK",
+      "subledger": "AP",
+      "relatedObject": "Open PO",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "2026-09-28",
+      "notes": "N/A - Let records fall out during loads"
+    },
+    {
+      "key": "CONAMER1001932-23541",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Open PO Conversion R1 P2 - Add reporting to check if Items have Purchasable Flag set to \"Y\"",
+      "subledger": "AP",
+      "relatedObject": "Open PO",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-17",
+      "targetRetestDate": "2026-11-30",
+      "notes": "Anuradha manually updated the Purchasable Flag to \"Y\" for P2 loads. There was one Item that was missed that fell out during loads"
+    },
+    {
+      "key": "CONAMER1001932-23547",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Business Class Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "Supplier Business Class",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23548",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Assignment Conversion R1 P2 - Wrong Record Count in Recon Report",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site Assignment",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23549",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Assignment Conversion R1 P2 - Wrong Inactive Date Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site Assignment",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23550",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Assignment Conversion R1 P2 - Wrong Prepay Concat Seg Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site Assignment",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23551",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Assignment Conversion R1 P2 - Wrong Liability Concat Seg Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site Assignment",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23552",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Assignment Conversion R1 P2 - Wrong AWT Group Name Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site Assignment",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23553",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Assignment Conversion R1 P2 - Wrong Allow AWT Flag Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site Assignment",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23554",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Assignment Conversion R1 P2 - Wrong Bill To Location Code Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site Assignment",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23555",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Assignment Conversion R1 P2 - Wrong Ship To Location Code Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site Assignment",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23561",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Assignments Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site Assignments",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23562",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Addresses Conversion R1 P2 - Wrong Record Count in Recon Report",
+      "subledger": "PO",
+      "relatedObject": "Supplier Addresses",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23563",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Addresses Conversion R1 P2 - Wrong Email Address Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Addresses",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23564",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Addresses Conversion R1 P2 - Different Phone Loaded then Target - Leading \" dropped",
+      "subledger": "PO",
+      "relatedObject": "Supplier Addresses",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - needs to be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23565",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Addresses Conversion R1 P2 - Wrong Phone Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Addresses",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23566",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Addresses Conversion R1 P2 - Wrong Party Site Language Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Addresses",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23567",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Addresses Conversion R1 P2 - Wrong Postal Code Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Addresses",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23568",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Addresses Conversion R1 P2 - Wrong City Loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Addresses",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23569",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Addresses Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "Supplier Addresses",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-18",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23574",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Payee Conversion R1 P2 - Wrong Record Count in Recon Report",
+      "subledger": "PO",
+      "relatedObject": "Supplier Payee",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23576",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Payee Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "Supplier Payee",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23577",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong Record Count in Recon Report",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23578",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong Attribute 4 Loaded (Leading zero not loaded)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23579",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong Attribute 2 Loaded (Loaded Value but no Legacy or Target Value)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23580",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong Attribute 1 Loaded (No Value Loaded but has Legacy & Target Value)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23581",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Difference Legacy To Target Bank Account Type (seems all are converted to CHECKING).",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "2026-09-22",
+      "notes": "N/A - needs to be investigated, documented & fixed prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23582",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong End Date Loaded (Blank in Legacy & Target but default date of 12/31/4712",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23583",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project Assets Conversion R1 P2 - Load Error - TagNumber Already Exists",
+      "subledger": "PA",
+      "relatedObject": "Project Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Rohit Gupta",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23584",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project Assets Conversion R1 P2 -  Load Error - Invalid Book",
+      "subledger": "PA",
+      "relatedObject": "Project Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Rohit Gupta",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23585",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong Start Date Loaded (Legacy = Target but random other date loaded",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23586",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong Start Date Loaded (Blank in Legacy & Target but default date of 09/04/2026 i.e. load date)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23587",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong Allow International Pay Flag Loaded (Legacy = Target but Loaded different from target)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23588",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - IBAN not converted (CONVERSION CODING ISSUE)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - must becorrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23589",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong Currency Code Loaded (No Value Loaded but has Legacy & Target Value)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23590",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong Account Name Loaded (Legacy = Target but Loaded different from target - not issue with leading/lagging blanks or \")",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23591",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong Target Bank & Target Branch Name (Target & Loaded Branch name different from Legacy Branch Name - APAC Languages)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23593",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Headers Conversion R1 P2 - Leave Rate Date blank (Rate Date not Loaded - no longer updateable field in Cloud)",
+      "subledger": "PO",
+      "relatedObject": "PO Headers",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23594",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Locations Conversion R1 P2 - Leave Target Quantity blank for PO Line Locations and Distributions tied to \"Fixed Price Services\" Lines",
+      "subledger": "PO",
+      "relatedObject": "PO Line Locations",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23595",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion",
+        "EBS_Cleanup"
+      ],
+      "summary": "P590 - PO Lines Conversion R1 P2 - Dropped Extra Inch (\") Symbol in PO Line Item Description",
+      "subledger": "PO",
+      "relatedObject": "PO Lines",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - to be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23596",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Headers Conversion R1 P2 - Space at the beginning of PO Headers Comment in Legacy/Target value but not Loaded value",
+      "subledger": "PO",
+      "relatedObject": "PO Headers",
+      "severity": "Low",
+      "status": "Triage",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23597",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Distributions Conversion R1 P2 - Incorrect loaded Deliver To Person Name (Same last name, different first name)",
+      "subledger": "PO",
+      "relatedObject": "PO Line Distributions",
+      "severity": "Medium",
+      "status": "Triage",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23598",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 - Load Error - YTD Depreciation > Deprn Reserve",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alex Payne",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23599",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 -  Load Error - Invalid Depreciation Reserve Amount",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alex Payne",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23601",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 -  Load Error - FA_CATEGORY_BOOKS couldn't be retrieved",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alex Payne",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23602",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 - Load Error - Invalid PARENT_ASSET_NUMBER",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23603",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Conversion R1 P2 - Load Error - Fetch Returns more than Requested Num of Rows",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alex Payne",
+      "dateIdentified": "2026-09-21",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23604",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Target & Loaded Bank Names Different from Legacy (Manual Change?)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-22",
+      "targetRetestDate": "",
+      "notes": "N/A - needs clarification before R1 SIT start"
+    },
+    {
+      "key": "CONAMER1001932-23605",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Assignments Conversion R1 P2 - Wrong End Date Loaded (Blank in Legacy & Target but default date of 12/31/4712",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account Assignments",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-22",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23606",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Assignments Conversion R1 P2 - Wrong End Date Loaded (Legacy = Target but default end date 12/31/4712 loaded)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account Assignments",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-22",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23607",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Assignments Conversion R1 P2 - Wrong Start Date Loaded (Legacy = Target but random other date loaded)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account Assignments",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-22",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23608",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Assignments Conversion R1 P2 - Wrong Primary Flag Loaded (Legacy/Target = Y but loaded N)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account Assignments",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-22",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23609",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Assignments Conversion R1 P2 - Wrong Primary Flag Loaded (Legacy/Target = N but loaded Y)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account Assignments",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-22",
+      "targetRetestDate": "",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23610",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Accounts Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Accounts",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-22",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23611",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Assignments Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account Assignments",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-22",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23612",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Account Assignments Conversion R1 P2 - Wrong Record Count in Recon Report",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Account Assignments",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-22",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23613",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 ACC - Project & Tasks &  Budget Tolerance Conversion R1 P2 - Project Budget Tolerance Loads Pending/update to conversion approach required",
+      "subledger": "PA",
+      "relatedObject": "Project & Tasks &  Budget Tolerance",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-09-22",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Working with the functional team on the pending items/blockers encountered with the Project Budgets tolerance load using the REST API for P2."
+    },
+    {
+      "key": "CONAMER1001932-23622",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Attachment Conversion R1 P2 - FSD Mapping Update (Clarification) \"Attachment Type\" needed",
+      "subledger": "PO",
+      "relatedObject": "Supplier Attachment",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-23",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - documentation update only required - should be completed asap"
+    },
+    {
+      "key": "CONAMER1001932-23624",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Attachments Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "Supplier Attachments",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-23",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23626",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project Asset Conversion R1 P2 - Asset Description leading/lagging \" dropped",
+      "subledger": "PA",
+      "relatedObject": "Project Asset",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-23",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - to be researched and addressed prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23627",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project Assets Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PA",
+      "relatedObject": "Project Assets",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-23",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23628",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Distributions Conversion R1 P2 - Destination Context defaulted to \"EXPENSE\" when left blank in the FBDI",
+      "subledger": "PO",
+      "relatedObject": "PO Line Distributions",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Mani Varadan",
+      "dateIdentified": "2026-09-23",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23629",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Locations & Distributions Conversion R1 P2 - Add reporting for the sum of the Quantity at different levels",
+      "subledger": "PO",
+      "relatedObject": "PO Line Locations & Distributions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-23",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23633",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Source Line Conversion R1 P2 - Recon - Recon Report required for Source Lines Only",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Source Line",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - report was not available for R1 P2 but must be made available for R1 SIT onwards as need to also ensure that source lines were loaded correctly"
+    },
+    {
+      "key": "CONAMER1001932-23635",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Additions Conversion R1 P2 - Recon - \"Mapping - Context XREF \" populated even though no mapping took place\"",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Additions",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - to be fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23636",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Additions Conversion R1 P2 - Wrong Target Attribute25 Values & Legacy Asset Number missing from Recon Report",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Additions",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be addressed & fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23637",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Additions Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Additions",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23639",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment5",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Distributions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23640",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment4",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Distributions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23641",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment3",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Distributions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23642",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment1",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Distributions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23643",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment1",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Distributions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23644",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": " P590 - Fixed Assets Distributions Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "FA",
+      "relatedObject": "P590 - Fixed Assets Distributions",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23645",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Projects Conversion R1 P2 - PROJECTS ATTRIBUTE1 EBS - Deriving Attribute1 value on EBS conversions",
+      "subledger": "PA",
+      "relatedObject": "Projects",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-24",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Change the Conversion logic for EBS-sourced projects"
+    },
+    {
+      "key": "CONAMER1001932-23654",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Headers Conversion R1 P2 - Wrong Email Address Loaded",
+      "subledger": "PO",
+      "relatedObject": "PO Headers",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Ignacio Amadeo",
+      "dateIdentified": "2026-09-25",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23655",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Headers Conversion R1 P2 - Wrong Fax Number Loaded",
+      "subledger": "PO",
+      "relatedObject": "PO Headers",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Ignacio Amadeo",
+      "dateIdentified": "2026-09-25",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23656",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Headers Conversion R1 P2 - Issue with Vendor_Contact Data Extraction/Conversion",
+      "subledger": "PO",
+      "relatedObject": "PO Headers",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-25",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - needs to be investigated and if indeed a coding issue exists fixed for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23657",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Headers Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "PO Headers",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-25",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23658",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Lines Conversion R1 P2 - Wrong Target & Loaded Vendor Product Number",
+      "subledger": "PO",
+      "relatedObject": "PO Lines",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-25",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23659",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Lines Conversion R1 P2 - Wrong Loaded Item Description (random Comma added)",
+      "subledger": "PO",
+      "relatedObject": "PO Lines",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-25",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23660",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Lines Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "PO Lines",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-25",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23665",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Additions Conversion R1 P2 - Clarification on Assets (Parent & Children) for NI not loaded",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Additions",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-28",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - needs to be reviewed, explained and if needed underlying issues fixed prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23666",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Additions Conversion R1 P2 - Validation Data Selection/Conversion Logic for \"Inventorial\" column ",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Additions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-28",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N.A - needs to be reviewed, explained and if needed fixed (coding) prior to R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23667",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Fixed Assets Additions Conversion R1 P2 - FSD Mapping Documentation update - Book Type Code for Local GAAP books ",
+      "subledger": "FA",
+      "relatedObject": "Fixed Assets Additions",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-28",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N.A - needs to be confirmed and updated prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23668",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Bank Conversions R1 P2 - Wrong Vendor Site Codes Converted",
+      "subledger": "PO",
+      "relatedObject": "Supplier Bank Conversions",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-28",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - needs to be urgently investigated and fixed once root cause is known so the issue does not reoccur during R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23670",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion - No Sites converted for NZ or GU",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-28",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - need to understand why these 2 countries had no converted records at all for supplies and if underlying coding issue exists, this needs to be addressed before R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23671",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Conversion R1 P2 - Update mapping to utilize the TXN_UOM cross reference for PO Receipts UOMs for SIT",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-28",
+      "targetRetestDate": "2026-11-30",
+      "notes": "For P2, we manually updated the values for the following UOMs to resolve load issues."
+    },
+    {
+      "key": "CONAMER1001932-23672",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 -  PO Receipts Conversion R1 P2 - Add reporting for when PO Receipts Amount > PO Line Amount for SIT",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-28",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23675",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Conversion R1 P2 - PO Receipts with 0 Quantity in EBS",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-28",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - these records are currently failing to load"
+    },
+    {
+      "key": "CONAMER1001932-23676",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Wrong Remittance Method Method - Target is Blank even though Legacy is PRINT/FAX/CXML (and no target remittance email)",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-29",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be understood & documented & corrected prior to R1 SITN"
+    },
+    {
+      "key": "CONAMER1001932-23677",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Locations Conversion R1 P2 - Attribute10 Target Value not in line with FSD (Text Attribute shows number not date)",
+      "subledger": "PO",
+      "relatedObject": "PO Line Locations",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-29",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23678",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Locations Conversion R1 P2 - Attribute8 (Charge to Location) not converted due to missing mapping in LOCATION_CODE XREF",
+      "subledger": "PO",
+      "relatedObject": "PO Line Locations",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-09-29",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23679",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Conversion R1 P2 - PO Receipts tied to Project-based PO where the Project is in \"W\" (Working) Status",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-09-29",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - These records are failing to load"
+    },
+    {
+      "key": "CONAMER1001932-23680",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 -  PO Line Locations Conversion R1 P2 - Deliver-to Location needs to be same as the Ship-to Location at the PO Lines level",
+      "subledger": "PO",
+      "relatedObject": "PO Line Locations",
+      "severity": "Medium",
+      "status": "Triage",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-29",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be corrected prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23681",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Conversion R1 P2 - Budget Date needs to be updated at the PO Line level same as the expenditure item date",
+      "subledger": "PO",
+      "relatedObject": "PO Line",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-29",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be corrected prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23682",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Locations Conversion R1 P2 - Wrong Receipt Days Exception Loaded (Legacy = Target but loaded is blank)",
+      "subledger": "PO",
+      "relatedObject": "PO Line Locations",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-29",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23684",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Locations Conversion R1 P2 - Wrong Enforce Ship To Loc Loaded (Loaded is blank but expectation is NONE if Target is blank)",
+      "subledger": "PO",
+      "relatedObject": "PO Line Locations",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-30",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23686",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Locations Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "PO Line Locations",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-30",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23687",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Distributions Conversion R1 P2 - Wrong Task Number Loaded (leading zeros missing)",
+      "subledger": "PO",
+      "relatedObject": "PO Line Distributions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-30",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23688",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Distributions Conversion R1 P2 - Destination Context: Clarification & potential FSD & Code update needed",
+      "subledger": "PO",
+      "relatedObject": "PO Line Distributions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-30",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23690",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Distributions Conversion R1 P2 - Leave Target Quantity Ordered blank for PO Line Locations and Distributions tied to \"Fixed Price Services\" Lines",
+      "subledger": "PO",
+      "relatedObject": "PO Line Distributions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-30",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-23691",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Line Distributions Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "PO Line Distributions",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-09-30",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23717",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoices Conversion R1 P2 - \"PREPAY\" lines need to be excluded from the invoice conversion",
+      "subledger": "PO",
+      "relatedObject": "AP Invoices",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-02",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be corrected prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23718",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoices Conversion R1 P2 - Attribute to be updated to a certain format to support the SLA solution in Oracle Cloud",
+      "subledger": "PO",
+      "relatedObject": "AP Invoices",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-02",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - must be corrected prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23767",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Headers Conversion R1 P2-373  POs excluded from Conversion - Reason to be checked & selection method to be verified",
+      "subledger": "PO",
+      "relatedObject": "PO Headers",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-05",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - need to fully understand before R1 SIT if there is an issue with the selection/exclusion method for Open POs and if so, address prior R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23768",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Headers Conversion R1 P2 - Difference in Currency Rate (2nd decimal Point) between Legacy/Target/Loaded & EBS PROD",
+      "subledger": "PO",
+      "relatedObject": "PO Headers",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-05",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - root cause needs to be identified and resolved prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23769",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Lines Conversion R1 P2 - Different Unit Price in EBS PROD than was loaded (NOT Fixed Price Services POs)",
+      "subledger": "PO",
+      "relatedObject": "PO Lines",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-05",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - root cause needs to be identified and resolved prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23771",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Lines Conversion R1 P2 - Different Quantity in EBS PROD than was loaded (Fixed Price Services POs)",
+      "subledger": "PO",
+      "relatedObject": "PO Lines",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-10-05",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - root cause needs to be identified and resolved prior to R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-23774",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Headers Conversion R1 P2 - ASN Type Blank Defaulted to STD on Upload - Clarification needed",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts Headers",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-06",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23775",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Headers Conversion R1 P2 - Wrong Transaction Type Loaded (RECIEVED instead of NEW) - Clarification needed",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts Headers",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-06",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23776",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Headers Conversion R1 P2 - Derivation Rules for Vendor Name & Vendor Site Code not clearly documented in FSD -Clarification needed",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts Headers",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-06",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23777",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Headers Conversion R1 P2  - Notice Creation Date  defaulting to conversion load date  if loaded blank -Clarification needed",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts Headers",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-06",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23778",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Headers & Transactions Conversion R1 P2  - Wrong Expected Receipt Date Loaded (defaulting to conversion load date  if loaded blank)",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts Headers & Transactions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Ignacio Amadeo",
+      "dateIdentified": "2026-10-06",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23799",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Transactions Conversion R1 P2 - Wrong Shipment Number Loaded (all appear as blank in Recon Report)",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts Transactions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-06",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23801",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Transactions Conversion R1 P2 -  Wrong Conversion Rate/Conversion Rate Type Loaded   where Rate is 1 and Currency Cod = Functional Currency (all appear as blank in Recon Report)",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts Transactions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-06",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23802",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipts Transactions Conversion R1 P2 -  Wrong Conversion Date  Loaded  (all appear as null in Recon Report)",
+      "subledger": "PO",
+      "relatedObject": "PO Receipts Transactions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-06",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23803",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipt Headers Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "PO Receipt Headers",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-06",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23804",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - PO Receipt Transactions Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PO",
+      "relatedObject": "PO Receipt Transactions",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-06",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - improvements to be implemented by R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23826",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversions R1 P2 - Update FSD & Internal Checklist for timing of GL Code Combinations Table ",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Conversions",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-08",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23834",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice / Supplier Site Conversions R1 P2 - Add Reporting for Supplier Sites with Blank (none) Payment Method to Supplier Conversion Profile Report.",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice / Supplier Site Conversions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-08",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23835",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversions R1 P2 - Update Reporting on Profile Reoprt",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines Conversions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-08",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23838",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversions R1 P2 - Update Conversion Logic & Reporting to account for Employees not set up in Cloud",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines Conversions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-08",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-23839",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversions R1 P2 - Missing XREF for Attribute10 ( Location Code)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines Conversions",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Mani Varadan",
+      "dateIdentified": "2026-10-08",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-24739",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 ACC - Project Budgets Conversion R1 P2 - Budgets Fail to Baseline",
+      "subledger": "PA",
+      "relatedObject": "Project Budgets",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-14",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Need to investigate these records further to understand why they are in error and cannot be baselined."
+    },
+    {
+      "key": "CONAMER1001932-24743",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversions R1 P2 - Update Reporting on Profile Report for Missing Distributions",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines Conversions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-14",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-24744",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Item Master Conversion R1 P2 - Selection Criteria Omitting Item Numbers linked to in-scope Non-PO invoices",
+      "subledger": "AP",
+      "relatedObject": "Item Master",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-10-14",
+      "targetRetestDate": "2027-01-08",
+      "notes": "For R1 P2, Attribute9 was loaded as blank (manually adjusted in the upload files) where the item number was not converted as part for R1 P2 conversion. However, needs to be addressed for R1 SIT Item Master conversion."
+    },
+    {
+      "key": "CONAMER1001932-24745",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Headers Conversions R1 P2 - Legacy Payment Number & Payment Date Missing for Partial Paid Invoices",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Headers Conversions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-14",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-24750",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversions R1 P2 - Update Reporting on Profile Report for  non-configured (missing) Tax Rate Code",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines Conversions",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-14",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-24754",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 ACC -  Project Budgets Conversion R1 P2 - Project Tolerance Fail to Load",
+      "subledger": "PA",
+      "relatedObject": "Project Budgets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-10-15",
+      "targetRetestDate": "2027-01-08",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-24755",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 ACC - Project Budgets Conversion R1 P2 - Mismatch in Description Special Characters with Project Budgets Load",
+      "subledger": "PA",
+      "relatedObject": "Project Budgets",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-15",
+      "targetRetestDate": "2027-01-08",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-24756",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 ACC - Project Budgets Conversion R1 P2 - Project Budget Source Budget Reference",
+      "subledger": "PA",
+      "relatedObject": "Project Budgets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-15",
+      "targetRetestDate": "2027-01-08",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-24758",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 ACC - Project Budgets Conversion R1 P2 - Leading Space in Project Budget Description",
+      "subledger": "PA",
+      "relatedObject": "Project Budgets",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-15",
+      "targetRetestDate": "2027-01-08",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-24759",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "R1 P2 AP Invoices Conversion: Missing Withholding Tax for Taiwan",
+      "subledger": "AP",
+      "relatedObject": "R1 P2 AP Invoices",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Mani Varadan",
+      "dateIdentified": "2026-10-15",
+      "targetRetestDate": "",
+      "notes": "No workaround. Either the configuration details need to be provided or the withholding tax code won;t be featured in AP invoice."
+    },
+    {
+      "key": "CONAMER1001932-24811",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project Expenditures Conversion R1 P2 - Capture Legacy Vendor Numbers & Name in Attribute field if Vendor not is scope for Vender conversion.",
+      "subledger": "PA",
+      "relatedObject": "Project Expenditures",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-10-19",
+      "targetRetestDate": "",
+      "notes": "N/A - should be ready to be fully retested in R1 SIT."
+    },
+    {
+      "key": "CONAMER1001932-24812",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Purchase Order Conversion R1 P2 - Update of Selection (In-Scope) Criteria for Open POs",
+      "subledger": "PO",
+      "relatedObject": "Purchase Order",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-19",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - change must be ready for full retest from R1 SI Supplier Conversion on wards"
+    },
+    {
+      "key": "CONAMER1001932-25049",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Supplier Site Conversion R1 P2 - Refinement of Conversion Logic for inactive supplier sites",
+      "subledger": "PO",
+      "relatedObject": "Supplier Site",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-20",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - for R1 P2 impacted PO & AP Invoice records were not attempted to load (critical errors on Profile Reports)"
+    },
+    {
+      "key": "CONAMER1001932-25051",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 ACC - Project Budgets Conversion R1 P2 - Leading ' in  Project Budget Description dropped on upload",
+      "subledger": "PA",
+      "relatedObject": "Project Budgets",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-20",
+      "targetRetestDate": "2027-01-08",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-25052",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 ACC - Project Budgets Conversion R1 P2 - Recon Report Improvements: Fields/Info to be added",
+      "subledger": "PA",
+      "relatedObject": "Project Budgets",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-20",
+      "targetRetestDate": "2027-01-08",
+      "notes": "NA"
+    },
+    {
+      "key": "CONAMER1001932-25054",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversion R1 P2 - Unit price, invoiced quantity, and line amount are not consistent issue",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-20",
+      "targetRetestDate": "",
+      "notes": "N/A - These records failed to load as part of P2 loads"
+    },
+    {
+      "key": "CONAMER1001932-25056",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - R1 P2 Suppliers Conversion - Additional attributes inclusion in supplier data conversion",
+      "subledger": "PO",
+      "relatedObject": "R1 P2 Suppliers",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-21",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25071",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversion R1 P2 - Invalid Distribution Account Cost Center \"LO4915\"",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Mani Varadan",
+      "dateIdentified": "2026-10-21",
+      "targetRetestDate": "",
+      "notes": "N/A - These records failed to load during P2"
+    },
+    {
+      "key": "CONAMER1001932-25091",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "ACC - Project Budget Conversion R1 P2 - Tolerances/Overages not present in ACC Extract.",
+      "subledger": "PA",
+      "relatedObject": "Project Budget",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-22",
+      "targetRetestDate": "2027-01-08",
+      "notes": "If ACC Extract does not provide the required data, no tolerances can be converted if the project does not exist in EBS but only in ACC. This was done for R1 P2 but needs to be resolved for subsequent testing cycles."
+    },
+    {
+      "key": "CONAMER1001932-25099",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project & Task Conversion R1 P2 - Invalid RRDDs used In Project Numbers (1302, 2319, 2331 & 2516) - Mapping to Cloud Company required",
+      "subledger": "PA",
+      "relatedObject": "Project & Task",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Glenn Siedlarczyk",
+      "dateIdentified": "2026-10-22",
+      "targetRetestDate": "2026-10-23",
+      "notes": "N/A - need to have the RRDD to company mapping provided to us to be able to update our master XREF accordingly to ensure that all the projects that should be converted are included in the conversion and assigned to the the right cloud BU/Company."
+    }
+  ]
+}

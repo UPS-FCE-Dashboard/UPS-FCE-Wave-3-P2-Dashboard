@@ -1,0 +1,936 @@
+{
+  "asOf": "2026-10-23",
+  "jiraBase": "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/",
+  "items": [
+    {
+      "key": "FCE-CNV-ACC-PRJ-BDGT-0348",
+      "object": "Project Budget",
+      "subledger": "PA",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Christina Rodriguez",
+      "environment": "ACC",
+      "dueDate": "2026-09-21",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-09-01",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-09-01",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-09-03",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-09-04",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-09-11",
+          "status": "Completed",
+          "predecessorFor": [
+            "CONAMER1001932-18422",
+            "CONAMER1001932-18423"
+          ],
+          "isPredecessor": true
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-09-14",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-21",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-ACC-PRJ-TASK-0347",
+      "object": "Project and Project Task",
+      "subledger": "PA",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Christina Rodriguez",
+      "environment": "ACC",
+      "dueDate": "2026-09-08",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-08-20",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-08-20",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-08-24",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-08-25",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-08-26",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-08-28",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-08-31",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-BLK-PRJ-EXP-0502",
+      "object": "Project Expenditures",
+      "subledger": "PA",
+      "phase": "Execution",
+      "status": "In Progress",
+      "owner": "Christina Rodriguez",
+      "environment": "BLK",
+      "dueDate": "2026-11-04",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-10-14",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-10-14",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-10-19",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-10-20",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-10-21",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-10-27",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": false,
+          "dueDate": "2026-10-28",
+          "status": "Not Started"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": false,
+          "dueDate": "2026-11-04",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-AP-INV-0358",
+      "object": "Open AP Invoices",
+      "subledger": "AP",
+      "phase": "Execution",
+      "status": "In Progress",
+      "owner": "Mike Iorfino",
+      "environment": "P590",
+      "dueDate": "2026-10-28",
+      "priority": "Medium",
+      "blocker": "Generate Recon Report; Perform Post Load Validation & Provide Sign-Off",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-10-06",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-10-06",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-10-09",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-10-12",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-10-13",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-10-20",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": false,
+          "dueDate": "2026-10-21",
+          "status": "Blocked"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": false,
+          "dueDate": "2026-10-28",
+          "status": "Blocked"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-AP-SUP-0352",
+      "object": "Supplier",
+      "subledger": "PO",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Mike Iorfino",
+      "environment": "P590",
+      "dueDate": "2026-09-15",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-08-17",
+          "status": "Completed"
+        },
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-08-19",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-09-09",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report and Supplier De-duplication Report",
+          "done": true,
+          "dueDate": "2026-08-26",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-08-27",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-09-09",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-08-28",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-09-09",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-09-04",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-09-14",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-09-15",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-15",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-22",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-CM-BANK-0353",
+      "object": "Internal Banks, Branches and Accounts",
+      "subledger": "CM",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Mike Iorfino",
+      "environment": "P590",
+      "dueDate": "2026-09-08",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-08-17",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-08-19",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-08-21",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-08-24",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-08-25",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-08-28",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-08-31",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-FA-ASSET-0355",
+      "object": "Fixed Assets",
+      "subledger": "FA",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Christina Rodriguez",
+      "environment": "P590",
+      "dueDate": "2026-09-16",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-08-26",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-08-26",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-08-31",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-09-01",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-09-02",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-09-09",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-16",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-INV-ITEM-0354",
+      "object": "Item Master",
+      "subledger": "INV",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Mike Iorfino",
+      "environment": "P590",
+      "dueDate": "2026-09-04",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-08-17",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-08-19",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-08-21",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-08-24",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-08-25",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-08-27",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-08-28",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-04",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-PO-PUR-0356",
+      "object": "Open Purchase Orders",
+      "subledger": "PO",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Mike Iorfino",
+      "environment": "P590",
+      "dueDate": "2026-09-28",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-09-11",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-09-14",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-09-15",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-09-18",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-09-21",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-28",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-PO-RECP--0357",
+      "object": "Open PO Receipts",
+      "subledger": "PO",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Mike Iorfino",
+      "environment": "P590",
+      "dueDate": "2026-10-12",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-09-22",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-09-22",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-09-25",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-09-28",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-09-29",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-10-02",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-10-05",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-10-12",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-PRJ-ASSET-0362",
+      "object": "Project Assets",
+      "subledger": "PA",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Christina Rodriguez",
+      "environment": "P590",
+      "dueDate": "2026-09-25",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-09-09",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-09-09",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-09-11",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-09-14",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-09-15",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-09-17",
+          "status": "Completed",
+          "predecessorFor": [
+            "CONAMER1001932-23584"
+          ],
+          "isPredecessor": true
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-09-18",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-25",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-PRJ-BDGT-0467",
+      "object": "Project Budget",
+      "subledger": "PA",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Christina Rodriguez",
+      "environment": "P590",
+      "dueDate": "2026-09-21",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-09-01",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-09-01",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-09-03",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-09-04",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-09-11",
+          "status": "Completed",
+          "predecessorFor": [
+            "CONAMER1001932-18431",
+            "CONAMER1001932-18432"
+          ],
+          "isPredecessor": true
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-09-14",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-21",
+          "status": "Completed"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-PRJ-EXP-0363",
+      "object": "Project Expenditures",
+      "subledger": "PA",
+      "phase": "Execution",
+      "status": "In Progress",
+      "owner": "Christina Rodriguez",
+      "environment": "P590",
+      "dueDate": "2026-11-04",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-10-14",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-10-14",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-10-19",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-10-20",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": false,
+          "dueDate": "2026-10-21",
+          "status": "Not Started"
+        },
+        {
+          "label": "Load Data",
+          "done": false,
+          "dueDate": "2026-10-27",
+          "status": "Not Started"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": false,
+          "dueDate": "2026-10-28",
+          "status": "Not Started"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": false,
+          "dueDate": "2026-11-04",
+          "status": "Not Started"
+        }
+      ]
+    },
+    {
+      "key": "FCE-CNV-P590-PRJ-TASK-0465",
+      "object": "Project and Project Task",
+      "subledger": "PA",
+      "phase": "Execution",
+      "status": "Complete",
+      "owner": "Christina Rodriguez",
+      "environment": "P590",
+      "dueDate": "2026-09-08",
+      "priority": "Medium",
+      "blocker": "",
+      "checklist": [
+        {
+          "label": "Extract Data",
+          "done": true,
+          "dueDate": "2026-08-20",
+          "status": "Completed"
+        },
+        {
+          "label": "Profile Data",
+          "done": true,
+          "dueDate": "2026-08-20",
+          "status": "Completed"
+        },
+        {
+          "label": "Validate Profiling Report",
+          "done": true,
+          "dueDate": "2026-08-24",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Load Files (FBDI)",
+          "done": true,
+          "dueDate": "2026-08-25",
+          "status": "Completed"
+        },
+        {
+          "label": "Approve to Load",
+          "done": true,
+          "dueDate": "2026-08-26",
+          "status": "Completed"
+        },
+        {
+          "label": "Load Data",
+          "done": true,
+          "dueDate": "2026-08-28",
+          "status": "Completed"
+        },
+        {
+          "label": "Generate Recon Report",
+          "done": true,
+          "dueDate": "2026-08-31",
+          "status": "Completed"
+        },
+        {
+          "label": "Perform Post Load Validation & Provide Sign-Off",
+          "done": true,
+          "dueDate": "2026-09-08",
+          "status": "Completed"
+        }
+      ]
+    }
+  ]
+}
