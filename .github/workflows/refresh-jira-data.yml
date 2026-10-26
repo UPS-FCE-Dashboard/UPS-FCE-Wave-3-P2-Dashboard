@@ -1,0 +1,61 @@
+name: Refresh Jira dashboard data
+
+# Schedules only run from the default branch (main) after this workflow is merged.
+on:
+  schedule:
+    # 11:00 UTC ≈ 07:00 America/New_York (EDT). Weekdays only.
+    - cron: "0 11 * * 1-5"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: refresh-jira-data
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch + build snapshots
+        env:
+          JIRA_EMAIL: ${{ secrets.JIRA_EMAIL }}
+          JIRA_API_TOKEN: ${{ secrets.JIRA_API_TOKEN }}
+          JIRA_BASE_URL: ${{ secrets.JIRA_BASE_URL }}
+        run: |
+          if [ -z "$JIRA_EMAIL" ] || [ -z "$JIRA_API_TOKEN" ]; then
+            echo "::error::Add repository secrets JIRA_EMAIL and JIRA_API_TOKEN (Jira Cloud API token)."
+            exit 1
+          fi
+          npm run refresh
+
+      - name: Open or update data-refresh PR
+        uses: peter-evans/create-pull-request@v6
+        with:
+          commit-message: "Refresh dashboard snapshots from Jira"
+          title: "chore: refresh Jira dashboard snapshots"
+          body: |
+            Automated weekday refresh of `data/*.json` from Jira Cloud.
+
+            - Conversion / conversion defects / Prep / RICE via `scripts/build-tab-snapshots.mjs`
+            - P2 Testing Execution via `scripts/build-p2-testing.mjs`
+
+            Merge to update GitHub Pages. Triggered by schedule or **Run workflow**.
+          branch: auto/jira-data-refresh
+          delete-branch: true
+          add-paths: |
+            data/conversion.json
+            data/conversion-defects.json
+            data/prep.json
+            data/rice.json
+            data/p2-testing.json
