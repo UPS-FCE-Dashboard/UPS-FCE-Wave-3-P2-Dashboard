@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-27",
   "items": [
     {
       "key": "CONAMER1001932-18578",
@@ -667,7 +667,7 @@
       "subledger": "PA",
       "relatedObject": "Project",
       "severity": "Low",
-      "status": "Not Started",
+      "status": "Ready for Retest",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-08",
       "targetRetestDate": "2027-01-08",
@@ -2908,7 +2908,7 @@
       "subledger": "FA",
       "relatedObject": "Fixed Assets Additions",
       "severity": "High",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
@@ -3889,6 +3889,182 @@
       "dateIdentified": "2026-10-22",
       "targetRetestDate": "2026-10-23",
       "notes": "N/A - need to have the RRDD to company mapping provided to us to be able to update our master XREF accordingly to ensure that all the projects that should be converted are included in the conversion and assigned to the the right cloud BU/Company."
+    },
+    {
+      "key": "CONAMER1001932-25105",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversion R1 P2 - Invoices having offset taxes need to have tax rate code added in \"Tax Classification Code\" in the \"ITEM\" line",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-23",
+      "targetRetestDate": "",
+      "notes": "N/A - These records failed to load during P2"
+    },
+    {
+      "key": "CONAMER1001932-25106",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversion R1 P2 - Invalid Offset tax rate code provided for configuration",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Mani Varadan",
+      "dateIdentified": "2026-10-23",
+      "targetRetestDate": "",
+      "notes": "N/A - These records failed to load during P2"
+    },
+    {
+      "key": "CONAMER1001932-25110",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Accounted but not approved invoices may be auto approved during conversion",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - needs to be clarified for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-25111",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion  R1 P2 - HK_Invoice Validation_Conversion Closed_HOLDS",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2026-10-28",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25112",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - HK_Invoice Validation_Conversion Open_HOLDS",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2026-10-27",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25113",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Invoice Validation reports do not provide clear results",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Unassigned",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25114",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Limited search and visibility in Overview",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Unassigned",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25118",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Company-level validation not available",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Unassigned",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25119",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "MY_Invoice Validation_Conversion Closed_HOLDS",
+      "subledger": "AP",
+      "relatedObject": "MY_Invoice Validation_Conversion Closed_HOLDS",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25120",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - KR_Validation_Conversion_Closed_HOLDS",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25121",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - TW_Validation_Conversion_Partial_HOLDS",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "",
+      "notes": "N/A"
     }
   ]
 }
