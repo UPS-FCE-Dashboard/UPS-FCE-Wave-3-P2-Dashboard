@@ -1,0 +1,14 @@
+{
+  "name": "ups-fce-wave-3-p2-dashboard",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "fetch": "node scripts/fetch-jira-raw.mjs",
+    "build:tabs": "node scripts/build-tab-snapshots.mjs",
+    "build:pte": "node scripts/build-p2-testing.mjs",
+    "refresh": "node scripts/refresh-dashboard-data.mjs"
+  }
+}
