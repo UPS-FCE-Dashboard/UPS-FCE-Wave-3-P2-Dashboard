@@ -1,6 +1,6 @@
 {
   "asOf": "2026-10-29",
-  "refreshedAt": "2026-10-29T04:40:09.800Z",
+  "refreshedAt": "2026-10-29T20:21:59.461Z",
   "filters": {
     "project": "CONAMER1001932",
     "component": "Release 1",
@@ -16,13 +16,13 @@
     "pctComplete": 88.2,
     "pctDelayed": 11.8,
     "pctOnTarget": 0,
-    "highRisk": 33,
-    "watch": 3,
+    "highRisk": 32,
+    "watch": 4,
     "stable": 32,
-    "overdueSubtasks": 136,
+    "overdueSubtasks": 134,
     "uniqueCrs": 53,
-    "crOpen": 6,
-    "crCompleted": 39,
+    "crOpen": 5,
+    "crCompleted": 40,
     "crWithdrawn": 2,
     "crNoDefect": 6
   },
@@ -2851,19 +2851,19 @@
       "summary": "Receipts to Oracle",
       "id": "FCE-INT-IN-COUPA-RCPT-PO-0384",
       "type": "Integration",
-      "status": "Blocked",
+      "status": "Code Promotion",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Anuradha Kumar",
       "subTotal": 15,
-      "subDone": 11,
-      "subOpen": 4,
-      "delayedCount": 4,
+      "subDone": 13,
+      "subOpen": 2,
+      "delayedCount": 2,
       "bucket": "In Progress",
-      "risk": "High",
-      "riskWhy": "Parent blocked; 4 delayed sub-tasks; 1 open CR",
-      "openCr": 1,
-      "completedCr": 0,
+      "risk": "Watch",
+      "riskWhy": "2 delayed sub-tasks",
+      "openCr": 0,
+      "completedCr": 1,
       "noDefCr": 0,
       "crs": [
         {
@@ -2964,23 +2964,23 @@
           "step": "Functional Testing",
           "plannedComplete": "2026-08-05",
           "assignee": "Anuradha Kumar",
-          "status": "Blocked",
-          "daysOverdue": 85
+          "status": "Completed",
+          "daysOverdue": null
         },
         {
           "jiraOrder": 12,
           "step": "Defect Resolution",
           "plannedComplete": "2026-08-12",
           "assignee": "narjunan",
-          "status": "Not Started",
-          "daysOverdue": 78
+          "status": "Completed",
+          "daysOverdue": null
         },
         {
           "jiraOrder": 13,
           "step": "Code Promotion",
           "plannedComplete": "2026-08-13",
-          "assignee": "narjunan",
-          "status": "Not Started",
+          "assignee": "rsurumbarkuzhali",
+          "status": "In Progress",
           "daysOverdue": 77
         },
         {
@@ -4016,7 +4016,7 @@
       "summary": "RTA POs to Oracle",
       "id": "FCE-INT-IN-RTA-PO-0505",
       "type": "Integration",
-      "status": "Blocked",
+      "status": "Unit Testing",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Anuradha Kumar",
@@ -4026,7 +4026,7 @@
       "delayedCount": 6,
       "bucket": "In Progress",
       "risk": "High",
-      "riskWhy": "Parent blocked; 6 delayed sub-tasks; 1 open CR",
+      "riskWhy": "6 delayed sub-tasks; 1 open CR",
       "openCr": 1,
       "completedCr": 0,
       "noDefCr": 1,
@@ -4116,7 +4116,7 @@
           "step": "Unit Testing",
           "plannedComplete": "2026-07-17",
           "assignee": "logeshbabun",
-          "status": "Blocked",
+          "status": "In Progress",
           "daysOverdue": 104
         },
         {
@@ -4124,7 +4124,7 @@
           "step": "Functional Testing Handoff",
           "plannedComplete": "2026-07-17",
           "assignee": "logeshbabun",
-          "status": "Blocked",
+          "status": "Not Started",
           "daysOverdue": 104
         },
         {
@@ -6342,7 +6342,7 @@
       "summary": "SCSDUTYUPL - SCS Upload Entry - Duty",
       "id": "FCE-INT-IN-SCSDUTYUPL-APUT-AP-0474",
       "type": "Integration",
-      "status": "Unit Testing",
+      "status": "Functional Testing Handoff",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Ignacio Amadeo",
@@ -6456,7 +6456,7 @@
           "step": "Functional Testing Handoff",
           "plannedComplete": "2026-08-17",
           "assignee": "lsuresh",
-          "status": "Blocked",
+          "status": "In Progress",
           "daysOverdue": 73
         },
         {
@@ -9768,7 +9768,7 @@
       "summary": "UPS PO Headers to RTA",
       "id": "FCE-INT-OUT-PO-HDR-RTA-0518",
       "type": "Integration",
-      "status": "Blocked",
+      "status": "Functional Testing",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Anuradha Kumar",
@@ -9778,7 +9778,7 @@
       "delayedCount": 4,
       "bucket": "In Progress",
       "risk": "High",
-      "riskWhy": "Parent blocked; 4 delayed sub-tasks",
+      "riskWhy": "4 delayed sub-tasks",
       "openCr": 0,
       "completedCr": 0,
       "noDefCr": 0,
@@ -9877,7 +9877,7 @@
           "step": "Functional Testing",
           "plannedComplete": "2026-09-21",
           "assignee": "Anuradha Kumar",
-          "status": "Blocked",
+          "status": "In Progress",
           "daysOverdue": 38
         },
         {
@@ -10674,7 +10674,7 @@
         {
           "key": "CONAMER1001932-25067",
           "summary": "[CONAMER1001932-24736] Development effort - RICE 0159",
-          "status": "Ready for Retest",
+          "status": "In Progress",
           "assignee": null
         }
       ]
@@ -10766,15 +10766,15 @@
       "assignee": "Ray Ashton",
       "crStatus": "Accepted",
       "due": "2026-09-25",
-      "dueOverdue": true,
+      "dueOverdue": false,
       "defectCount": 1,
-      "openDefectCount": 1,
-      "delivery": "Open",
+      "openDefectCount": 0,
+      "delivery": "Completed",
       "defects": [
         {
           "key": "CONAMER1001932-23546",
           "summary": "[CR-Defect] Handling Errored Records in Oracle for Receipts to Oracle Interface",
-          "status": "Ready for Retest",
+          "status": "Resolved",
           "assignee": null
         }
       ]

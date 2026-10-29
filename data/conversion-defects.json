@@ -1,6 +1,6 @@
 {
   "asOf": "2026-10-29",
-  "refreshedAt": "2026-10-29T04:40:09.800Z",
+  "refreshedAt": "2026-10-29T20:21:59.461Z",
   "items": [
     {
       "key": "CONAMER1001932-18578",
@@ -321,22 +321,6 @@
       "dateIdentified": "2026-08-21",
       "targetRetestDate": "2027-01-08",
       "notes": "N/A"
-    },
-    {
-      "key": "CONAMER1001932-23210",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Item Master Conversion R1 P2 - R1 Country Selection missing GUAM",
-      "subledger": "INV",
-      "relatedObject": "Item Master",
-      "severity": "Medium",
-      "status": "In Progress",
-      "owner": "Anuradha Kumar",
-      "dateIdentified": "2026-08-26",
-      "targetRetestDate": "2027-01-08",
-      "notes": "N/A - however for R1 P2 we will load data as is (W/O Guam)."
     },
     {
       "key": "CONAMER1001932-23211",
@@ -1165,9 +1149,9 @@
       "relatedObject": "Supplier Headers",
       "severity": "Medium",
       "status": "In Progress",
-      "owner": "Anuradha Kumar",
+      "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - needs to be fixed for R1 SIT"
     },
     {
@@ -3933,10 +3917,10 @@
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "High",
-      "status": "In Progress",
+      "status": "Ready for Retest",
       "owner": "Joanna Bielecka",
       "dateIdentified": "2026-10-26",
-      "targetRetestDate": "2026-10-28",
+      "targetRetestDate": "2027-01-08",
       "notes": "n/a"
     },
     {
@@ -3964,11 +3948,11 @@
       "summary": "P590 - AP Invoice Conversion R1 P2 - Invoice Validation reports do not provide clear results",
       "subledger": "AP",
       "relatedObject": "AP Invoice",
-      "severity": "Not Set",
-      "status": "Not Started",
-      "owner": "Ashley Peterman",
+      "severity": "Low",
+      "status": "Ready for Retest",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-26",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-06",
       "notes": "N/A"
     },
     {
@@ -3980,11 +3964,11 @@
       "summary": "P590 - AP Invoice Conversion R1 P2 - Limited search and visibility in Overview",
       "subledger": "AP",
       "relatedObject": "AP Invoice",
-      "severity": "Not Set",
-      "status": "Not Started",
+      "severity": "Low",
+      "status": "In Progress",
       "owner": "Ashley Peterman",
       "dateIdentified": "2026-10-26",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-06",
       "notes": "N/A"
     },
     {
@@ -4004,22 +3988,6 @@
       "notes": "N/A"
     },
     {
-      "key": "CONAMER1001932-25119",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Invoice Conersion R1 P2 - MY_Invoice Validation_Conversion Closed_HOLDS (FX Rate 31/7/26 missnig)",
-      "subledger": "AP",
-      "relatedObject": "Invoice Conersion",
-      "severity": "High",
-      "status": "Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-10-26",
-      "targetRetestDate": "2026-10-28",
-      "notes": "n/a"
-    },
-    {
       "key": "CONAMER1001932-25120",
       "issueType": "Defect",
       "labels": [
@@ -4030,9 +3998,9 @@
       "relatedObject": "AP Invoice",
       "severity": "High",
       "status": "Retest",
-      "owner": "Joanna Bielecka",
+      "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-26",
-      "targetRetestDate": "2026-10-28",
+      "targetRetestDate": "2026-10-29",
       "notes": "N/A"
     },
     {
@@ -4046,90 +4014,10 @@
       "relatedObject": "AP Invoice",
       "severity": "Medium",
       "status": "In Progress",
-      "owner": "Joanna Bielecka",
+      "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2027-01-08",
       "notes": "N/A"
-    },
-    {
-      "key": "CONAMER1001932-25123",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - MA_Invoice Approval Workflow_Conversion Closed_Initiated status",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-10-27",
-      "targetRetestDate": "2026-10-28",
-      "notes": "n/a"
-    },
-    {
-      "key": "CONAMER1001932-25124",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - ID_Invoice Approval Workflow_Conversion Closed_Initiated status",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-10-27",
-      "targetRetestDate": "2026-10-28",
-      "notes": "n/a"
-    },
-    {
-      "key": "CONAMER1001932-25125",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - ID_Invoice Approval Workflow_Conversion Open_Initiated status",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-10-27",
-      "targetRetestDate": "2026-10-29",
-      "notes": "n/a"
-    },
-    {
-      "key": "CONAMER1001932-25126",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - VN_Invoice Approval Workflow_Conversion Closed_Initiated status",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-10-27",
-      "targetRetestDate": "2026-10-28",
-      "notes": "n/a"
-    },
-    {
-      "key": "CONAMER1001932-25127",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - VN_Invoice Approval Workflow_Conversion Open_Initiated status",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-10-27",
-      "targetRetestDate": "2026-10-28",
-      "notes": "n/a"
     },
     {
       "key": "CONAMER1001932-25128",
@@ -4238,9 +4126,9 @@
       "relatedObject": "AP Invoice",
       "severity": "High",
       "status": "In Progress",
-      "owner": "Joanna Bielecka",
+      "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-28",
-      "targetRetestDate": "2026-10-29",
+      "targetRetestDate": "2026-01-08",
       "notes": "N/A"
     },
     {
@@ -4253,26 +4141,74 @@
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "High",
-      "status": "In Progress",
-      "owner": "Anuradha Kumar",
+      "status": "Retest",
+      "owner": "Joanna Bielecka",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2026-10-29",
       "notes": "n/a"
     },
     {
-      "key": "CONAMER1001932-25139",
+      "key": "CONAMER1001932-25140",
       "issueType": "Defect",
       "labels": [
         "Conversion"
       ],
-      "summary": "SV_Create Accounting_Events in Error",
+      "summary": "P590 - AP Invoice Conversion R1 P2 - JP_Invoice Approval Workflow_Conversion Closed_Initiated_Rejected_status",
       "subledger": "AP",
-      "relatedObject": "SV_Create Accounting_Events in Error",
-      "severity": "Not Set",
-      "status": "Ready for Retest",
-      "owner": "Joanna Bielecka",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Triage",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-28",
+      "targetRetestDate": "2026-10-29",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25143",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "PE_Invoice Validation_Conversion Closed_Holds",
+      "subledger": "AP",
+      "relatedObject": "PE_Invoice Validation_Conversion Closed_Holds",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-29",
       "targetRetestDate": "",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25144",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "PE_Invoice Validation_Conversion Partial_Holds",
+      "subledger": "AP",
+      "relatedObject": "PE_Invoice Validation_Conversion Partial_Holds",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-29",
+      "targetRetestDate": "",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25151",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "ID Submit Payment_Conversion Closed_Supplier Bank End Dated",
+      "subledger": "AP",
+      "relatedObject": "ID Submit Payment_Conversion Closed_Supplier Bank End Dated",
+      "severity": "High",
+      "status": "Triage",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-29",
+      "targetRetestDate": "2026-11-02",
       "notes": "n/a"
     }
   ]
