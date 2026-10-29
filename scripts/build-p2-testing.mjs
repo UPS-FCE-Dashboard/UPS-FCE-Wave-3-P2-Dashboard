@@ -184,7 +184,7 @@ const payload = {
   meta: {
     isSample: false,
     snapshot: AS_OF,
-    lastUpdated: new Date().toISOString(),
+    lastUpdated: new Date().toISOString(), // dashboard refresh time, not a Jira issue updated date
     refreshNote: "Synced from Jira Cloud via scheduled refresh",
     source: "Jira / Xray",
     jiraBase: JIRA_BASE,

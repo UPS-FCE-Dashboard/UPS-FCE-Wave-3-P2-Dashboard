@@ -22,6 +22,8 @@ const AS_OF =
     month: "2-digit",
     day: "2-digit",
   }).format(new Date());
+// Wall-clock time this Cursor refresh wrote the files. Not a Jira issue updated date.
+const REFRESHED_AT = new Date().toISOString();
 const JIRA_BASE = "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/";
 
 const DONE = new Set(["Completed", "Resolved", "Done", "Closed"]);
@@ -354,7 +356,7 @@ function buildConversion() {
   });
 
   items.sort((a, b) => String(a.key).localeCompare(String(b.key)));
-  return { asOf: AS_OF, jiraBase: JIRA_BASE, items };
+  return { asOf: AS_OF, refreshedAt: REFRESHED_AT, jiraBase: JIRA_BASE, items };
 }
 
 // ---------- 2) conversion-defects.json ----------
@@ -389,7 +391,7 @@ function buildDefects() {
     };
   });
   items.sort((a, b) => String(a.key).localeCompare(String(b.key)));
-  return { asOf: AS_OF, items };
+  return { asOf: AS_OF, refreshedAt: REFRESHED_AT, items };
 }
 
 // ---------- 3) prep.json ----------
@@ -424,7 +426,7 @@ function buildPrep() {
     const nb = Number(String(b.key).split("-").pop());
     return na - nb;
   });
-  return { asOf: AS_OF, jiraBase: JIRA_BASE, nodes };
+  return { asOf: AS_OF, refreshedAt: REFRESHED_AT, jiraBase: JIRA_BASE, nodes };
 }
 
 // ---------- 4) rice.json ----------
@@ -632,6 +634,7 @@ function buildRice() {
 
   return {
     asOf: AS_OF,
+    refreshedAt: REFRESHED_AT,
     filters: {
       project: "CONAMER1001932",
       component: "Release 1",

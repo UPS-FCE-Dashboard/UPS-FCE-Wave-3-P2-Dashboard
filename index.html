@@ -1556,10 +1556,8 @@ function pctComplete(row){
 }
 
 let TODAY = new Date("2026-10-29");
-let LAST_REFRESHED = new Date("2026-10-29T16:00:00-04:00");
-let RICE_AS_OF = new Date("2026-10-29T16:00:00-04:00");
-let PREP_AS_OF = new Date("2026-10-29T16:00:00-04:00");
-let PTE_AS_OF = new Date();
+// When this dashboard snapshot was written from Cursor. Not a Jira issue updated date.
+let DASHBOARD_REFRESHED = new Date("2026-10-29T04:40:09.800Z");
 const JIRA_BROWSE = "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/";
 let RICE_DATA = null;
 let PREP_DATA = null;
@@ -2461,11 +2459,7 @@ function renderSummary(){
 function renderAll(){
   const stamp = document.getElementById("lastUpdatedStamp");
   if(stamp){
-    const when = currentTopLevel==="rice" ? RICE_AS_OF
-      : currentTopLevel==="p2prep" ? PREP_AS_OF
-      : currentTopLevel==="testing" ? PTE_AS_OF
-      : LAST_REFRESHED;
-    stamp.textContent = formatEasternStamp(when);
+    stamp.textContent = formatEasternStamp(DASHBOARD_REFRESHED);
   }
   if(currentTopLevel==="rice"){
     renderRiceSummary();
@@ -3356,9 +3350,7 @@ function start(data) {
   }
   if (DATA && DATA.meta && DATA.meta.lastUpdated) {
     const d = new Date(DATA.meta.lastUpdated);
-    if (!isNaN(d.getTime())) PTE_AS_OF = d;
-  } else if (DATA && DATA.meta && DATA.meta.snapshot) {
-    PTE_AS_OF = new Date(DATA.meta.snapshot + 'T16:00:00-04:00');
+    if (!isNaN(d.getTime())) DASHBOARD_REFRESHED = d;
   }
   if (!bound) { bindOnce(); bound = true; }
   renderAll();
@@ -3381,7 +3373,10 @@ function applyTabSnapshots(payloads){
     CONVERSION_DATA = conv.items;
     if(conv.asOf){
       TODAY = new Date(conv.asOf + "T12:00:00-04:00");
-      LAST_REFRESHED = new Date(conv.asOf + "T16:00:00-04:00");
+    }
+    if(conv.refreshedAt){
+      const d = new Date(conv.refreshedAt);
+      if(!isNaN(d.getTime())) DASHBOARD_REFRESHED = d;
     }
   }
   if(defs && Array.isArray(defs.items)){
@@ -3390,12 +3385,18 @@ function applyTabSnapshots(payloads){
   rebuildConversionViews();
   if(rice){
     RICE_DATA = rice;
-    if(rice.asOf) RICE_AS_OF = new Date(rice.asOf + "T16:00:00-04:00");
+    if(rice.refreshedAt){
+      const d = new Date(rice.refreshedAt);
+      if(!isNaN(d.getTime())) DASHBOARD_REFRESHED = d;
+    }
     renderRiceV2Static();
   }
   if(prep){
     PREP_DATA = prep;
-    if(prep.asOf) PREP_AS_OF = new Date(prep.asOf + "T16:00:00-04:00");
+    if(prep.refreshedAt){
+      const d = new Date(prep.refreshedAt);
+      if(!isNaN(d.getTime())) DASHBOARD_REFRESHED = d;
+    }
     initPrepTracker();
   }
   renderAll();
