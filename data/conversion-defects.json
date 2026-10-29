@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-29",
   "items": [
     {
       "key": "CONAMER1001932-18578",
@@ -16,22 +16,6 @@
       "dateIdentified": "2026-03-18",
       "targetRetestDate": "2026-11-04",
       "notes": "N/A"
-    },
-    {
-      "key": "CONAMER1001932-20134",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "PO-Matched AP Invoices Load Issue - Legal Entity Mismatch",
-      "subledger": "AP",
-      "relatedObject": "PO-Matched AP Invoices Load Issue",
-      "severity": "Medium",
-      "status": "Ready for Retest",
-      "owner": "Chanmye Myintthu",
-      "dateIdentified": "2026-05-18",
-      "targetRetestDate": "2026-10-28",
-      "notes": "Setting the AP Invoice Legal Entity based on the Distributions Segment1 value manually for loading the record for unit testing."
     },
     {
       "key": "CONAMER1001932-20171",
@@ -667,7 +651,7 @@
       "subledger": "PA",
       "relatedObject": "Project",
       "severity": "Low",
-      "status": "Not Started",
+      "status": "Ready for Retest",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-08",
       "targetRetestDate": "2027-01-08",
@@ -700,7 +684,7 @@
       "relatedObject": "PO Distributions",
       "severity": "High",
       "status": "In Progress",
-      "owner": "Monika Neuhauser",
+      "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
       "notes": "Records for R1 P2 that could not be loaded are excluded from R1 P2 load but must be resolved prior R1 SIT"
@@ -1150,7 +1134,7 @@
       "status": "In Progress",
       "owner": "Christian Dylla",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - was loaded without parent vendor name in R1 P2 - needs to be reviewed and fixed before R1 SIT"
     },
     {
@@ -1230,7 +1214,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - needs to be fixed for R1 SIT"
     },
     {
@@ -1262,7 +1246,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - these records failed to load"
     },
     {
@@ -1294,7 +1278,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1358,7 +1342,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1374,7 +1358,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1390,7 +1374,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-12-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1470,7 +1454,7 @@
       "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & documented & corrected prior to R1 SITN"
     },
     {
@@ -1486,7 +1470,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1502,7 +1486,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1518,7 +1502,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1534,7 +1518,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1646,7 +1630,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - improvements to be implemented by R1 SIT"
     },
     {
@@ -1694,7 +1678,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1710,7 +1694,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1758,7 +1742,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -1774,7 +1758,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -2030,7 +2014,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "2026-09-22",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - needs to be investigated, documented & fixed prior R1 SIT"
     },
     {
@@ -2094,7 +2078,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -2126,7 +2110,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -2174,7 +2158,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -2190,7 +2174,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -2222,7 +2206,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A"
     },
     {
@@ -2367,7 +2351,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - needs clarification before R1 SIT start"
     },
     {
@@ -2415,7 +2399,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -2431,7 +2415,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -2447,7 +2431,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT"
     },
     {
@@ -2588,8 +2572,8 @@
       "subledger": "PO",
       "relatedObject": "PO Line Distributions",
       "severity": "Low",
-      "status": "Not Started",
-      "owner": "Mani Varadan",
+      "status": "Ready for Retest",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2026-11-30",
       "notes": "N/A"
@@ -2908,7 +2892,7 @@
       "subledger": "FA",
       "relatedObject": "Fixed Assets Additions",
       "severity": "High",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
@@ -3819,11 +3803,11 @@
       "summary": "P590 - AP Invoice Lines Conversion R1 P2 - Unit price, invoiced quantity, and line amount are not consistent issue",
       "subledger": "AP",
       "relatedObject": "AP Invoice Lines",
-      "severity": "Not Set",
+      "severity": "High",
       "status": "Not Started",
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-20",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-04",
       "notes": "N/A - These records failed to load as part of P2 loads"
     },
     {
@@ -3855,7 +3839,7 @@
       "status": "Not Started",
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-12-18",
       "notes": "N/A - These records failed to load during P2"
     },
     {
@@ -3889,6 +3873,406 @@
       "dateIdentified": "2026-10-22",
       "targetRetestDate": "2026-10-23",
       "notes": "N/A - need to have the RRDD to company mapping provided to us to be able to update our master XREF accordingly to ensure that all the projects that should be converted are included in the conversion and assigned to the the right cloud BU/Company."
+    },
+    {
+      "key": "CONAMER1001932-25105",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversion R1 P2 - Invoices having offset taxes need to have tax rate code added in \"Tax Classification Code\" in the \"ITEM\" line",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-23",
+      "targetRetestDate": "2026-12-18",
+      "notes": "N/A - These records failed to load during P2"
+    },
+    {
+      "key": "CONAMER1001932-25106",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversion R1 P2 - Invalid Offset tax rate code provided for configuration",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Mani Varadan",
+      "dateIdentified": "2026-10-23",
+      "targetRetestDate": "",
+      "notes": "N/A - These records failed to load during P2"
+    },
+    {
+      "key": "CONAMER1001932-25110",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Accounted but not approved invoices may be auto approved during conversion",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - needs to be clarified for R1 SIT"
+    },
+    {
+      "key": "CONAMER1001932-25111",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion  R1 P2 - HK_Invoice Validation_Conversion Closed_HOLDS",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2026-10-28",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25112",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - HK_Invoice Validation_Conversion Open_HOLDS (Projects converted Incorrectly - retest in R1 SIT)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2027-01-08",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25113",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Invoice Validation reports do not provide clear results",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25114",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Limited search and visibility in Overview",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Not Set",
+      "status": "Not Started",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25118",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Company-level validation not available",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Not Set",
+      "status": "Retest",
+      "owner": "Patrycja Niewiera",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2026-10-29",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25119",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Invoice Conersion R1 P2 - MY_Invoice Validation_Conversion Closed_HOLDS (FX Rate 31/7/26 missnig)",
+      "subledger": "AP",
+      "relatedObject": "Invoice Conersion",
+      "severity": "High",
+      "status": "Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2026-10-28",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25120",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - KR_Validation_Conversion_Closed_HOLDS (FX Rate 31/7/26 missing)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2026-10-28",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25121",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - TW_Validation_Conversion_Partial_HOLDS (Invoice Lines without distributions loaded - should have not been loaded )",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25123",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - MA_Invoice Approval Workflow_Conversion Closed_Initiated status",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-27",
+      "targetRetestDate": "2026-10-28",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25124",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - ID_Invoice Approval Workflow_Conversion Closed_Initiated status",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-27",
+      "targetRetestDate": "2026-10-28",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25125",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - ID_Invoice Approval Workflow_Conversion Open_Initiated status",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-27",
+      "targetRetestDate": "2026-10-29",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25126",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - VN_Invoice Approval Workflow_Conversion Closed_Initiated status",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-27",
+      "targetRetestDate": "2026-10-28",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25127",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - VN_Invoice Approval Workflow_Conversion Open_Initiated status",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-27",
+      "targetRetestDate": "2026-10-28",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25128",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 & BL - Project Expenditure Conversion R1 P2 - Profile Report To include Check against actual Project Budgets Loaded",
+      "subledger": "PA",
+      "relatedObject": "P590 & BL - Project Expenditure",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-27",
+      "targetRetestDate": "2027-01-08",
+      "notes": "For R1 P2, the relevant lines need to be removed manually from the FBID load as they will fail upload. They should be reported as part of not loaded in the Load Summary. For R1 SIT onwards these should already be reported (if still present) as critical errors and not even be included in the FBDI load files."
+    },
+    {
+      "key": "CONAMER1001932-25130",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Description Quotation Issue",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Medium",
+      "status": "Triage",
+      "owner": "Chanmye Myintthu",
+      "dateIdentified": "2026-10-27",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A - These records were not loaded for P2"
+    },
+    {
+      "key": "CONAMER1001932-25131",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Lines Conversion R1 P2 - Project Based-Invoice Invoice Date is before Project Start Date",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice Lines",
+      "severity": "Medium",
+      "status": "Triage",
+      "owner": "Mani Varadan",
+      "dateIdentified": "2026-10-27",
+      "targetRetestDate": "2026-11-30",
+      "notes": "N/A - These records were not loaded for P2"
+    },
+    {
+      "key": "CONAMER1001932-25132",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Pending TW_Validation_Conversion_Closed",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-28",
+      "targetRetestDate": "2026-10-29",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25133",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Pending AU_Validation_Conversion_Closed",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-28",
+      "targetRetestDate": "2026-10-29",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25134",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Pending TH_Validation_Conversion_Closed",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-28",
+      "targetRetestDate": "2026-10-29",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25135",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - CO_Validation_Conversion_Partial_HOLDS (Invoice Lines without distributions loaded)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-28",
+      "targetRetestDate": "2026-10-29",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25138",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - PH_Invoice Validation_Conversion Closed_Job is running over 24hrs",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-10-28",
+      "targetRetestDate": "2026-10-29",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25139",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "SV_Create Accounting_Events in Error",
+      "subledger": "AP",
+      "relatedObject": "SV_Create Accounting_Events in Error",
+      "severity": "Not Set",
+      "status": "Ready for Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-28",
+      "targetRetestDate": "",
+      "notes": "n/a"
     }
   ]
 }

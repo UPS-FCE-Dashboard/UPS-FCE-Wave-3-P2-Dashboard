@@ -342,6 +342,9 @@
   .pte-foottext{margin-top:10px;font-size:12.5px;color:var(--gray-500)}
   .pte-card{background:#fff;border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:16px 18px;position:relative}
   .pte-exec-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:0}
+  .pte-exec-grid.cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .pte-exec-grid.cols-5{grid-template-columns:repeat(5,minmax(0,1fr))}
+  .pte-exec-grid.cols-6{grid-template-columns:repeat(6,minmax(0,1fr))}
   .pte-exec-grid .pte-card{
     display:flex;flex-direction:column;gap:6px;
     background:none;border:none;border-radius:0;box-shadow:none;
@@ -354,6 +357,7 @@
     color:var(--brown-700);font-weight:700;
   }
   .pte-exec-grid .pte-big{font-size:26px}
+  .pte-exec-grid .pte-big small{font-size:16px;color:var(--ink-600);font-weight:600}
   .pte-exec-grid .pte-badge.pte-b-lg{font-size:13px;padding:3px 10px 3px 8px}
   .pte-tile::before{content:"";position:absolute;top:0;left:0;bottom:0;width:4px;background:var(--gold-500);border-radius:var(--radius) 0 0 var(--radius)}
   .pte-exec-note{margin:0;color:var(--ink-600);font-size:13px;line-height:1.35}
@@ -487,8 +491,8 @@
   .uat-c-resolved{background:#2E7D46}
 
   @media (max-width:1100px){
-    .pte-exec-grid{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:16px}
-    .pte-exec-grid .pte-card:nth-child(3){border-left:none;padding-left:0}
+    .pte-exec-grid,.pte-exec-grid.cols-3,.pte-exec-grid.cols-5,.pte-exec-grid.cols-6{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:16px}
+    .pte-exec-grid .pte-card:nth-child(2n+1){border-left:none;padding-left:0}
     .pte-tiles.six{grid-template-columns:repeat(3,minmax(0,1fr))}
     .pte-legend{grid-template-columns:repeat(2,minmax(0,1fr))}
   }
@@ -1151,6 +1155,9 @@
       </div>
     </div>
     <div id="tabExecMount" style="display:none;"></div>
+    <div id="metricsExecMount" style="display:none;">
+      <div class="pte-exec-grid" id="metricsExecGrid"></div>
+    </div>
     <div id="testingExecMount" style="display:none;">
       <p class="section-sub" style="display:block;margin:0 0 14px;">Where execution stands against plan, what testers can do today, and what is waiting on a defect. Live Jira / Xray data for Test Cycle P2.</p>
       <div class="pte-exec-grid" id="pte-exec"></div>
@@ -1166,11 +1173,6 @@
 
   <!-- P2 RICE TRACKER — staged sub-task view -->
   <div id="riceTrackerV2View" style="display:none;">
-    <div class="section-heading">
-      <h2>Key Metrics:</h2>
-    </div>
-    <div class="kpi-row kpi-3" id="riceV2KpiRow"></div>
-
     <div class="section-heading">
       <h2>P2 RICE at risk</h2>
       <span class="section-sub">In progress RICE and completed RICE that have an open CR.</span>
@@ -1211,39 +1213,13 @@
         <p><strong>On track vs delayed:</strong> a stage that has not started stays cream. A fully completed stage uses the completed color. Once a stage has started, its color is taken only from the current open sub-task in that stage — delayed if that sub-task is past its Planned Complete Date, on track if it is still within date, brown if it is Blocked. Completed, Done, and Withdrawn are closed, so a Withdrawn step is skipped and the stage advances to the next incomplete step.</p>
         <p><strong>P2 RICE at risk:</strong> the list includes every item that is not Complete, and Complete items that still have at least one open CR. Complete items with no open CR are omitted.</p>
         <p><strong>Columns:</strong> RICE item, Jira status (current open sub-task / parent status), the five stages, and open CRs. The last count is linked change requests that still have an open defect — expand the row to see those CRs first.</p>
-        <p><strong>System of record:</strong> Jira remains authoritative. This is a read-only snapshot dated 23 October 2026.</p>
+        <p><strong>System of record:</strong> Jira remains authoritative. This is a read-only snapshot dated 29 October 2026.</p>
       </div>
     </details>
   </div>
 
   <!-- RELEASE 1 - P2 PREP — snapshot from P2-Prep Status Dashboard 1.html -->
   <div id="prepTrackerView" style="display:none;">
-    <div class="section-heading">
-      <h2>Key Metrics:</h2>
-    </div>
-    <div class="kpi-row kpi-4">
-      <div class="kpi-card" id="prepMPlan">
-        <div class="kpi-label">Completed vs planned by now</div>
-        <div class="kpi-value" id="prepPctVsPlan"></div>
-        <div class="kpi-foot" id="prepCntVsPlan"></div>
-      </div>
-      <div class="kpi-card" id="prepMAll">
-        <div class="kpi-label">Overall % complete</div>
-        <div class="kpi-value" id="prepPctAll"></div>
-        <div class="kpi-foot" id="prepCntAll"></div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-label">Overdue (still open)</div>
-        <div class="kpi-value" id="prepNOverdue"></div>
-        <div class="kpi-foot" id="prepCntOverdue"></div>
-      </div>
-      <div class="kpi-card">
-        <div class="kpi-label">Due in the next 5 days</div>
-        <div class="kpi-value" id="prepNUpcoming"></div>
-        <div class="kpi-foot" id="prepCntUpcoming"></div>
-      </div>
-    </div>
-
     <div class="section-heading">
       <h2>Key P2 Prep activities</h2>
       <span class="section-sub">Planned milestones by team. Status is rolled up from the mapped Jira tasks. An activity with no mapped issues stays TBD.</span>
@@ -1287,7 +1263,7 @@
         <p><strong>Completed vs planned:</strong> of activities whose due date is on or before the snapshot date, the share in a Done status category.</p>
         <p><strong>Overdue:</strong> activities that are still open and have a due date before the snapshot date.</p>
         <p><strong>RICE by workstream:</strong> Source to Pay, Acquire to Retire, and Plan to Report only. Complete / In Progress / Not Started uses each RICE item’s Jira status from the P2 RICE tracker. Drill into the P2 RICE Tracker tab for item-level detail.</p>
-        <p><strong>Dates:</strong> snapshot date is 23 October 2026. Key-activity due dates are the planned milestone dates. Population due dates come from Jira.</p>
+        <p><strong>Dates:</strong> snapshot date is 29 October 2026. Key-activity due dates are the planned milestone dates. Population due dates come from Jira.</p>
         <p><strong>System of record:</strong> Jira remains authoritative. This is a read-only snapshot; records cannot be edited in the dashboard.</p>
       </div>
     </details>
@@ -1413,7 +1389,7 @@
         <p><strong>Key blockers:</strong> the open defects linked to the most blocked or on-hold test cases.</p>
         <p><strong>Critical and High defects:</strong> open defects with severity Critical or High (from Jira Priority, else Complexity). Past due means the Jira due date is before the snapshot date.</p>
         <p><strong>Defects:</strong> Total is every defect to date. Open is every defect not Resolved (including Ready for Retest). Resolved includes Deferred / Completed / Rejected.</p>
-        <p><strong>Overall status:</strong> On track when executed is at least 95% of the test cases expected by the snapshot date. Behind plan when it is lower.</p>
+        <p><strong>Overall status:</strong> On track when executed is at least 95% of the test cases due before the snapshot date. Tests due on the snapshot date are not included yet. Behind plan when it is lower.</p>
         <p><strong>Dates:</strong> snapshot <span id="pte-snapdate">–</span>. Source: <span id="pte-sor">Jira</span>.</p>
       </div>
     </details>
@@ -1421,12 +1397,6 @@
   </div>
 
   <div id="dataConversionView">
-
-  <!-- KPI SUMMARY -->
-  <div class="section-heading">
-    <h2>Key Metrics:</h2>
-  </div>
-  <div class="kpi-row" id="kpiRow"></div>
 
   <!-- RULE-BASED RISKS & BLOCKERS -->
   <div class="risk-stack">
@@ -1497,62 +1467,6 @@
     <p class="scope-note"><strong>Out of scope:</strong> Jira Action Items are not included. This dashboard contains only Conversion Execution subtasks and open conversion defects in the Wave 3 or Release 1 P2 scope above.</p>
   </details>
 
-  <!-- DEFECTS REQUIRING RETEST -->
-  <div class="section-heading">
-    <h2>Open Conversion Defects</h2>
-    <span class="section-sub">Open defects labeled conversion with fixVersion Wave 3, or Release 1 and Test Cycle P2 · Target Retest reflects Jira Due Date</span>
-  </div>
-  <div class="filter-bar" id="defectFilterBar">
-    <div class="filter-group">
-      <span class="fg-label">Module</span>
-      <button class="chip active" data-filter-type="defect-module" data-value="all">All</button>
-      <button class="chip" data-filter-type="defect-module" data-value="AP">AP</button>
-      <button class="chip" data-filter-type="defect-module" data-value="FA">FA</button>
-      <button class="chip" data-filter-type="defect-module" data-value="PA">PA</button>
-      <button class="chip" data-filter-type="defect-module" data-value="PO">PO</button>
-      <button class="chip" data-filter-type="defect-module" data-value="CM">CM</button>
-      <button class="chip" data-filter-type="defect-module" data-value="INV">Inventory</button>
-    </div>
-    <div class="filter-group">
-      <span class="fg-label">Status</span>
-      <button class="chip active" data-filter-type="defect-status" data-value="all">All</button>
-      <button class="chip" data-filter-type="defect-status" data-value="Not Started">Not Started</button>
-      <button class="chip" data-filter-type="defect-status" data-value="In Progress">In Progress</button>
-      <button class="chip" data-filter-type="defect-status" data-value="Triage">Triage</button>
-      <button class="chip" data-filter-type="defect-status" data-value="Ready for Retest">Ready for Retest</button>
-      <button class="chip" data-filter-type="defect-status" data-value="Retest">Retest</button>
-      <button class="chip" data-filter-type="defect-status" data-value="On Hold">On Hold</button>
-      <button class="chip" data-filter-type="defect-status" data-value="Blocked">Blocked</button>
-    </div>
-    <div class="filter-group">
-      <span class="fg-label">Severity</span>
-      <button class="chip active" data-filter-type="defect-severity" data-value="all">All</button>
-      <button class="chip" data-filter-type="defect-severity" data-value="Critical">Critical</button>
-      <button class="chip" data-filter-type="defect-severity" data-value="High">High</button>
-      <button class="chip" data-filter-type="defect-severity" data-value="Medium">Medium</button>
-      <button class="chip" data-filter-type="defect-severity" data-value="Low">Low</button>
-    </div>
-    <input type="text" class="search-input" id="defectSearchInput" placeholder="Search defect, owner, or Jira key…">
-  </div>
-  <div class="table-wrap defects-wrap">
-    <table>
-      <thead>
-        <tr>
-          <th>Defect Key</th>
-          <th>Summary</th>
-          <th>Subledger</th>
-          <th>Related Object</th>
-          <th>Severity</th>
-          <th>Status</th>
-          <th>Owner</th>
-          <th>Target Retest</th>
-          <th>Notes</th>
-        </tr>
-      </thead>
-      <tbody id="defectTableBody"></tbody>
-    </table>
-  </div>
-
   </div> <!-- /#dataConversionView -->
 
   <footer>Read-only Jira snapshot · Jira is the system of record · Action Items are not included</footer>
@@ -1589,8 +1503,8 @@ let CONVERSION_DATA = [];
    -------------------------------------------------------------------------
    Open Defects in CONAMER1001932 labeled "Conversion", excluding
    Resolved, Withdrawn, Closed, Done, and Completed.
-   Inclusion rule (defect list re-queried 23 Oct 2026; Conversion, RICE, and Prep
-   snapshots refreshed 23 Oct 2026):
+   Inclusion rule (defect list re-queried 29 Oct 2026; Conversion, RICE, and Prep
+   snapshots refreshed 29 Oct 2026):
      fixVersion = "Wave 3"
      OR (component = "Release 1" AND Test Cycle = P2)
    The prior rule required fixVersion = "Wave 3" only, which dropped Release 1 P2
@@ -1641,10 +1555,10 @@ function pctComplete(row){
   return Math.round((done/row.checklist.length)*100);
 }
 
-let TODAY = new Date("2026-10-23");
-let LAST_REFRESHED = new Date("2026-10-23T16:00:00-04:00");
-let RICE_AS_OF = new Date("2026-10-23T16:00:00-04:00");
-let PREP_AS_OF = new Date("2026-10-23T16:00:00-04:00");
+let TODAY = new Date("2026-10-29");
+let LAST_REFRESHED = new Date("2026-10-29T16:00:00-04:00");
+let RICE_AS_OF = new Date("2026-10-29T16:00:00-04:00");
+let PREP_AS_OF = new Date("2026-10-29T16:00:00-04:00");
 let PTE_AS_OF = new Date();
 const JIRA_BROWSE = "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/";
 let RICE_DATA = null;
@@ -1758,7 +1672,13 @@ function renderKPIs(){
     );
   }).length;
 
+  const behindObjects = overdue;
   const cards = [
+    overallStatusCard(behindObjects===0, "Behind schedule", [
+      behindObjects===0
+        ? "Every conversion object is on schedule."
+        : behindObjects+" of "+total+" conversion object"+(total===1?"":"s")+" "+(behindObjects===1?"is":"are")+" behind schedule."
+    ]),
     { label:"Conversion Objects in Scope", value:total, foot: "In scope", cls:"" },
     { label:"% of Subtasks Complete", value:pct+"%", foot:doneSteps+" of "+totalSteps+" subtasks done", cls:"ok" },
     { label:"Objects Complete", value:complete+" <small>/ "+total+"</small>", foot:"Fully converted & validated", cls:"ok" },
@@ -1766,13 +1686,7 @@ function renderKPIs(){
     { label:"Objects with Overdue Work", value:overdue, foot:"Excludes recon-related subtasks", cls:"overdue" },
   ];
 
-  document.getElementById("kpiRow").innerHTML = cards.map(c=>`
-    <div class="kpi-card ${c.cls}">
-      <div class="kpi-label">${c.label}</div>
-      <div class="kpi-value">${c.value}</div>
-      <div class="kpi-foot">${c.foot}</div>
-    </div>
-  `).join("");
+  showMetricCards(cards);
 }
 
 function renderManifests(){
@@ -2456,18 +2370,6 @@ function renderRiceV2(){
 }
 
 function renderRiceV2Static(){
-  const m = RICE_DATA.metrics;
-  document.getElementById("riceV2KpiRow").innerHTML = [
-    { label:"RICE in scope", value:m.totalRice, foot:"Wave 3 · Release 1 · P2" },
-    { label:"% Complete", value:ricePct(m.pctComplete), foot:m.complete+" of "+m.totalRice+" RICE", cls:"ok" },
-    { label:"Open CR<span class=\"cr-plural\">s</span>", value:m.crOpen+" / "+m.uniqueCrs, foot:"Defect not closed", cls:m.crOpen?"bad":"ok" },
-  ].map(c=>`
-    <div class="kpi-card ${c.cls||""}">
-      <div class="kpi-label">${c.label}</div>
-      <div class="kpi-value">${c.value}</div>
-      <div class="kpi-foot">${c.foot}</div>
-    </div>
-  `).join("");
   const ws = [...new Set((RICE_DATA.rice||[]).map(r=>r.workstream||"(blank)"))].sort();
   document.getElementById("riceV2WsFilter").innerHTML =
     `<option value="">All workstreams</option>` + ws.map(w=>`<option>${escapeHtml(w)}</option>`).join("");
@@ -2488,13 +2390,37 @@ function delayedRiceForExec(){
     .sort((a,b)=>riceMaxDelayDays(b)-riceMaxDelayDays(a) || (b.delayedCount||0)-(a.delayedCount||0) || a.summary.localeCompare(b.summary))
     .slice(0,6);
 }
-function setExecTilesVisible(show){
+function showMetricCards(cards){
+  const exec = document.querySelector(".exec-summary");
+  if(exec) exec.classList.remove("rice-exec","exec-simple","is-risk","is-ok");
   const grid = document.getElementById("execSummaryGrid");
   const mount = document.getElementById("tabExecMount");
   const testing = document.getElementById("testingExecMount");
-  if(grid) grid.style.display = show ? "none" : "";
-  if(mount) mount.style.display = show ? "" : "none";
+  const metrics = document.getElementById("metricsExecMount");
+  const metricGrid = document.getElementById("metricsExecGrid");
+  if(grid) grid.style.display = "none";
+  if(mount) mount.style.display = "none";
   if(testing) testing.style.display = "none";
+  if(metrics) metrics.style.display = "";
+  if(!metricGrid) return;
+  const cols = cards.length>=6 ? " cols-6" : cards.length===5 ? " cols-5" : cards.length===3 ? " cols-3" : "";
+  metricGrid.className = "pte-exec-grid" + cols;
+  metricGrid.innerHTML = cards.map(c=>{
+    if(c.status){
+      return `<div class="pte-card"><h3>${c.label}</h3><div>${c.value}</div>${(c.notes||[]).map(n=>`<p class="pte-exec-note">${n}</p>`).join("")}</div>`;
+    }
+    return `<div class="pte-card"><h3>${c.label}</h3><div class="pte-big pte-num">${c.value}</div><p class="pte-exec-note">${c.foot}</p></div>`;
+  }).join("");
+}
+function overallStatusCard(onTrack, behindLabel, notes){
+  const tone = onTrack ? "passed" : "failed";
+  const text = onTrack ? "On track" : behindLabel;
+  return {
+    status: true,
+    label: "Overall status",
+    value: `<span class="pte-badge pte-b-${tone} pte-b-lg"><i></i>${text}</span>`,
+    notes
+  };
 }
 function renderTestingSummary(){
   const exec = document.querySelector(".exec-summary");
@@ -2504,107 +2430,32 @@ function renderTestingSummary(){
   const testing = document.getElementById("testingExecMount");
   if(grid) grid.style.display = "none";
   if(mount) mount.style.display = "none";
+  const metrics = document.getElementById("metricsExecMount");
+  if(metrics) metrics.style.display = "none";
   if(testing) testing.style.display = "";
   document.getElementById("execSummaryTitle").textContent = "Testing Execution Executive Summary · Release 1 - P2";
 }
 function renderRiceSummary(){
-  setExecTilesVisible(true);
   document.getElementById("execSummaryTitle").textContent = "RICE Executive Summary · Release 1 - P2";
-  renderExecCard("p2Rice");
+  const m = (RICE_DATA && RICE_DATA.metrics) || {};
+  const items = (RICE_DATA && RICE_DATA.rice) || [];
+  const behind = items.filter(r => r.bucket !== "Complete" && (r.delayedCount||0) > 0).length;
+  const total = m.totalRice==null ? items.length : m.totalRice;
+  showMetricCards([
+    overallStatusCard(behind===0, "Behind plan", [
+      behind===0
+        ? "Every RICE item is on schedule."
+        : behind+" of "+total+" RICE item"+(total===1?"":"s")+" "+(behind===1?"is":"are")+" behind schedule."
+    ]),
+    { label:"RICE in scope", value:m.totalRice==null?"–":m.totalRice, foot:"Wave 3 · Release 1 · P2" },
+    { label:"% Complete", value:m.pctComplete==null?"–":ricePct(m.pctComplete), foot:(m.complete||0)+" of "+(m.totalRice||0)+" RICE" },
+    { label:"Open CR<span class=\"cr-plural\">s</span>", value:(m.crOpen||0)+" / "+(m.uniqueCrs||0), foot:"Defect not closed" },
+  ]);
 }
 
 function renderSummary(){
-  const exec = document.querySelector(".exec-summary");
-  if(exec) exec.classList.remove("rice-exec","exec-simple","is-risk","is-ok");
-  setExecTilesVisible(false);
   document.getElementById("execSummaryTitle").textContent = "Data Conversion Executive Summary · Release 1 - P2";
-  document.getElementById("execColStatus").textContent = "Overall Status";
-  document.getElementById("execColUpcoming").textContent = "Next Subtasks Due";
-  document.getElementById("execColAtRisk").textContent = "At Risk";
-  document.getElementById("execColBlockers").textContent = "Key Blockers & Issues";
-
-  const rows = ACTIVE_DATA; // Execution only (Preparation tab is hidden)
-  const total = rows.length;
-  const completeObjects = rows.filter(r=>r.status==="Complete").length;
-  const blocked = rows.filter(r=>r.status==="Blocked").length;
-
-  // Sub-task-level breakdown (not object-level) — "we're tracking by
-  // sub-task." A sub-task counts as "in progress" only when it's the
-  // current (first incomplete) step on an object whose Jira status is
-  // In Progress; everything else not-yet-done is "not started."
-  let totalSteps = 0, doneSteps = 0, inProgressSteps = 0;
-  rows.forEach(r=>{
-    const nextIdx = r.checklist.findIndex(c=>!stepIsDone(c));
-    r.checklist.forEach((c,idx)=>{
-      totalSteps++;
-      if(stepIsDone(c)){ doneSteps++; return; }
-      if(c.status==="In Progress" || (!c.status && idx===nextIdx && r.status==="In Progress")) inProgressSteps++;
-    });
-  });
-  const notStartedSteps = totalSteps - doneSteps - inProgressSteps;
-  const completionPct = totalSteps ? Math.round(doneSteps/totalSteps*100) : 0;
-
-  const openDefects = OPEN_DEFECT_DATA;
-  const criticalDefects = openDefects.filter(d => d.severity==="Critical");
-  const onHoldDefects = openDefects.filter(d => d.status==="On Hold");
-  const atRisk = atRiskObjectRows();
-
-  document.getElementById("execStatusText").innerHTML =
-    `<strong>${completionPct}% of subtasks complete</strong> (${doneSteps}/${totalSteps}); <strong>${completeObjects} of ${total} objects complete</strong>. `
-    + `Release 1 - P2 Conversion Execution has `
-    + `${doneSteps} completed, ${inProgressSteps} in progress, ${notStartedSteps} not started`
-    + `${blocked>0 ? `, and <strong>${blocked} blocked</strong> object${blocked===1?"":"s"}` : ""}. `
-    + `${openDefects.length} open conversion-labeled defect${openDefects.length===1?"":"s"} remain`
-    + `${criticalDefects.length>0 ? `, including <strong>${criticalDefects.length} critical</strong>` : ""}. `
-    + `${onHoldDefects.length>0 ? `<strong>${onHoldDefects.length} On Hold</strong> defect${onHoldDefects.length===1?" is":"s are"} included in that open count but not treated as blocked. ` : ""}`
-    + `${atRisk.length>0 ? `<strong>${atRisk.length}</strong> object${atRisk.length===1?"":"s"} ${atRisk.length===1?"has":"have"} a sub-task due within 24 hours — see At Risk.` : "Nothing currently in progress which is due in the next 24 hours."}`;
-
-  // Upcoming: the next incomplete subtask (checklist step) for each active
-  // object, not the object's overall end date — "we're tracking by
-  // subtask", per Hannah's review. Soonest subtask due date first.
-  const upcomingSteps = [];
-  rows.forEach(r=>{
-    if(r.status==="Complete") return;
-    const nextStep = (r.checklist||[]).find(c=>!stepIsDone(c));
-    if(!nextStep) return;
-    const d = daysUntil(nextStep.dueDate);
-    if(d>=9999) return;
-    upcomingSteps.push({ subledger:r.subledger, object:r.object, stepLabel:nextStep.label, days:d });
-  });
-  upcomingSteps.sort((a,b)=>a.days-b.days);
-  const upcoming = upcomingSteps.slice(0,4);
-
-  document.getElementById("execUpcomingList").innerHTML = upcoming.length ? upcoming.map(u=>{
-    const when = u.days<0 ? `overdue ${Math.abs(u.days)}d` : u.days===0 ? "due today" : `due in ${u.days}d`;
-    return `<li><span class="sl-pill" style="margin-right:6px;">${u.subledger}</span>${u.object} — <em>${u.stepLabel}</em> <span class="exec-meta">— ${when}</span></li>`;
-  }).join("") : `<li class="exec-empty">Nothing due in the near term.</li>`;
-
-  // At Risk: current sub-task not yet overdue but due within AT_RISK_SOON_DAYS
-  document.getElementById("execAtRiskList").innerHTML = atRisk.length ? atRisk.map(r=>{
-    const cur = currentSubtask(r);
-    const when = cur.days===0 ? "due today" : `due in ${cur.days}d`;
-    return `<li><span class="sl-pill" style="margin-right:6px;">${r.subledger}</span>${r.object} — <em>${cur.step.label}</em> <span class="exec-meta at-risk">— ${when}</span></li>`;
-  }).join("") : `<li class="exec-empty">Nothing currently in progress which is due in the next 24 hours.</li>`;
-
-  // Key issues require an explicit Jira predecessor link. Only overdue
-  // Extract-through-Load stages qualify; Recon and later stages never do.
-  const keyDependencyItems = rows.flatMap(r=>(r.checklist||[])
-    .map((step,idx)=>({r,step,idx}))
-    .filter(({step,idx})=>{
-      const hasDependency = step.isPredecessor===true ||
-        (Array.isArray(step.predecessorFor) && step.predecessorFor.length>0) ||
-        (typeof step.predecessorFor==="string" && step.predecessorFor.trim());
-      return hasDependency && idx<=5 && !isReconRelated(step.label) &&
-        !stepIsDone(step) && daysUntil(step.dueDate)<0;
-    })
-  );
-
-  document.getElementById("execBlockersList").innerHTML = keyDependencyItems.length
-    ? keyDependencyItems.slice(0,6).map(({r,step})=>{
-        const targets = Array.isArray(step.predecessorFor) ? step.predecessorFor.join(", ") : step.predecessorFor;
-        return `<li><span class="sl-pill" style="margin-right:6px;">${r.subledger}</span>${r.object} — <em>${step.label}</em> <span class="exec-meta">— overdue dependency${targets ? ` for ${targets}` : ""}</span></li>`;
-      }).join("")
-    : `<li class="exec-empty">Dependency-based results are pending Jira predecessor links. No blockers are inferred manually.</li>`;
+  renderKPIs();
 }
 
 function renderAll(){
@@ -2626,10 +2477,8 @@ function renderAll(){
     renderSummary();
   }
   renderRisks();
-  renderKPIs();
   renderManifests();
   renderObjectGroups();
-  renderDefectTable();
 }
 
 // ---- event wiring ----
@@ -2681,17 +2530,10 @@ function wireMultiSelectChips(filterType, stateSet, onChange){
 
 wireMultiSelectChips("subledger", state.subledgers, renderObjectGroups);
 wireMultiSelectChips("status", state.statuses, renderObjectGroups);
-wireMultiSelectChips("defect-module", defectState.modules, renderDefectTable);
-wireMultiSelectChips("defect-status", defectState.statuses, renderDefectTable);
-wireMultiSelectChips("defect-severity", defectState.severities, renderDefectTable);
 
 document.getElementById("searchInput").addEventListener("input", (e)=>{
   state.search = e.target.value;
   renderObjectGroups();
-});
-document.getElementById("defectSearchInput").addEventListener("input", (e)=>{
-  defectState.search = e.target.value;
-  renderDefectTable();
 });
 
 document.querySelectorAll("[data-rice-v2-filter]").forEach(btn=>{
@@ -2770,16 +2612,6 @@ function initPrepTracker(){
   const pctVsPlan = planned.length ? Math.round(plannedDone.length * 1000 / planned.length) / 10 : 0;
   const pctAll = labeled.length ? Math.round(doneList.length * 1000 / labeled.length) / 10 : 0;
   const fmtPct = v => String(v).replace(/\.0$/, "") + "%";
-
-  document.getElementById("prepPctVsPlan").textContent = fmtPct(pctVsPlan);
-  document.getElementById("prepCntVsPlan").textContent = plannedDone.length + " of " + planned.length + " activities due by today are complete";
-  document.getElementById("prepPctAll").textContent = fmtPct(pctAll);
-  document.getElementById("prepCntAll").textContent = doneList.length + " completed / " + labeled.length + " total";
-  document.getElementById("prepNOverdue").textContent = overdueList.length;
-  document.getElementById("prepCntOverdue").textContent = "Open activities past due date";
-  document.getElementById("prepNUpcoming").textContent = upcomingList.length;
-  document.getElementById("prepCntUpcoming").textContent =
-    upcomingList.filter(isOpen).length + " still open, " + upcomingList.filter(isDone).length + " already complete";
 
   function bar(pct){
     return `<span class="prep-bar"><span style="width:${pct}%"></span></span>${fmtPct(pct)}`;
@@ -2881,9 +2713,22 @@ function initPrepTracker(){
 }
 
 function renderPrepSummary(){
-  setExecTilesVisible(true);
   document.getElementById("execSummaryTitle").textContent = "P2 Prep Executive Summary · Release 1 - P2";
-  renderExecCard("p2Prep");
+  const p = PREP;
+  const upcomingOpen = p ? p.upcomingList.filter(n => n.statusCat !== "done").length : 0;
+  const upcomingDone = p ? p.upcomingList.filter(n => n.statusCat === "done").length : 0;
+  const prepOnTrack = !p || p.planned===0 || p.plannedDone>=p.planned;
+  showMetricCards([
+    overallStatusCard(prepOnTrack, "Behind schedule", p ? [
+      prepOnTrack
+        ? (p.planned ? "All "+p.planned+" activities due by today are complete." : "No activities are due yet.")
+        : p.plannedDone+" of "+p.planned+" activities due by today are complete."
+    ] : []),
+    { label:"Completed vs planned by now", value:p ? p.fmtPct(p.pctVsPlan) : "–", foot:p ? p.plannedDone+" of "+p.planned+" activities due by today are complete" : "" },
+    { label:"Overall % complete", value:p ? p.fmtPct(p.pctAll) : "–", foot:p ? p.done+" completed / "+p.labeled.length+" total" : "" },
+    { label:"Overdue (still open)", value:p ? p.overdueList.length : "–", foot:"Open activities past due date" },
+    { label:"Due in the next 5 days", value:p ? p.upcomingList.length : "–", foot:p ? upcomingOpen+" still open, "+upcomingDone+" already complete" : "" },
+  ]);
 }
 
 // Manually maintained; a Jira refresh must never write to exec-summary.json.
@@ -2979,7 +2824,7 @@ const GROUPS = [
 const GROUP_OF = {}; GROUPS.forEach(g => g.statuses.forEach(s => { GROUP_OF[s] = g.key; }));
 const RESULTS = GROUPS[0].statuses;
 const RESULT_VAR = { 'Passed': '--c-complete', 'Failed': '--c-blocked', 'Retest': '--stage-atrisk', 'Withdrawn': '--pte-withdrawn' };
-const TOLERANCE_PCT = 5;   // overall status: executed must be at least (100 - this)% of expected by the snapshot date
+const TOLERANCE_PCT = 5;   // overall status: executed must be at least (100 - this)% of tests due before the snapshot date
 const BADGE = { 'Passed': 'passed', 'Failed': 'failed', 'Retest': 'retest', 'Withdrawn': 'withdrawn', 'In Progress': 'progress', 'Blocked': 'blocked', 'On Hold': 'hold', 'Open': 'open' };
 let WS = [
   { id: 'S2P', name: 'Source to Pay' },
@@ -3104,7 +2949,10 @@ function compute() {
   const g = { executed: 0, progress: 0, blocked: 0, open: 0 }, by = {};
   tcs.forEach(t => { g[grp(t)]++; by[t.status] = (by[t.status] || 0) + 1; });
   const executed = g.executed;
-  const expected = tcs.filter(t => t.dueDate && t.dueDate <= snap).length;   // due on or before the snapshot date
+  const dueBySnap = t => t.dueDate && t.dueDate < snap;
+  const expected = tcs.filter(dueBySnap).length;   // due before the snapshot date; due today is not expected yet
+  // Plan comparison ignores tests finished before they are due, and tests due today.
+  const executedOfExpected = tcs.filter(t => grp(t) === 'executed' && dueBySnap(t)).length;
   const overdue = tcs.filter(isOverdue);
   const overdueBlocked = overdue.filter(t => grp(t) === 'blocked');
   const overdueReady = overdue.filter(t => grp(t) !== 'blocked');
@@ -3129,11 +2977,11 @@ function compute() {
   const testers = new Set(tcs.map(t => t.assignee).filter(Boolean)).size;
 
   M = {
-    total, g, by, byToday, executed, executedToday, notExecuted: total - executed, expected,
+    total, g, by, byToday, executed, executedOfExpected, executedToday, notExecuted: total - executed, expected,
     testers,
     // integer maths so exactly 95% counts as on track
-    onTrack: expected === 0 || executed * 100 >= expected * (100 - TOLERANCE_PCT),
-    ofExpected: expected ? executed / expected : null,
+    onTrack: expected === 0 || executedOfExpected * 100 >= expected * (100 - TOLERANCE_PCT),
+    ofExpected: expected ? executedOfExpected / expected : null,
     overdue, overdueBlocked, overdueReady, topBlockers,
     d: {
       total: defs.length, open: open.length, openToday, resolved: resolvedToDate, resolvedToday,
@@ -3204,7 +3052,7 @@ function renderSummary() {
   $('#pte-exec').innerHTML =
     '<div class="pte-card"><h3>Overall status</h3>' +
       '<div><span class="pte-badge pte-b-' + overall.k + ' pte-b-lg"><i></i>' + overall.l + '</span></div>' +
-      '<p class="pte-exec-note">' + n(M.executed) + ' executed vs ' + n(M.expected) + ' expected by ' + fmtShort(snap) + '.</p>' +
+      '<p class="pte-exec-note">' + n(M.executedOfExpected) + ' executed vs ' + n(M.expected) + ' expected by ' + fmtShort(snap) + '.</p>' +
       '<p class="pte-exec-note">' + (M.ofExpected == null ? 'Nothing is expected yet.' : pctFloor(M.ofExpected) + ' of expected.') + '</p></div>' +
     '<div class="pte-card"><h3>Overdue · ready to test now</h3><div class="pte-big pte-num">' + M.overdueReady.length + '</div>' +
       '<p class="pte-exec-note">' + rOpen + ' open · ' + rProg + ' in progress. Not blocked, so testers can complete these now.</p></div>' +
@@ -3299,15 +3147,18 @@ function drawChart() {
   const x = i => m.l + step * i;
   const y = v => m.t + (H - m.t - m.b) * (1 - v / total);
 
-  // bucket counts per day, then accumulate (fast even for 15,000+ cases)
-  const idxOf = new Map(days.map((d, i) => [d, i]));
-  const clampIdx = d => d <= days[0] ? 0 : d >= days[days.length - 1] ? days.length - 1 : (idxOf.has(d) ? idxOf.get(d) : days.findIndex(x2 => x2 >= d));
-  const dueB = new Array(days.length).fill(0), exB = new Array(days.length).fill(0);
-  let plottedEx = 0, noDate = 0;
-  tcs.forEach(t => { if (t.dueDate) dueB[clampIdx(t.dueDate)]++; });
-  tcs.forEach(t => { if (grp(t) !== 'executed') return; if (t.executedDate) { exB[clampIdx(t.executedDate)]++; plottedEx++; } else noDate++; });
-  const cum = a => { let s = 0; return a.map(v => (s += v)); };
-  const planned = cum(dueB), exAll = cum(exB);
+  // A test becomes expected on the first chart day after its due date, so the point for "today" excludes tests due today.
+  const planned = new Array(days.length).fill(0), exAll = new Array(days.length).fill(0);
+  let noDate = 0;
+  tcs.forEach(t => {
+    if (!t.dueDate) { if (grp(t) === 'executed') noDate++; return; }
+    const executed = grp(t) === 'executed';
+    for (let i = 0; i < days.length; i++) {
+      if (!(t.dueDate < days[i])) continue;
+      planned[i]++;
+      if (executed) exAll[i]++;
+    }
+  });
   let si = -1; days.forEach((d, i) => { if (d <= snap) si = i; });
   const actual = exAll.slice(0, si + 1);
   const line = arr => arr.map((v, i) => (i ? 'L' : 'M') + x(i).toFixed(1) + ',' + y(v).toFixed(1)).join('');
@@ -3345,7 +3196,7 @@ function drawChart() {
   g += '<rect class="pte-hover-hit" x="' + m.l + '" y="' + m.t + '" width="' + (W - m.l - m.r) + '" height="' + (H - m.t - m.b) + '" fill="transparent"/>';
   host.innerHTML = '<svg viewBox="0 0 ' + W + ' ' + H + '" role="img" aria-label="' + esc(label) + '">' + g + '</svg>';
   note.hidden = !noDate;
-  if (noDate) note.textContent = noDate.toLocaleString('en-US') + ' executed test cases have no executed date, so they are counted above but not plotted on this chart.';
+  if (noDate) note.textContent = noDate.toLocaleString('en-US') + ' executed test cases have no due date, so they are not part of the expected-by-day line.';
 
   bindChartHover({ host, days, planned, exAll, si, snap, m, W, H, step, x, y });
 }

@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-10-23",
+  "asOf": "2026-10-29",
   "jiraBase": "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/",
   "nodes": [
     {
@@ -8627,6 +8627,18 @@
       "statusCat": "new",
       "due": "2026-10-12",
       "workstream": "Plan to Report",
+      "parent": null,
+      "labeled": true
+    },
+    {
+      "key": "CONAMER1001932-24749",
+      "summary": "SR-4-0004114799/4-0004055220 Notification not sent for Error in Logs for Upload Value Set Values",
+      "type": "Defect",
+      "assignee": "Anuradha Kumar",
+      "status": "Ready for Retest",
+      "statusCat": "indeterminate",
+      "due": "2026-10-19",
+      "workstream": "EDMCS (COA), Close, Consol",
       "parent": null,
       "labeled": true
     }
