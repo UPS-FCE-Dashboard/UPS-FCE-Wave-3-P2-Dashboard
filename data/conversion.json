@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-29",
-  "refreshedAt": "2026-10-29T20:21:59.461Z",
+  "asOf": "2026-10-30",
+  "refreshedAt": "2026-10-30T16:50:59.155Z",
   "jiraBase": "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/",
   "items": [
     {
@@ -238,9 +238,9 @@
         },
         {
           "label": "Load Data",
-          "done": true,
+          "done": false,
           "dueDate": "2026-10-20",
-          "status": "Completed"
+          "status": "In Progress"
         },
         {
           "label": "Generate Recon Report",

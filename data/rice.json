@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-29",
-  "refreshedAt": "2026-10-29T20:21:59.461Z",
+  "asOf": "2026-10-30",
+  "refreshedAt": "2026-10-30T16:50:59.155Z",
   "filters": {
     "project": "CONAMER1001932",
     "component": "Release 1",
@@ -16,10 +16,10 @@
     "pctComplete": 88.2,
     "pctDelayed": 11.8,
     "pctOnTarget": 0,
-    "highRisk": 32,
-    "watch": 4,
+    "highRisk": 31,
+    "watch": 5,
     "stable": 32,
-    "overdueSubtasks": 134,
+    "overdueSubtasks": 127,
     "uniqueCrs": 53,
     "crOpen": 5,
     "crCompleted": 40,
@@ -558,7 +558,7 @@
           "plannedComplete": "2026-03-12",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 231
+          "daysOverdue": 232
         },
         {
           "jiraOrder": 6,
@@ -566,7 +566,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 226
+          "daysOverdue": 227
         },
         {
           "jiraOrder": 7,
@@ -574,7 +574,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 226
+          "daysOverdue": 227
         },
         {
           "jiraOrder": 8,
@@ -630,7 +630,7 @@
           "plannedComplete": "2026-04-24",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 188
+          "daysOverdue": 189
         }
       ]
     },
@@ -1307,7 +1307,7 @@
           "plannedComplete": "2026-02-27",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 243
+          "daysOverdue": 245
         },
         {
           "jiraOrder": 6,
@@ -1315,7 +1315,7 @@
           "plannedComplete": "2026-03-04",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 238
+          "daysOverdue": 240
         },
         {
           "jiraOrder": 7,
@@ -1323,7 +1323,7 @@
           "plannedComplete": "2026-03-04",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 238
+          "daysOverdue": 240
         },
         {
           "jiraOrder": 8,
@@ -1379,7 +1379,7 @@
           "plannedComplete": "2026-04-09",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 203
+          "daysOverdue": 204
         }
       ]
     },
@@ -1450,7 +1450,7 @@
           "plannedComplete": "2026-03-12",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 231
+          "daysOverdue": 232
         },
         {
           "jiraOrder": 6,
@@ -1458,7 +1458,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 226
+          "daysOverdue": 227
         },
         {
           "jiraOrder": 7,
@@ -1466,7 +1466,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 226
+          "daysOverdue": 227
         },
         {
           "jiraOrder": 8,
@@ -1522,7 +1522,7 @@
           "plannedComplete": "2026-04-24",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 188
+          "daysOverdue": 189
         }
       ]
     },
@@ -1593,7 +1593,7 @@
           "plannedComplete": "2026-03-10",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 233
+          "daysOverdue": 234
         },
         {
           "jiraOrder": 6,
@@ -1601,7 +1601,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 230
+          "daysOverdue": 231
         },
         {
           "jiraOrder": 7,
@@ -1609,7 +1609,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 230
+          "daysOverdue": 231
         },
         {
           "jiraOrder": 8,
@@ -1665,7 +1665,7 @@
           "plannedComplete": "2026-04-21",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 191
+          "daysOverdue": 192
         }
       ]
     },
@@ -1736,7 +1736,7 @@
           "plannedComplete": "2026-02-27",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 243
+          "daysOverdue": 245
         },
         {
           "jiraOrder": 6,
@@ -1744,7 +1744,7 @@
           "plannedComplete": "2026-03-04",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 238
+          "daysOverdue": 240
         },
         {
           "jiraOrder": 7,
@@ -1752,7 +1752,7 @@
           "plannedComplete": "2026-03-04",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 238
+          "daysOverdue": 240
         },
         {
           "jiraOrder": 8,
@@ -1808,7 +1808,7 @@
           "plannedComplete": "2026-04-09",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 203
+          "daysOverdue": 204
         }
       ]
     },
@@ -2178,7 +2178,7 @@
           "plannedComplete": "2026-02-13",
           "assignee": "aartis",
           "status": "Withdrawn",
-          "daysOverdue": 257
+          "daysOverdue": 259
         },
         {
           "jiraOrder": 6,
@@ -2186,7 +2186,7 @@
           "plannedComplete": "2026-02-18",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 252
+          "daysOverdue": 254
         },
         {
           "jiraOrder": 7,
@@ -2194,7 +2194,7 @@
           "plannedComplete": "2026-02-18",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 252
+          "daysOverdue": 254
         },
         {
           "jiraOrder": 8,
@@ -2250,7 +2250,7 @@
           "plannedComplete": "2026-03-11",
           "assignee": "aartis",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 233
         }
       ]
     },
@@ -2321,7 +2321,7 @@
           "plannedComplete": "2026-02-13",
           "assignee": "aartis",
           "status": "Withdrawn",
-          "daysOverdue": 257
+          "daysOverdue": 259
         },
         {
           "jiraOrder": 6,
@@ -2329,7 +2329,7 @@
           "plannedComplete": "2026-02-18",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 252
+          "daysOverdue": 254
         },
         {
           "jiraOrder": 7,
@@ -2337,7 +2337,7 @@
           "plannedComplete": "2026-02-18",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 252
+          "daysOverdue": 254
         },
         {
           "jiraOrder": 8,
@@ -2393,7 +2393,7 @@
           "plannedComplete": "2026-03-11",
           "assignee": "aartis",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 233
         }
       ]
     },
@@ -2468,7 +2468,7 @@
           "plannedComplete": "2026-03-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 240
+          "daysOverdue": 242
         },
         {
           "jiraOrder": 6,
@@ -2476,7 +2476,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 239
         },
         {
           "jiraOrder": 7,
@@ -2484,7 +2484,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 239
         },
         {
           "jiraOrder": 8,
@@ -2540,7 +2540,7 @@
           "plannedComplete": "2026-04-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 210
+          "daysOverdue": 211
         }
       ]
     },
@@ -2611,7 +2611,7 @@
           "plannedComplete": "2026-03-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 240
+          "daysOverdue": 242
         },
         {
           "jiraOrder": 6,
@@ -2619,7 +2619,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 239
         },
         {
           "jiraOrder": 7,
@@ -2627,7 +2627,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 239
         },
         {
           "jiraOrder": 8,
@@ -2683,7 +2683,7 @@
           "plannedComplete": "2026-04-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 210
+          "daysOverdue": 211
         }
       ]
     },
@@ -2981,7 +2981,7 @@
           "plannedComplete": "2026-08-13",
           "assignee": "rsurumbarkuzhali",
           "status": "In Progress",
-          "daysOverdue": 77
+          "daysOverdue": 78
         },
         {
           "jiraOrder": 14,
@@ -2989,7 +2989,7 @@
           "plannedComplete": "2026-08-18",
           "assignee": "Sachet Bhatia",
           "status": "Not Started",
-          "daysOverdue": 72
+          "daysOverdue": 73
         }
       ]
     },
@@ -3060,7 +3060,7 @@
           "plannedComplete": "2026-03-11",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 233
         },
         {
           "jiraOrder": 6,
@@ -3068,7 +3068,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 227
+          "daysOverdue": 228
         },
         {
           "jiraOrder": 7,
@@ -3076,7 +3076,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 227
+          "daysOverdue": 228
         },
         {
           "jiraOrder": 8,
@@ -3132,7 +3132,7 @@
           "plannedComplete": "2026-04-23",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 189
+          "daysOverdue": 190
         }
       ]
     },
@@ -3203,7 +3203,7 @@
           "plannedComplete": "2026-03-10",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 233
+          "daysOverdue": 234
         },
         {
           "jiraOrder": 6,
@@ -3211,7 +3211,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 230
+          "daysOverdue": 231
         },
         {
           "jiraOrder": 7,
@@ -3219,7 +3219,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 230
+          "daysOverdue": 231
         },
         {
           "jiraOrder": 8,
@@ -3275,7 +3275,7 @@
           "plannedComplete": "2026-04-22",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 190
+          "daysOverdue": 191
         }
       ]
     },
@@ -3506,7 +3506,7 @@
           "plannedComplete": "2026-03-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 240
+          "daysOverdue": 242
         },
         {
           "jiraOrder": 6,
@@ -3514,7 +3514,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 239
         },
         {
           "jiraOrder": 7,
@@ -3522,7 +3522,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 239
         },
         {
           "jiraOrder": 8,
@@ -3578,7 +3578,7 @@
           "plannedComplete": "2026-04-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 210
+          "daysOverdue": 211
         }
       ]
     },
@@ -3649,7 +3649,7 @@
           "plannedComplete": "2026-02-03",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 267
+          "daysOverdue": 269
         },
         {
           "jiraOrder": 6,
@@ -3657,7 +3657,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 264
+          "daysOverdue": 266
         },
         {
           "jiraOrder": 7,
@@ -3665,7 +3665,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 264
+          "daysOverdue": 266
         },
         {
           "jiraOrder": 8,
@@ -3721,7 +3721,7 @@
           "plannedComplete": "2026-02-26",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 246
         }
       ]
     },
@@ -3792,7 +3792,7 @@
           "plannedComplete": "2026-02-03",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 267
+          "daysOverdue": 269
         },
         {
           "jiraOrder": 6,
@@ -3800,7 +3800,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 264
+          "daysOverdue": 266
         },
         {
           "jiraOrder": 7,
@@ -3808,7 +3808,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 264
+          "daysOverdue": 266
         },
         {
           "jiraOrder": 8,
@@ -3864,7 +3864,7 @@
           "plannedComplete": "2026-02-26",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 246
         }
       ]
     },
@@ -3935,7 +3935,7 @@
           "plannedComplete": "2026-02-03",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 267
+          "daysOverdue": 269
         },
         {
           "jiraOrder": 6,
@@ -3943,7 +3943,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 264
+          "daysOverdue": 266
         },
         {
           "jiraOrder": 7,
@@ -3951,7 +3951,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 264
+          "daysOverdue": 266
         },
         {
           "jiraOrder": 8,
@@ -4007,7 +4007,7 @@
           "plannedComplete": "2026-02-26",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 246
         }
       ]
     },
@@ -4016,17 +4016,17 @@
       "summary": "RTA POs to Oracle",
       "id": "FCE-INT-IN-RTA-PO-0505",
       "type": "Integration",
-      "status": "Unit Testing",
+      "status": "Code Promotion",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Anuradha Kumar",
       "subTotal": 15,
-      "subDone": 9,
-      "subOpen": 6,
-      "delayedCount": 6,
+      "subDone": 13,
+      "subOpen": 2,
+      "delayedCount": 2,
       "bucket": "In Progress",
-      "risk": "High",
-      "riskWhy": "6 delayed sub-tasks; 1 open CR",
+      "risk": "Watch",
+      "riskWhy": "2 delayed sub-tasks; 1 open CR",
       "openCr": 1,
       "completedCr": 0,
       "noDefCr": 1,
@@ -4116,32 +4116,32 @@
           "step": "Unit Testing",
           "plannedComplete": "2026-07-17",
           "assignee": "logeshbabun",
-          "status": "In Progress",
-          "daysOverdue": 104
+          "status": "Completed",
+          "daysOverdue": null
         },
         {
           "jiraOrder": 10,
           "step": "Functional Testing Handoff",
           "plannedComplete": "2026-07-17",
           "assignee": "logeshbabun",
-          "status": "Not Started",
-          "daysOverdue": 104
+          "status": "Completed",
+          "daysOverdue": null
         },
         {
           "jiraOrder": 11,
           "step": "Functional Testing",
           "plannedComplete": "2026-08-04",
-          "assignee": "Ignacio Amadeo",
-          "status": "Not Started",
-          "daysOverdue": 86
+          "assignee": "Anuradha Kumar",
+          "status": "Completed",
+          "daysOverdue": null
         },
         {
           "jiraOrder": 12,
           "step": "Defect Resolution",
           "plannedComplete": "2026-08-11",
           "assignee": "logeshbabun",
-          "status": "Not Started",
-          "daysOverdue": 79
+          "status": "Completed",
+          "daysOverdue": null
         },
         {
           "jiraOrder": 13,
@@ -4149,7 +4149,7 @@
           "plannedComplete": "2026-08-12",
           "assignee": "logeshbabun",
           "status": "Not Started",
-          "daysOverdue": 78
+          "daysOverdue": 79
         },
         {
           "jiraOrder": 14,
@@ -4157,7 +4157,7 @@
           "plannedComplete": "2026-08-17",
           "assignee": "logeshbabun",
           "status": "Not Started",
-          "daysOverdue": 73
+          "daysOverdue": 74
         }
       ]
     },
@@ -4228,7 +4228,7 @@
           "plannedComplete": "2026-02-03",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 267
+          "daysOverdue": 269
         },
         {
           "jiraOrder": 6,
@@ -4236,7 +4236,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 264
+          "daysOverdue": 266
         },
         {
           "jiraOrder": 7,
@@ -4244,7 +4244,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 264
+          "daysOverdue": 266
         },
         {
           "jiraOrder": 8,
@@ -4300,7 +4300,7 @@
           "plannedComplete": "2026-02-26",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 246
         }
       ]
     },
@@ -4371,7 +4371,7 @@
           "plannedComplete": "2026-03-10",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 233
+          "daysOverdue": 234
         },
         {
           "jiraOrder": 6,
@@ -4379,7 +4379,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 230
+          "daysOverdue": 231
         },
         {
           "jiraOrder": 7,
@@ -4387,7 +4387,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 230
+          "daysOverdue": 231
         },
         {
           "jiraOrder": 8,
@@ -4443,7 +4443,7 @@
           "plannedComplete": "2026-04-22",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 190
+          "daysOverdue": 191
         }
       ]
     },
@@ -4514,7 +4514,7 @@
           "plannedComplete": "2026-03-12",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 231
+          "daysOverdue": 232
         },
         {
           "jiraOrder": 6,
@@ -4522,7 +4522,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 226
+          "daysOverdue": 227
         },
         {
           "jiraOrder": 7,
@@ -4530,7 +4530,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 226
+          "daysOverdue": 227
         },
         {
           "jiraOrder": 8,
@@ -4586,7 +4586,7 @@
           "plannedComplete": "2026-04-24",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 188
+          "daysOverdue": 189
         }
       ]
     },
@@ -4657,7 +4657,7 @@
           "plannedComplete": "2026-03-12",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 231
+          "daysOverdue": 232
         },
         {
           "jiraOrder": 6,
@@ -4665,7 +4665,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 226
+          "daysOverdue": 227
         },
         {
           "jiraOrder": 7,
@@ -4673,7 +4673,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 226
+          "daysOverdue": 227
         },
         {
           "jiraOrder": 8,
@@ -4729,7 +4729,7 @@
           "plannedComplete": "2026-04-24",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 188
+          "daysOverdue": 189
         }
       ]
     },
@@ -4800,7 +4800,7 @@
           "plannedComplete": "2026-03-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 240
+          "daysOverdue": 242
         },
         {
           "jiraOrder": 6,
@@ -4808,7 +4808,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 239
         },
         {
           "jiraOrder": 7,
@@ -4816,7 +4816,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 239
         },
         {
           "jiraOrder": 8,
@@ -4872,7 +4872,7 @@
           "plannedComplete": "2026-04-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 210
+          "daysOverdue": 211
         }
       ]
     },
@@ -4943,7 +4943,7 @@
           "plannedComplete": "2026-03-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 240
+          "daysOverdue": 242
         },
         {
           "jiraOrder": 6,
@@ -4951,7 +4951,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 239
         },
         {
           "jiraOrder": 7,
@@ -4959,7 +4959,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 239
         },
         {
           "jiraOrder": 8,
@@ -5015,7 +5015,7 @@
           "plannedComplete": "2026-04-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 210
+          "daysOverdue": 211
         }
       ]
     },
@@ -5086,7 +5086,7 @@
           "plannedComplete": "2026-03-11",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 233
         },
         {
           "jiraOrder": 6,
@@ -5094,7 +5094,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 227
+          "daysOverdue": 228
         },
         {
           "jiraOrder": 7,
@@ -5102,7 +5102,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 227
+          "daysOverdue": 228
         },
         {
           "jiraOrder": 8,
@@ -5158,7 +5158,7 @@
           "plannedComplete": "2026-04-23",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 189
+          "daysOverdue": 190
         }
       ]
     },
@@ -5229,7 +5229,7 @@
           "plannedComplete": "2026-03-11",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 233
         },
         {
           "jiraOrder": 6,
@@ -5237,7 +5237,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 227
+          "daysOverdue": 228
         },
         {
           "jiraOrder": 7,
@@ -5245,7 +5245,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 227
+          "daysOverdue": 228
         },
         {
           "jiraOrder": 8,
@@ -5301,7 +5301,7 @@
           "plannedComplete": "2026-04-23",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 189
+          "daysOverdue": 190
         }
       ]
     },
@@ -6342,17 +6342,17 @@
       "summary": "SCSDUTYUPL - SCS Upload Entry - Duty",
       "id": "FCE-INT-IN-SCSDUTYUPL-APUT-AP-0474",
       "type": "Integration",
-      "status": "Functional Testing Handoff",
+      "status": "Functional Testing",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Ignacio Amadeo",
       "subTotal": 15,
-      "subDone": 10,
-      "subOpen": 5,
-      "delayedCount": 5,
+      "subDone": 11,
+      "subOpen": 4,
+      "delayedCount": 4,
       "bucket": "In Progress",
       "risk": "High",
-      "riskWhy": "5 delayed sub-tasks; 2 open CR",
+      "riskWhy": "4 delayed sub-tasks; 2 open CR",
       "openCr": 2,
       "completedCr": 2,
       "noDefCr": 0,
@@ -6456,8 +6456,8 @@
           "step": "Functional Testing Handoff",
           "plannedComplete": "2026-08-17",
           "assignee": "lsuresh",
-          "status": "In Progress",
-          "daysOverdue": 73
+          "status": "Completed",
+          "daysOverdue": null
         },
         {
           "jiraOrder": 11,
@@ -6465,7 +6465,7 @@
           "plannedComplete": "2026-09-02",
           "assignee": "Ignacio Amadeo",
           "status": "Not Started",
-          "daysOverdue": 57
+          "daysOverdue": 58
         },
         {
           "jiraOrder": 12,
@@ -6473,7 +6473,7 @@
           "plannedComplete": "2026-09-10",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 49
+          "daysOverdue": 50
         },
         {
           "jiraOrder": 13,
@@ -6481,7 +6481,7 @@
           "plannedComplete": "2026-09-11",
           "assignee": "hkk",
           "status": "Not Started",
-          "daysOverdue": 48
+          "daysOverdue": 49
         },
         {
           "jiraOrder": 14,
@@ -6489,7 +6489,7 @@
           "plannedComplete": "2026-09-16",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 43
+          "daysOverdue": 44
         }
       ]
     },
@@ -6498,17 +6498,17 @@
       "summary": "Invoice data - SCS Upload General - SCSGENERALUPL",
       "id": "FCE-INT-IN-SCSGENERALUPL-APUT-AP-0476",
       "type": "Integration",
-      "status": "Blocked",
+      "status": "Functional Testing",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Himanshu Sirohi",
       "subTotal": 15,
-      "subDone": 10,
-      "subOpen": 5,
-      "delayedCount": 5,
+      "subDone": 11,
+      "subOpen": 4,
+      "delayedCount": 4,
       "bucket": "In Progress",
       "risk": "High",
-      "riskWhy": "Parent blocked; 5 delayed sub-tasks; 2 open CR",
+      "riskWhy": "4 delayed sub-tasks; 2 open CR",
       "openCr": 2,
       "completedCr": 1,
       "noDefCr": 0,
@@ -6609,8 +6609,8 @@
           "step": "Functional Testing Handoff",
           "plannedComplete": "2026-08-17",
           "assignee": "arajanvk",
-          "status": "Not Started",
-          "daysOverdue": 73
+          "status": "Completed",
+          "daysOverdue": null
         },
         {
           "jiraOrder": 11,
@@ -6618,7 +6618,7 @@
           "plannedComplete": "2026-09-02",
           "assignee": "Ignacio Amadeo",
           "status": "Not Started",
-          "daysOverdue": 57
+          "daysOverdue": 58
         },
         {
           "jiraOrder": 12,
@@ -6626,7 +6626,7 @@
           "plannedComplete": "2026-09-10",
           "assignee": "arajanvk",
           "status": "Not Started",
-          "daysOverdue": 49
+          "daysOverdue": 50
         },
         {
           "jiraOrder": 13,
@@ -6634,7 +6634,7 @@
           "plannedComplete": "2026-09-11",
           "assignee": "hkk",
           "status": "Not Started",
-          "daysOverdue": 48
+          "daysOverdue": 49
         },
         {
           "jiraOrder": 14,
@@ -6642,7 +6642,7 @@
           "plannedComplete": "2026-09-16",
           "assignee": "arajanvk",
           "status": "Not Started",
-          "daysOverdue": 43
+          "daysOverdue": 44
         }
       ]
     },
@@ -6651,17 +6651,17 @@
       "summary": "Invoice data - UPS Upload General - UPSGENERALUPL",
       "id": "FCE-INT-IN-UPSGENERALUPL-APUT-AP-0477",
       "type": "Integration",
-      "status": "Blocked",
+      "status": "Functional Testing",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Prerna Thadani",
       "subTotal": 15,
-      "subDone": 10,
-      "subOpen": 5,
-      "delayedCount": 5,
+      "subDone": 11,
+      "subOpen": 4,
+      "delayedCount": 4,
       "bucket": "In Progress",
       "risk": "High",
-      "riskWhy": "Parent blocked; 5 delayed sub-tasks; 2 open CR",
+      "riskWhy": "4 delayed sub-tasks; 2 open CR",
       "openCr": 2,
       "completedCr": 1,
       "noDefCr": 0,
@@ -6762,8 +6762,8 @@
           "step": "Functional Testing Handoff",
           "plannedComplete": "2026-08-17",
           "assignee": "arajanvk",
-          "status": "Not Started",
-          "daysOverdue": 73
+          "status": "Completed",
+          "daysOverdue": null
         },
         {
           "jiraOrder": 11,
@@ -6771,7 +6771,7 @@
           "plannedComplete": "2026-09-02",
           "assignee": "Ignacio Amadeo",
           "status": "Not Started",
-          "daysOverdue": 57
+          "daysOverdue": 58
         },
         {
           "jiraOrder": 12,
@@ -6779,7 +6779,7 @@
           "plannedComplete": "2026-09-10",
           "assignee": "arajanvk",
           "status": "Not Started",
-          "daysOverdue": 49
+          "daysOverdue": 50
         },
         {
           "jiraOrder": 13,
@@ -6787,7 +6787,7 @@
           "plannedComplete": "2026-09-11",
           "assignee": "hkk",
           "status": "Not Started",
-          "daysOverdue": 48
+          "daysOverdue": 49
         },
         {
           "jiraOrder": 14,
@@ -6795,7 +6795,7 @@
           "plannedComplete": "2026-09-16",
           "assignee": "arajanvk",
           "status": "Not Started",
-          "daysOverdue": 43
+          "daysOverdue": 44
         }
       ]
     },
@@ -6804,7 +6804,7 @@
       "summary": "Invoice data - UPS Upload Duty - USEDUTYUPL",
       "id": "FCE-INT-IN-USEDUTYUPL-APUT-AP-0478",
       "type": "Integration",
-      "status": "Blocked",
+      "status": "Functional Testing",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Himanshu Sirohi",
@@ -6814,7 +6814,7 @@
       "delayedCount": 5,
       "bucket": "In Progress",
       "risk": "High",
-      "riskWhy": "Parent blocked; 5 delayed sub-tasks; 2 open CR",
+      "riskWhy": "5 delayed sub-tasks; 2 open CR",
       "openCr": 2,
       "completedCr": 1,
       "noDefCr": 0,
@@ -6916,7 +6916,7 @@
           "plannedComplete": "2026-08-17",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 73
+          "daysOverdue": 74
         },
         {
           "jiraOrder": 11,
@@ -6924,7 +6924,7 @@
           "plannedComplete": "2026-09-02",
           "assignee": "Ignacio Amadeo",
           "status": "Not Started",
-          "daysOverdue": 57
+          "daysOverdue": 58
         },
         {
           "jiraOrder": 12,
@@ -6932,7 +6932,7 @@
           "plannedComplete": "2026-09-10",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 49
+          "daysOverdue": 50
         },
         {
           "jiraOrder": 13,
@@ -6940,7 +6940,7 @@
           "plannedComplete": "2026-09-11",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 48
+          "daysOverdue": 49
         },
         {
           "jiraOrder": 14,
@@ -6948,7 +6948,7 @@
           "plannedComplete": "2026-09-16",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 43
+          "daysOverdue": 44
         }
       ]
     },
@@ -7767,7 +7767,7 @@
           "plannedComplete": "2026-03-10",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 233
+          "daysOverdue": 234
         },
         {
           "jiraOrder": 6,
@@ -7775,7 +7775,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 230
+          "daysOverdue": 231
         },
         {
           "jiraOrder": 7,
@@ -7783,7 +7783,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 230
+          "daysOverdue": 231
         },
         {
           "jiraOrder": 8,
@@ -7839,7 +7839,7 @@
           "plannedComplete": "2026-04-22",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 190
+          "daysOverdue": 191
         }
       ]
     },
@@ -9278,7 +9278,7 @@
           "plannedComplete": "2026-07-17",
           "assignee": "Mahesh kanna",
           "status": "In Progress",
-          "daysOverdue": 104
+          "daysOverdue": 105
         },
         {
           "jiraOrder": 10,
@@ -9286,7 +9286,7 @@
           "plannedComplete": "2026-07-17",
           "assignee": "Priyam Parmar",
           "status": "Not Started",
-          "daysOverdue": 104
+          "daysOverdue": 105
         },
         {
           "jiraOrder": 11,
@@ -9294,7 +9294,7 @@
           "plannedComplete": "2026-08-06",
           "assignee": "Ignacio Amadeo",
           "status": "Not Started",
-          "daysOverdue": 84
+          "daysOverdue": 85
         },
         {
           "jiraOrder": 12,
@@ -9302,7 +9302,7 @@
           "plannedComplete": "2026-08-13",
           "assignee": "Mahesh kanna",
           "status": "Not Started",
-          "daysOverdue": 77
+          "daysOverdue": 78
         },
         {
           "jiraOrder": 13,
@@ -9310,7 +9310,7 @@
           "plannedComplete": "2026-08-14",
           "assignee": "Priyam Parmar",
           "status": "Not Started",
-          "daysOverdue": 76
+          "daysOverdue": 77
         },
         {
           "jiraOrder": 14,
@@ -9318,7 +9318,7 @@
           "plannedComplete": "2026-08-19",
           "assignee": "Priyam Parmar",
           "status": "Not Started",
-          "daysOverdue": 71
+          "daysOverdue": 72
         }
       ]
     },
@@ -9878,7 +9878,7 @@
           "plannedComplete": "2026-09-21",
           "assignee": "Anuradha Kumar",
           "status": "In Progress",
-          "daysOverdue": 38
+          "daysOverdue": 39
         },
         {
           "jiraOrder": 12,
@@ -9886,7 +9886,7 @@
           "plannedComplete": "2026-09-25",
           "assignee": "logeshbabun",
           "status": "Not Started",
-          "daysOverdue": 34
+          "daysOverdue": 35
         },
         {
           "jiraOrder": 13,
@@ -9894,7 +9894,7 @@
           "plannedComplete": "2026-09-28",
           "assignee": "logeshbabun",
           "status": "Not Started",
-          "daysOverdue": 31
+          "daysOverdue": 32
         },
         {
           "jiraOrder": 14,
@@ -9902,7 +9902,7 @@
           "plannedComplete": "2026-10-01",
           "assignee": "logeshbabun",
           "status": "Not Started",
-          "daysOverdue": 28
+          "daysOverdue": 29
         }
       ]
     },
@@ -10055,6 +10055,598 @@
     }
   ],
   "crs": [
+    {
+      "key": "CONAMER1001932-23858",
+      "summary": "New RICE for creating PO receipts automatically for certain PO sources",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": null,
+      "dueOverdue": false,
+      "defectCount": 0,
+      "openDefectCount": 0,
+      "delivery": "No linked defect",
+      "defects": []
+    },
+    {
+      "key": "CONAMER1001932-23692",
+      "summary": "Add file splitting logic to FA to Airlines integration due to volume constraints (Technical CR)",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": null,
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 1,
+      "delivery": "Open",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23821",
+          "summary": "[CR-Defect] To track the Tech work for Split File Logic CR 23692",
+          "status": "Ready for Retest",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23663",
+      "summary": "CR: Charge to Locations to Coupa interface - Set EDMCS Extract to Coupa Flag = Y for Charge to Location companies",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": null,
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23662",
+          "summary": "Defect to track CR 23663 : UPS S2P Charge-To Location Outbound Interface",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23650",
+      "summary": "Update supplier exclusion logic to be based on an EDMCS value set for Remit-to Address, Parent Supplier lookup values, and Suppliers extract for Coupa.",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-06-12",
+      "dueOverdue": false,
+      "defectCount": 3,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23651",
+          "summary": "Defect for CR 23650: Supplier to Coupa",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23652",
+          "summary": "Defect for CR 23650: Remit to Address to Coupa",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23653",
+          "summary": "Defect for CR 23650: Parent Supplier Lookup Values to Coupa",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23480",
+      "summary": "Handling Errored Records in Oracle for Receipts to Oracle Interface",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-09-25",
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23546",
+          "summary": "[CR-Defect] Handling Errored Records in Oracle for Receipts to Oracle Interface",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23453",
+      "summary": "Include only suppliers having sites with Attribute2 (Coupa unique supplier id) as not null in the Coupa Supplier related extracts",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": null,
+      "dueOverdue": false,
+      "defectCount": 3,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23464",
+          "summary": "Defect to track CR 23453 : S2P Suppliers to Coupa",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23631",
+          "summary": "Defect to track CR 23453 : Parent Suppliers Lookup to Coupa",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23632",
+          "summary": "Defect to track CR 23453 : Remit to Address to Coupa",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23452",
+      "summary": "Remove the logic of parent vendors from the Coupa Parent Supplier Lookup extract",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": null,
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23463",
+          "summary": "CR 23452 Defect",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23319",
+      "summary": "Custom Logic for Supplier Enabled flag due to limitation from Oracle",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-09-16",
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23320",
+          "summary": "Defect to track CR (23319) : Supplier Enabled Flag logic change",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23307",
+      "summary": "Modify Extraction Logic for Assets with Multiple Distributions",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": null,
+      "dueOverdue": false,
+      "defectCount": 3,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23557",
+          "summary": "FCE-RPT-FA-ACTIVITY-0513: Modify Extraction Logic for Assets with Multiple Distributions",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23558",
+          "summary": "FCE-INT-OUT-FA-CDAS-0508: Modify Extraction Logic for Assets with Multiple Distributions",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23559",
+          "summary": "FCE-INT-OUT-FA-AIRLINE-0367: Modify Extraction Logic for Assets with Multiple Distributions",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23298",
+      "summary": "Airlines FA Extract Logic updates for Transfer Location and Accumulated Retirement Fields",
+      "assignee": "Soumalya Mandal",
+      "crStatus": "Accepted",
+      "due": "2026-09-25",
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23471",
+          "summary": "[CR] Airlines FA Extract Logic updates for Transfer Location and Accumulated Retirement Fields",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23293",
+      "summary": "Additional Value Sets need to be added to EDMCS and sent to ERPP.",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": null,
+      "dueOverdue": false,
+      "defectCount": 2,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23294",
+          "summary": "Track implementation of CR CONAMER1001932-23293 - Additional value sets to EDMCS and ERPP",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23334",
+          "summary": "[CR-Defect]: Additional value sets for EDMCS → ERPP (from CR CONAMER1001932-23293) for FCE-INT-OUT-EDMCS-GL-0007",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23284",
+      "summary": "Exclude Conversion data from Outbound Extract Interfaces",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-09-16",
+      "dueOverdue": false,
+      "defectCount": 3,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23285",
+          "summary": "Defect to track CR (23284) : DAPPCS Invoice Extract",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23286",
+          "summary": "Defect to track CR (23284) :  DAPPCS Payment Acknowledgment",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23447",
+          "summary": "Wrong Data Extraction CR (23284) :  DAPPCS Payment Acknowledgment",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23223",
+      "summary": "OCFGC Report: Update Oracle folder location to FA reports folder",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-09-04",
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23281",
+          "summary": "[CR] OCFGC Report: Update Oracle folder location to FA reports folder",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23201",
+      "summary": "Accounting Date needs to be left blank on Invoice Mapping templates and Open Period Validation needs to be removed",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-08-28",
+      "dueOverdue": false,
+      "defectCount": 2,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23212",
+          "summary": "Defect to track CR (23201): COUPA Invoices to Oracle",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23288",
+          "summary": "Defect to track CR (23201): DAPPCS Invoices to Oracle",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23191",
+      "summary": "Changes in few fields in APUT templates",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-08-28",
+      "dueOverdue": false,
+      "defectCount": 4,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23326",
+          "summary": "Defect to track CR (23191) : APUT SCSDUTYUPL  0474",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23327",
+          "summary": "Defect to track CR (23191) : APUT SCSGENERALUPL 0476",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23328",
+          "summary": "Defect to track CR (23191) : APUT  UPSGENERALUPL  0477",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23329",
+          "summary": "Defect to track CR (23191) : APUT  USEDUTYUPL  0478",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23161",
+      "summary": "OCFGC Report & FA Monthly Activity Extract: Add date and timestamp of report execution within report",
+      "assignee": "Christina Rodriguez",
+      "crStatus": "Accepted",
+      "due": "2026-08-28",
+      "dueOverdue": false,
+      "defectCount": 2,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23188",
+          "summary": "FA Monthly Activity Extract: Add date and timestamp of report execution within report for RICE #0513 (Defect - CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23208",
+          "summary": "OCFGC Report : Add date and timestamp of report execution within report for RICE #0368 (Defect - CR)",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23160",
+      "summary": "Update the Data Extraction logic to exclude \"SPUS\" companies in RTA Orgmapping extract",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-08-31",
+      "dueOverdue": false,
+      "defectCount": 0,
+      "openDefectCount": 0,
+      "delivery": "No linked defect",
+      "defects": []
+    },
+    {
+      "key": "CONAMER1001932-23153",
+      "summary": "Map Assets to EWAPPM Categories which cannot be reclassed in EBS",
+      "assignee": "Alex Payne",
+      "crStatus": "Withdrawn",
+      "due": "2026-08-28",
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 1,
+      "delivery": "No linked defect",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23200",
+          "summary": "P590 - Fixed Assets Conversion R1 P2 - Map Assets to EWAPPM Categories which cannot be reclassed in EBS",
+          "status": "Not Started",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23123",
+      "summary": "Source dependent mapping and Invoice id mapping change",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-08-14",
+      "dueOverdue": false,
+      "defectCount": 2,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23147",
+          "summary": "Source dependent mapping and Invoice id mapping change FOR FCE-INT-IN-SCSGENERALUPL-APUT-AP-0476 (Defect - CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23146",
+          "summary": "Source dependent mapping and Invoice id mapping change for FCE-INT-IN-SCSDUTYUPL-APUT-AP-0474(Defect - CR)",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-23114",
+      "summary": "Cloud Instance Identifier update in FSD, mapping sheet as well as for output file for FCE-IN-OUT-AP-INVSTAT-COUPA- 0500",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-08-10",
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23118",
+          "summary": "Cloud Instance Identifier update for FCE-IN-OUT-AP-INVSTAT-COUPA- 0500 - Defect (CR)",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-22816",
+      "summary": "Populate Invoice Group for Invoice Sources as part of the Invoice Integration process",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-08-07",
+      "dueOverdue": true,
+      "defectCount": 7,
+      "openDefectCount": 2,
+      "delivery": "Open",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23124",
+          "summary": "MIPS Invoices - Defect (CR)",
+          "status": "Deferred",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23129",
+          "summary": "Invoice data - UPS Upload General - UPSGENERALUPL - Defect (CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23125",
+          "summary": "Invoices to Oracle - Defect (CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23127",
+          "summary": "SCSDUTYUPL - SCS Upload Entry - Duty - Defect (CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23130",
+          "summary": "Invoice data - UPS Upload Duty - USEDUTYUPL - Defect (CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23116",
+          "summary": "DAPPCS Invoices into Oracle Cloud - Defect (CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23128",
+          "summary": "Invoice data - SCS Upload General - SCSGENERALUPL - Defect (CR)",
+          "status": "Ready for Retest",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-22814",
+      "summary": "Change to the derivation logic of the company/business unit for Coupa Invoices to Oracle",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-07-31",
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23126",
+          "summary": "Invoices to Oracle - Defect (CR)",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-21950",
+      "summary": "Invoice Inbound FSDs - Remove Validation for Invoice Header Amount ",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-07-27",
+      "dueOverdue": true,
+      "defectCount": 5,
+      "openDefectCount": 1,
+      "delivery": "Open",
+      "defects": [
+        {
+          "key": "CONAMER1001932-23148",
+          "summary": "APUT FSDs - Remove Validation for Invoice Header Amount for RICE #0474 (Defect - CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23151",
+          "summary": "APUT FSDs - Remove Validation for Invoice Header Amount for RICE #0478 (Defect - CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23189",
+          "summary": "Invoice Inbound FSDs - Remove Validation for Invoice Header Amount for RICE #0396 (Defect - CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23149",
+          "summary": "APUT FSDs - Remove Validation for Invoice Header Amount for RICE #0476 (Defect - CR)",
+          "status": "Resolved",
+          "assignee": null
+        },
+        {
+          "key": "CONAMER1001932-23150",
+          "summary": "APUT FSDs - Remove Validation for Invoice Header Amount for RICE #0477 (Defect - CR)",
+          "status": "Ready for Retest",
+          "assignee": null
+        }
+      ]
+    },
+    {
+      "key": "CONAMER1001932-21907",
+      "summary": "Descope ESS Process Scheduling (FCE-INT-OUT-PMT-AP-KYRIBA-0468)",
+      "assignee": "Ray Ashton",
+      "crStatus": "Accepted",
+      "due": "2026-07-27",
+      "dueOverdue": false,
+      "defectCount": 1,
+      "openDefectCount": 0,
+      "delivery": "Completed",
+      "defects": [
+        {
+          "key": "CONAMER1001932-22779",
+          "summary": "Descope ESS Process Scheduling (FCE-INT-OUT-PMT-AP-KYRIBA-0468)",
+          "status": "Resolved",
+          "assignee": null
+        }
+      ]
+    },
     {
       "key": "CONAMER1001932-21838",
       "summary": "\"Legacy Location Code\" needs to be incorporated in Coupa Ship to Location outbound and Charge to Location outbound and Coupa Purchase Orders inbound interfaces",
@@ -10250,31 +10842,6 @@
         {
           "key": "CONAMER1001932-23154",
           "summary": "Budget to ERPP: Additional field (Converted Flag) to support ERPP to Coupa IH integration for RICE #0496 (Defect - CR)",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-20449",
-      "summary": "Include additional columns in \"UPS_INTL_GLOBALS\" value set extract from EDMCS to Oracle Cloud and ERPP",
-      "assignee": "Greg Sandifer",
-      "crStatus": "Accepted",
-      "due": "2026-06-29",
-      "dueOverdue": false,
-      "defectCount": 2,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-21567",
-          "summary": " Outbound DFF values - CR Defect",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-21566",
-          "summary": "Master Extract from EDMCS to Integration Layer - CR",
           "status": "Resolved",
           "assignee": null
         }
@@ -10674,207 +11241,7 @@
         {
           "key": "CONAMER1001932-25067",
           "summary": "[CONAMER1001932-24736] Development effort - RICE 0159",
-          "status": "In Progress",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23858",
-      "summary": "New RICE for creating PO receipts automatically for certain PO sources",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": null,
-      "dueOverdue": false,
-      "defectCount": 0,
-      "openDefectCount": 0,
-      "delivery": "No linked defect",
-      "defects": []
-    },
-    {
-      "key": "CONAMER1001932-23692",
-      "summary": "Add file splitting logic to FA to Airlines integration due to volume constraints (Technical CR)",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": null,
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 1,
-      "delivery": "Open",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23821",
-          "summary": "[CR-Defect] To track the Tech work for Split File Logic CR 23692",
           "status": "Ready for Retest",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23663",
-      "summary": "CR: Charge to Locations to Coupa interface - Set EDMCS Extract to Coupa Flag = Y for Charge to Location companies",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": null,
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23662",
-          "summary": "Defect to track CR 23663 : UPS S2P Charge-To Location Outbound Interface",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23650",
-      "summary": "Update supplier exclusion logic to be based on an EDMCS value set for Remit-to Address, Parent Supplier lookup values, and Suppliers extract for Coupa.",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-06-12",
-      "dueOverdue": false,
-      "defectCount": 3,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23651",
-          "summary": "Defect for CR 23650: Supplier to Coupa",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23652",
-          "summary": "Defect for CR 23650: Remit to Address to Coupa",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23653",
-          "summary": "Defect for CR 23650: Parent Supplier Lookup Values to Coupa",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23480",
-      "summary": "Handling Errored Records in Oracle for Receipts to Oracle Interface",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-09-25",
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23546",
-          "summary": "[CR-Defect] Handling Errored Records in Oracle for Receipts to Oracle Interface",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23453",
-      "summary": "Include only suppliers having sites with Attribute2 (Coupa unique supplier id) as not null in the Coupa Supplier related extracts",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": null,
-      "dueOverdue": false,
-      "defectCount": 3,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23464",
-          "summary": "Defect to track CR 23453 : S2P Suppliers to Coupa",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23631",
-          "summary": "Defect to track CR 23453 : Parent Suppliers Lookup to Coupa",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23632",
-          "summary": "Defect to track CR 23453 : Remit to Address to Coupa",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23452",
-      "summary": "Remove the logic of parent vendors from the Coupa Parent Supplier Lookup extract",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": null,
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23463",
-          "summary": "CR 23452 Defect",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23319",
-      "summary": "Custom Logic for Supplier Enabled flag due to limitation from Oracle",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-09-16",
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23320",
-          "summary": "Defect to track CR (23319) : Supplier Enabled Flag logic change",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23307",
-      "summary": "Modify Extraction Logic for Assets with Multiple Distributions",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": null,
-      "dueOverdue": false,
-      "defectCount": 3,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23557",
-          "summary": "FCE-RPT-FA-ACTIVITY-0513: Modify Extraction Logic for Assets with Multiple Distributions",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23558",
-          "summary": "FCE-INT-OUT-FA-CDAS-0508: Modify Extraction Logic for Assets with Multiple Distributions",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23559",
-          "summary": "FCE-INT-OUT-FA-AIRLINE-0367: Modify Extraction Logic for Assets with Multiple Distributions",
-          "status": "Resolved",
           "assignee": null
         }
       ]
@@ -10899,392 +11266,25 @@
       ]
     },
     {
-      "key": "CONAMER1001932-23298",
-      "summary": "Airlines FA Extract Logic updates for Transfer Location and Accumulated Retirement Fields",
-      "assignee": "Soumalya Mandal",
+      "key": "CONAMER1001932-20449",
+      "summary": "Include additional columns in \"UPS_INTL_GLOBALS\" value set extract from EDMCS to Oracle Cloud and ERPP",
+      "assignee": "Greg Sandifer",
       "crStatus": "Accepted",
-      "due": "2026-09-25",
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23471",
-          "summary": "[CR] Airlines FA Extract Logic updates for Transfer Location and Accumulated Retirement Fields",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23293",
-      "summary": "Additional Value Sets need to be added to EDMCS and sent to ERPP.",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": null,
+      "due": "2026-06-29",
       "dueOverdue": false,
       "defectCount": 2,
       "openDefectCount": 0,
       "delivery": "Completed",
       "defects": [
         {
-          "key": "CONAMER1001932-23294",
-          "summary": "Track implementation of CR CONAMER1001932-23293 - Additional value sets to EDMCS and ERPP",
+          "key": "CONAMER1001932-21567",
+          "summary": " Outbound DFF values - CR Defect",
           "status": "Resolved",
           "assignee": null
         },
         {
-          "key": "CONAMER1001932-23334",
-          "summary": "[CR-Defect]: Additional value sets for EDMCS → ERPP (from CR CONAMER1001932-23293) for FCE-INT-OUT-EDMCS-GL-0007",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23284",
-      "summary": "Exclude Conversion data from Outbound Extract Interfaces",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-09-16",
-      "dueOverdue": false,
-      "defectCount": 3,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23285",
-          "summary": "Defect to track CR (23284) : DAPPCS Invoice Extract",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23286",
-          "summary": "Defect to track CR (23284) :  DAPPCS Payment Acknowledgment",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23447",
-          "summary": "Wrong Data Extraction CR (23284) :  DAPPCS Payment Acknowledgment",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23223",
-      "summary": "OCFGC Report: Update Oracle folder location to FA reports folder",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-09-04",
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23281",
-          "summary": "[CR] OCFGC Report: Update Oracle folder location to FA reports folder",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23201",
-      "summary": "Accounting Date needs to be left blank on Invoice Mapping templates and Open Period Validation needs to be removed",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-08-28",
-      "dueOverdue": false,
-      "defectCount": 2,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23212",
-          "summary": "Defect to track CR (23201): COUPA Invoices to Oracle",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23288",
-          "summary": "Defect to track CR (23201): DAPPCS Invoices to Oracle",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23191",
-      "summary": "Changes in few fields in APUT templates",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-08-28",
-      "dueOverdue": false,
-      "defectCount": 4,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23326",
-          "summary": "Defect to track CR (23191) : APUT SCSDUTYUPL  0474",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23327",
-          "summary": "Defect to track CR (23191) : APUT SCSGENERALUPL 0476",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23328",
-          "summary": "Defect to track CR (23191) : APUT  UPSGENERALUPL  0477",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23329",
-          "summary": "Defect to track CR (23191) : APUT  USEDUTYUPL  0478",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23161",
-      "summary": "OCFGC Report & FA Monthly Activity Extract: Add date and timestamp of report execution within report",
-      "assignee": "Christina Rodriguez",
-      "crStatus": "Accepted",
-      "due": "2026-08-28",
-      "dueOverdue": false,
-      "defectCount": 2,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23188",
-          "summary": "FA Monthly Activity Extract: Add date and timestamp of report execution within report for RICE #0513 (Defect - CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23208",
-          "summary": "OCFGC Report : Add date and timestamp of report execution within report for RICE #0368 (Defect - CR)",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23160",
-      "summary": "Update the Data Extraction logic to exclude \"SPUS\" companies in RTA Orgmapping extract",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-08-31",
-      "dueOverdue": false,
-      "defectCount": 0,
-      "openDefectCount": 0,
-      "delivery": "No linked defect",
-      "defects": []
-    },
-    {
-      "key": "CONAMER1001932-23153",
-      "summary": "Map Assets to EWAPPM Categories which cannot be reclassed in EBS",
-      "assignee": "Alex Payne",
-      "crStatus": "Withdrawn",
-      "due": "2026-08-28",
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 1,
-      "delivery": "No linked defect",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23200",
-          "summary": "P590 - Fixed Assets Conversion R1 P2 - Map Assets to EWAPPM Categories which cannot be reclassed in EBS",
-          "status": "Not Started",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23123",
-      "summary": "Source dependent mapping and Invoice id mapping change",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-08-14",
-      "dueOverdue": false,
-      "defectCount": 2,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23147",
-          "summary": "Source dependent mapping and Invoice id mapping change FOR FCE-INT-IN-SCSGENERALUPL-APUT-AP-0476 (Defect - CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23146",
-          "summary": "Source dependent mapping and Invoice id mapping change for FCE-INT-IN-SCSDUTYUPL-APUT-AP-0474(Defect - CR)",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-23114",
-      "summary": "Cloud Instance Identifier update in FSD, mapping sheet as well as for output file for FCE-IN-OUT-AP-INVSTAT-COUPA- 0500",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-08-10",
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23118",
-          "summary": "Cloud Instance Identifier update for FCE-IN-OUT-AP-INVSTAT-COUPA- 0500 - Defect (CR)",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-22816",
-      "summary": "Populate Invoice Group for Invoice Sources as part of the Invoice Integration process",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-08-07",
-      "dueOverdue": true,
-      "defectCount": 7,
-      "openDefectCount": 2,
-      "delivery": "Open",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23124",
-          "summary": "MIPS Invoices - Defect (CR)",
-          "status": "Deferred",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23129",
-          "summary": "Invoice data - UPS Upload General - UPSGENERALUPL - Defect (CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23125",
-          "summary": "Invoices to Oracle - Defect (CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23127",
-          "summary": "SCSDUTYUPL - SCS Upload Entry - Duty - Defect (CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23130",
-          "summary": "Invoice data - UPS Upload Duty - USEDUTYUPL - Defect (CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23116",
-          "summary": "DAPPCS Invoices into Oracle Cloud - Defect (CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23128",
-          "summary": "Invoice data - SCS Upload General - SCSGENERALUPL - Defect (CR)",
-          "status": "Ready for Retest",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-22814",
-      "summary": "Change to the derivation logic of the company/business unit for Coupa Invoices to Oracle",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-07-31",
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23126",
-          "summary": "Invoices to Oracle - Defect (CR)",
-          "status": "Resolved",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-21950",
-      "summary": "Invoice Inbound FSDs - Remove Validation for Invoice Header Amount ",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-07-27",
-      "dueOverdue": true,
-      "defectCount": 5,
-      "openDefectCount": 1,
-      "delivery": "Open",
-      "defects": [
-        {
-          "key": "CONAMER1001932-23148",
-          "summary": "APUT FSDs - Remove Validation for Invoice Header Amount for RICE #0474 (Defect - CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23151",
-          "summary": "APUT FSDs - Remove Validation for Invoice Header Amount for RICE #0478 (Defect - CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23189",
-          "summary": "Invoice Inbound FSDs - Remove Validation for Invoice Header Amount for RICE #0396 (Defect - CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23149",
-          "summary": "APUT FSDs - Remove Validation for Invoice Header Amount for RICE #0476 (Defect - CR)",
-          "status": "Resolved",
-          "assignee": null
-        },
-        {
-          "key": "CONAMER1001932-23150",
-          "summary": "APUT FSDs - Remove Validation for Invoice Header Amount for RICE #0477 (Defect - CR)",
-          "status": "Ready for Retest",
-          "assignee": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-21907",
-      "summary": "Descope ESS Process Scheduling (FCE-INT-OUT-PMT-AP-KYRIBA-0468)",
-      "assignee": "Ray Ashton",
-      "crStatus": "Accepted",
-      "due": "2026-07-27",
-      "dueOverdue": false,
-      "defectCount": 1,
-      "openDefectCount": 0,
-      "delivery": "Completed",
-      "defects": [
-        {
-          "key": "CONAMER1001932-22779",
-          "summary": "Descope ESS Process Scheduling (FCE-INT-OUT-PMT-AP-KYRIBA-0468)",
+          "key": "CONAMER1001932-21566",
+          "summary": "Master Extract from EDMCS to Integration Layer - CR",
           "status": "Resolved",
           "assignee": null
         }

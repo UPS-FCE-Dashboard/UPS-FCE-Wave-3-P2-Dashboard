@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-29",
-  "refreshedAt": "2026-10-29T20:21:59.461Z",
+  "asOf": "2026-10-30",
+  "refreshedAt": "2026-10-30T16:50:59.155Z",
   "items": [
     {
       "key": "CONAMER1001932-18578",
@@ -16,7 +16,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-03-18",
       "targetRetestDate": "2026-11-04",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-20171",
@@ -32,7 +32,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-05-19",
       "targetRetestDate": "2026-10-28",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-20172",
@@ -48,7 +48,7 @@
       "owner": "Anthony Gold",
       "dateIdentified": "2026-05-19",
       "targetRetestDate": "2026-10-28",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-20419",
@@ -64,7 +64,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-05-28",
       "targetRetestDate": "2026-11-04",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-20420",
@@ -80,7 +80,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-05-28",
       "targetRetestDate": "2026-10-28",
-      "notes": "Create EBS tax rates in Oracle Cloud till the time tax engine design is finalized"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-20455",
@@ -96,7 +96,7 @@
       "owner": "Prerna Thadani",
       "dateIdentified": "2026-06-09",
       "targetRetestDate": "2027-12-31",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-20465",
@@ -112,7 +112,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-06-11",
       "targetRetestDate": "2026-11-04",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-20470",
@@ -128,7 +128,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-06-12",
       "targetRetestDate": "2026-10-28",
-      "notes": "Load invoices with their actual accounting date"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-20523",
@@ -144,7 +144,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-06-18",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-21828",
@@ -160,7 +160,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-07-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "Profile report program to be updated"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-21875",
@@ -176,7 +176,7 @@
       "owner": "Subhaya Das",
       "dateIdentified": "2026-07-17",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-22751",
@@ -192,7 +192,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-07-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-22752",
@@ -208,7 +208,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-07-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-22825",
@@ -224,7 +224,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-07-31",
       "targetRetestDate": "2026-12-14",
-      "notes": "N?A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23131",
@@ -240,7 +240,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-10",
       "targetRetestDate": "2026-11-04",
-      "notes": "Potential workarounds to be discussed."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23155",
@@ -256,7 +256,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-18",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23186",
@@ -272,7 +272,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-20",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23196",
@@ -288,7 +288,7 @@
       "owner": "asaloni",
       "dateIdentified": "2026-08-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "Not yet determined."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23199",
@@ -304,7 +304,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23200",
@@ -320,7 +320,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23211",
@@ -336,7 +336,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - however for R1 P2 we will load data as is (with Attribure7 blank as per the existing RTA ItemListing)."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23213",
@@ -352,7 +352,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "Letting these records error out during P2 loads. Will update the conversion code for SIT to leave the AWT_GROUP_NAME blank for Colombia BUs"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23214",
@@ -368,7 +368,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "Update UNSPSC Code mapping with missing item records for R1 P2 upload. To be retested with R1 SIT '"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23216",
@@ -384,7 +384,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23218",
@@ -400,7 +400,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "Loaded with the Hold Reason blanked out"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23219",
@@ -416,7 +416,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23226",
@@ -432,7 +432,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23264",
@@ -448,7 +448,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - 6 records failed to load"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23266",
@@ -464,7 +464,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - these records errored out during loads"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23268",
@@ -480,7 +480,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - Let these records error out during loads since it only affected 4 records"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23269",
@@ -496,7 +496,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-08-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to figure out whether we consolidate these banks or break them out into separate records in Cloud."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23270",
@@ -512,7 +512,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-08-31",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - no impact on Release 1 though as the impacted companies are only in subsequent releases for for P590"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23280",
@@ -528,7 +528,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-31",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23306",
@@ -544,7 +544,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-04",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - were not excluded for R1 P2 but should be for all other releases and test cycles going forward"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23308",
@@ -560,7 +560,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-04",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - currently included in R1 P2 pull and US companies in P590 UPS CORP books caused critical - exclusion error (inability to determine scope) but no direct impact on R1 P2 overall load volumes"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23312",
@@ -576,7 +576,7 @@
       "owner": "Prerna Thadani",
       "dateIdentified": "2026-09-04",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need confirmation from functional team on if there's any setup that would default the category at the time of item creation if blank. Need resolution on missing item category mapping for SIT conversions."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23313",
@@ -592,7 +592,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-09-04",
       "targetRetestDate": "2027-01-08",
-      "notes": "Update recon report for SIT conversions to resolve issue with special characters."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23315",
@@ -608,7 +608,7 @@
       "owner": "Glenn Siedlarczyk",
       "dateIdentified": "2026-09-07",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - Not loaded in R1 P2 for Budget conversion (as project itself not loaded in R1 P2 Project & Task conversion)"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23331",
@@ -624,7 +624,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-09-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - loaded wrong in R1 P2 (found in recon report) - defect to be resolvled and retested in R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23333",
@@ -640,7 +640,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to determine why duplicate project classifications are coming through and what next steps are to resolve them."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23339",
@@ -656,7 +656,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-09-09",
       "targetRetestDate": "2027-01-08",
-      "notes": "For R1 P2, these distirbutions will be loaded without a location code but needs to be addressed before R1 SIT starts"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23355",
@@ -672,7 +672,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "Records for R1 P2 that could not be loaded are excluded from R1 P2 load but must be resolved prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23440",
@@ -688,7 +688,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to understand why the BIC Code was not loaded and/or loaded different than what was converted. Need clarification on Oracle's validation against the BIC Code values."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23441",
@@ -704,7 +704,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to understand why the Alternate Name was not loaded against the Bank and Branch record. Potentially due to duplicate records and/or validation occurring in Oracle Cloud at the time of loading that is causing the alternate name to be ignored."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23442",
@@ -720,7 +720,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "Potentially a reporting issue, we are seeing that several of the affected records have special/unicode characters that are slightly off between target and loaded. Need to investigate further and resolve in the report."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23443",
@@ -736,7 +736,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to figure out whether we consolidate these branches or break them out into separate records in Cloud."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23444",
@@ -752,7 +752,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-11",
       "targetRetestDate": "2026-09-15",
-      "notes": "Need to understand why these characters are included in the names first- from there we can determine whether any data cleanup and/or code logic updates are needed."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23445",
@@ -768,7 +768,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-09-11",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to understand what is causing the duplicate record before next steps"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23448",
@@ -784,7 +784,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-11",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23449",
@@ -800,7 +800,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-11",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - Leaving this field blank for P2"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23454",
@@ -816,7 +816,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "",
-      "notes": "N/A - manually explained in R1 P2 Recon Report (notes) - should be fixed though for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23455",
@@ -832,7 +832,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - need to be investigated and fixed before R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23456",
@@ -848,7 +848,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23457",
@@ -864,7 +864,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23458",
@@ -880,7 +880,7 @@
       "owner": "Glenn Siedlarczyk",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23459",
@@ -896,7 +896,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23460",
@@ -912,7 +912,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23462",
@@ -928,7 +928,7 @@
       "owner": "Saloni A Hemani",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to review calendar period setups for projects and confirm these missing periods should be set up going forward with the business."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23465",
@@ -944,7 +944,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "2026-11-16",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23466",
@@ -960,7 +960,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23467",
@@ -976,7 +976,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23468",
@@ -992,7 +992,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23469",
@@ -1008,7 +1008,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23478",
@@ -1024,7 +1024,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "",
-      "notes": "Let records fall out for P2 loads since over 99% of records were still loaded."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23484",
@@ -1040,7 +1040,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "For R1 P2 load files were manually adjusted to load Attribute 4 values transformed into Attribute 5. However, this also meant that actual Cloud Attribute 4 values were overwritten in the transformation."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23485",
@@ -1056,7 +1056,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A for R1 P2 - needs to be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23486",
@@ -1072,7 +1072,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23487",
@@ -1088,7 +1088,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A - needs to be investigated and resolved for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23488",
@@ -1104,7 +1104,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A - needs to be investigate and addressed/fixed before R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23489",
@@ -1120,7 +1120,7 @@
       "owner": "Christian Dylla",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - was loaded without parent vendor name in R1 P2 - needs to be reviewed and fixed before R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23490",
@@ -1136,7 +1136,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A - needs to be addressed and fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23491",
@@ -1148,11 +1148,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Headers",
       "severity": "Medium",
-      "status": "In Progress",
-      "owner": "Chanmye Myintthu",
+      "status": "Retest",
+      "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23492",
@@ -1168,7 +1168,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23493",
@@ -1184,7 +1184,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23494",
@@ -1200,7 +1200,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23495",
@@ -1216,7 +1216,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated and address before R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23496",
@@ -1232,7 +1232,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - these records failed to load"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23497",
@@ -1248,7 +1248,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A - root cause must be identified and fixed in time for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23500",
@@ -1264,7 +1264,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23501",
@@ -1280,7 +1280,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23502",
@@ -1296,7 +1296,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23503",
@@ -1312,7 +1312,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23504",
@@ -1328,7 +1328,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23505",
@@ -1344,7 +1344,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23506",
@@ -1360,7 +1360,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-12-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23507",
@@ -1376,7 +1376,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23508",
@@ -1392,7 +1392,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23509",
@@ -1408,7 +1408,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23517",
@@ -1424,7 +1424,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SITN"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23518",
@@ -1440,7 +1440,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & documented & corrected prior to R1 SITN"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23519",
@@ -1456,7 +1456,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23520",
@@ -1472,7 +1472,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23521",
@@ -1488,7 +1488,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23522",
@@ -1504,7 +1504,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23523",
@@ -1520,7 +1520,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23526",
@@ -1536,7 +1536,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - correct updated mapping has to be in place for R1 SIT the latest"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23538",
@@ -1552,7 +1552,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "For R1 P2, the change will be made manually in the FBID upload files to default per BU - note that this will result in a difference between Target & Loaded on the recon Report for R1 P2 also. Change must be implemented fully for R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23539",
@@ -1568,7 +1568,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23540",
@@ -1584,7 +1584,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-09-28",
-      "notes": "N/A - Let records fall out during loads"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23541",
@@ -1600,7 +1600,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "Anuradha manually updated the Purchasable Flag to \"Y\" for P2 loads. There was one Item that was missed that fell out during loads"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23547",
@@ -1616,7 +1616,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23548",
@@ -1632,7 +1632,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23549",
@@ -1648,7 +1648,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23550",
@@ -1664,7 +1664,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23551",
@@ -1680,7 +1680,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23552",
@@ -1696,7 +1696,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23553",
@@ -1712,7 +1712,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23554",
@@ -1728,7 +1728,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23555",
@@ -1744,7 +1744,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23561",
@@ -1760,7 +1760,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23562",
@@ -1776,7 +1776,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23563",
@@ -1792,7 +1792,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23564",
@@ -1808,7 +1808,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23565",
@@ -1824,7 +1824,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23566",
@@ -1840,7 +1840,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23567",
@@ -1856,7 +1856,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23568",
@@ -1872,7 +1872,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23569",
@@ -1888,7 +1888,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23574",
@@ -1904,7 +1904,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23576",
@@ -1920,7 +1920,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23577",
@@ -1936,7 +1936,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23578",
@@ -1952,7 +1952,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23579",
@@ -1968,7 +1968,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23580",
@@ -1984,7 +1984,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23581",
@@ -2000,7 +2000,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be investigated, documented & fixed prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23582",
@@ -2016,7 +2016,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23583",
@@ -2032,7 +2032,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23584",
@@ -2048,7 +2048,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23585",
@@ -2064,7 +2064,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23586",
@@ -2080,7 +2080,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23587",
@@ -2096,7 +2096,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23588",
@@ -2112,7 +2112,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must becorrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23589",
@@ -2128,7 +2128,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23590",
@@ -2144,7 +2144,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23591",
@@ -2160,7 +2160,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23593",
@@ -2176,7 +2176,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23594",
@@ -2192,7 +2192,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23595",
@@ -2209,7 +2209,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - to be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23596",
@@ -2225,7 +2225,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23597",
@@ -2241,7 +2241,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23598",
@@ -2257,7 +2257,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23599",
@@ -2273,7 +2273,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23601",
@@ -2289,7 +2289,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23602",
@@ -2305,7 +2305,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23603",
@@ -2321,7 +2321,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23604",
@@ -2337,7 +2337,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs clarification before R1 SIT start"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23605",
@@ -2353,7 +2353,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23606",
@@ -2369,7 +2369,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23607",
@@ -2385,7 +2385,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23608",
@@ -2401,7 +2401,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23609",
@@ -2417,7 +2417,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23610",
@@ -2433,7 +2433,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23611",
@@ -2449,7 +2449,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23612",
@@ -2465,7 +2465,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23613",
@@ -2481,7 +2481,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2027-01-08",
-      "notes": "Working with the functional team on the pending items/blockers encountered with the Project Budgets tolerance load using the REST API for P2."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23622",
@@ -2497,7 +2497,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - documentation update only required - should be completed asap"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23624",
@@ -2513,7 +2513,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23626",
@@ -2529,7 +2529,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - to be researched and addressed prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23627",
@@ -2545,7 +2545,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23628",
@@ -2561,7 +2561,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23629",
@@ -2577,7 +2577,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23633",
@@ -2593,7 +2593,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - report was not available for R1 P2 but must be made available for R1 SIT onwards as need to also ensure that source lines were loaded correctly"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23635",
@@ -2609,7 +2609,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - to be fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23636",
@@ -2625,7 +2625,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be addressed & fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23637",
@@ -2641,7 +2641,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23639",
@@ -2657,7 +2657,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23640",
@@ -2673,7 +2673,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23641",
@@ -2689,7 +2689,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23642",
@@ -2705,7 +2705,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23643",
@@ -2721,7 +2721,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23644",
@@ -2737,7 +2737,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23645",
@@ -2753,7 +2753,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "Change the Conversion logic for EBS-sourced projects"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23654",
@@ -2769,7 +2769,7 @@
       "owner": "Ignacio Amadeo",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23655",
@@ -2785,7 +2785,7 @@
       "owner": "Ignacio Amadeo",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23656",
@@ -2801,7 +2801,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be investigated and if indeed a coding issue exists fixed for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23657",
@@ -2817,7 +2817,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23658",
@@ -2833,7 +2833,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23659",
@@ -2849,7 +2849,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23660",
@@ -2865,7 +2865,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23665",
@@ -2881,7 +2881,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be reviewed, explained and if needed underlying issues fixed prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23666",
@@ -2897,7 +2897,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
-      "notes": "N.A - needs to be reviewed, explained and if needed fixed (coding) prior to R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23667",
@@ -2913,7 +2913,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
-      "notes": "N.A - needs to be confirmed and updated prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23668",
@@ -2929,7 +2929,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be urgently investigated and fixed once root cause is known so the issue does not reoccur during R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23670",
@@ -2945,7 +2945,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - need to understand why these 2 countries had no converted records at all for supplies and if underlying coding issue exists, this needs to be addressed before R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23671",
@@ -2961,7 +2961,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
-      "notes": "For P2, we manually updated the values for the following UOMs to resolve load issues."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23672",
@@ -2977,7 +2977,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23675",
@@ -2993,7 +2993,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - these records are currently failing to load"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23676",
@@ -3009,7 +3009,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & documented & corrected prior to R1 SITN"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23677",
@@ -3025,7 +3025,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23678",
@@ -3041,7 +3041,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23679",
@@ -3057,7 +3057,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - These records are failing to load"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23680",
@@ -3073,7 +3073,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be corrected prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23681",
@@ -3089,7 +3089,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be corrected prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23682",
@@ -3105,7 +3105,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23684",
@@ -3121,7 +3121,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23686",
@@ -3137,7 +3137,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23687",
@@ -3153,7 +3153,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23688",
@@ -3169,7 +3169,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23690",
@@ -3185,7 +3185,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23691",
@@ -3201,7 +3201,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23717",
@@ -3217,7 +3217,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-02",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be corrected prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23718",
@@ -3233,7 +3233,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-02",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be corrected prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23767",
@@ -3249,7 +3249,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-05",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - need to fully understand before R1 SIT if there is an issue with the selection/exclusion method for Open POs and if so, address prior R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23768",
@@ -3265,7 +3265,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-05",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - root cause needs to be identified and resolved prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23769",
@@ -3281,7 +3281,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-05",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - root cause needs to be identified and resolved prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23771",
@@ -3297,7 +3297,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-10-05",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - root cause needs to be identified and resolved prior to R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23774",
@@ -3313,7 +3313,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23775",
@@ -3329,7 +3329,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23776",
@@ -3345,7 +3345,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23777",
@@ -3361,7 +3361,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23778",
@@ -3377,7 +3377,7 @@
       "owner": "Ignacio Amadeo",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23799",
@@ -3393,7 +3393,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23801",
@@ -3409,7 +3409,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23802",
@@ -3425,7 +3425,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23803",
@@ -3441,7 +3441,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23804",
@@ -3457,7 +3457,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23826",
@@ -3473,7 +3473,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23834",
@@ -3489,7 +3489,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23835",
@@ -3505,7 +3505,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23838",
@@ -3521,7 +3521,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-23839",
@@ -3537,7 +3537,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-08",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24739",
@@ -3553,7 +3553,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to investigate these records further to understand why they are in error and cannot be baselined."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24743",
@@ -3569,7 +3569,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24744",
@@ -3585,7 +3585,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "For R1 P2, Attribute9 was loaded as blank (manually adjusted in the upload files) where the item number was not converted as part for R1 P2 conversion. However, needs to be addressed for R1 SIT Item Master conversion."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24745",
@@ -3601,7 +3601,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24750",
@@ -3617,7 +3617,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24754",
@@ -3633,7 +3633,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24755",
@@ -3649,7 +3649,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24756",
@@ -3665,7 +3665,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24758",
@@ -3681,7 +3681,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24759",
@@ -3697,7 +3697,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "",
-      "notes": "No workaround. Either the configuration details need to be provided or the withholding tax code won;t be featured in AP invoice."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24811",
@@ -3710,10 +3710,10 @@
       "relatedObject": "Project Expenditures",
       "severity": "Medium",
       "status": "Not Started",
-      "owner": "Alice Linesch",
+      "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-19",
       "targetRetestDate": "",
-      "notes": "N/A - should be ready to be fully retested in R1 SIT."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-24812",
@@ -3729,7 +3729,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-19",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - change must be ready for full retest from R1 SI Supplier Conversion on wards"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25049",
@@ -3745,7 +3745,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-20",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - for R1 P2 impacted PO & AP Invoice records were not attempted to load (critical errors on Profile Reports)"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25051",
@@ -3761,7 +3761,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-20",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25052",
@@ -3777,7 +3777,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-20",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25054",
@@ -3793,7 +3793,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-20",
       "targetRetestDate": "2026-11-04",
-      "notes": "N/A - These records failed to load as part of P2 loads"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25056",
@@ -3809,7 +3809,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25071",
@@ -3825,7 +3825,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-21",
       "targetRetestDate": "2026-12-18",
-      "notes": "N/A - These records failed to load during P2"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25091",
@@ -3841,7 +3841,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-22",
       "targetRetestDate": "2027-01-08",
-      "notes": "If ACC Extract does not provide the required data, no tolerances can be converted if the project does not exist in EBS but only in ACC. This was done for R1 P2 but needs to be resolved for subsequent testing cycles."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25099",
@@ -3857,7 +3857,7 @@
       "owner": "Glenn Siedlarczyk",
       "dateIdentified": "2026-10-22",
       "targetRetestDate": "2026-10-23",
-      "notes": "N/A - need to have the RRDD to company mapping provided to us to be able to update our master XREF accordingly to ensure that all the projects that should be converted are included in the conversion and assigned to the the right cloud BU/Company."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25105",
@@ -3873,7 +3873,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-23",
       "targetRetestDate": "2026-12-18",
-      "notes": "N/A - These records failed to load during P2"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25106",
@@ -3889,7 +3889,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-23",
       "targetRetestDate": "",
-      "notes": "N/A - These records failed to load during P2"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25110",
@@ -3905,7 +3905,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be clarified for R1 SIT"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25111",
@@ -3917,11 +3917,11 @@
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "High",
-      "status": "Ready for Retest",
+      "status": "In Progress",
       "owner": "Joanna Bielecka",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "n/a"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25112",
@@ -3937,7 +3937,7 @@
       "owner": "Joanna Bielecka",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "n/a"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25113",
@@ -3949,11 +3949,11 @@
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "Low",
-      "status": "Ready for Retest",
+      "status": "Triage",
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2026-11-06",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25114",
@@ -3969,7 +3969,7 @@
       "owner": "Ashley Peterman",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2026-11-06",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25118",
@@ -3980,12 +3980,12 @@
       "summary": "P590 - AP Invoice Conversion R1 P2 - Company-level validation not available",
       "subledger": "AP",
       "relatedObject": "AP Invoice",
-      "severity": "Not Set",
+      "severity": "Medium",
       "status": "Retest",
       "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-26",
-      "targetRetestDate": "2026-10-29",
-      "notes": "N/A"
+      "targetRetestDate": "2026-10-30",
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25120",
@@ -4001,7 +4001,7 @@
       "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2026-10-29",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25121",
@@ -4017,7 +4017,7 @@
       "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25128",
@@ -4033,7 +4033,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "For R1 P2, the relevant lines need to be removed manually from the FBID load as they will fail upload. They should be reported as part of not loaded in the Load Summary. For R1 SIT onwards these should already be reported (if still present) as critical errors and not even be included in the FBDI load files."
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25130",
@@ -4049,7 +4049,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - These records were not loaded for P2"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25131",
@@ -4065,7 +4065,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-27",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - These records were not loaded for P2"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25132",
@@ -4081,7 +4081,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2026-10-29",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25133",
@@ -4097,7 +4097,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2026-10-29",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25134",
@@ -4113,7 +4113,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2026-10-29",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25135",
@@ -4129,7 +4129,23 @@
       "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2026-01-08",
-      "notes": "N/A"
+      "notes": "[object Object]"
+    },
+    {
+      "key": "CONAMER1001932-25136",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "CR - ACC - Projects Conversion R1 P2 - Missing Oracle EBS Logic to extend the Project Completion Date to 90 days",
+      "subledger": "PA",
+      "relatedObject": "CR - ACC - Projects",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-28",
+      "targetRetestDate": "2027-01-08",
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25138",
@@ -4145,23 +4161,7 @@
       "owner": "Joanna Bielecka",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2026-10-29",
-      "notes": "n/a"
-    },
-    {
-      "key": "CONAMER1001932-25140",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - JP_Invoice Approval Workflow_Conversion Closed_Initiated_Rejected_status",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Triage",
-      "owner": "Anuradha Kumar",
-      "dateIdentified": "2026-10-28",
-      "targetRetestDate": "2026-10-29",
-      "notes": "N/A"
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25143",
@@ -4169,15 +4169,15 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "PE_Invoice Validation_Conversion Closed_Holds",
+      "summary": "P590 - AP Invoice Conversion R1 P2 - PE_Invoice Validation_Conversion Closed_Holds",
       "subledger": "AP",
-      "relatedObject": "PE_Invoice Validation_Conversion Closed_Holds",
-      "severity": "Not Set",
-      "status": "Not Started",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Triage",
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-29",
-      "targetRetestDate": "",
-      "notes": "n/a"
+      "targetRetestDate": "2026-10-30",
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25144",
@@ -4185,15 +4185,31 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "PE_Invoice Validation_Conversion Partial_Holds",
+      "summary": "P590 - AP Invoice Conersion R1 P2 - PE_Invoice Validation_Conversion Partial_Holds (Invoice Lines without distributions loaded)",
       "subledger": "AP",
-      "relatedObject": "PE_Invoice Validation_Conversion Partial_Holds",
-      "severity": "Not Set",
-      "status": "Not Started",
+      "relatedObject": "AP Invoice Conersion",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-29",
+      "targetRetestDate": "2027-01-08",
+      "notes": "[object Object]"
+    },
+    {
+      "key": "CONAMER1001932-25145",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - CO_Validation_Conversion_Closed_HOLDS",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "In Progress",
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-29",
-      "targetRetestDate": "",
-      "notes": "n/a"
+      "targetRetestDate": "2026-10-30",
+      "notes": "[object Object]"
     },
     {
       "key": "CONAMER1001932-25151",
@@ -4201,15 +4217,111 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "ID Submit Payment_Conversion Closed_Supplier Bank End Dated",
+      "summary": "P590 - AP Invoice Conversion R1 P2 - ID Submit Payment_Conversion Closed_Supplier Bank End Dated",
       "subledger": "AP",
-      "relatedObject": "ID Submit Payment_Conversion Closed_Supplier Bank End Dated",
+      "relatedObject": "AP Invoice",
       "severity": "High",
       "status": "Triage",
       "owner": "Ashley Peterman",
       "dateIdentified": "2026-10-29",
       "targetRetestDate": "2026-11-02",
-      "notes": "n/a"
+      "notes": "[object Object]"
+    },
+    {
+      "key": "CONAMER1001932-25170",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion P2 R1 - Auto-terminated payment batches",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "2026-11-02",
+      "notes": "[object Object]"
+    },
+    {
+      "key": "CONAMER1001932-25171",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Rejected invoices require manual one by one re-approval",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "2026-11-06",
+      "notes": "[object Object]"
+    },
+    {
+      "key": "CONAMER1001932-25172",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - ID_Submit Payment_Conversion Closed_Document Validation Errors (Payee account set up to allow domestic payments only)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Triage",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "2026-11-02",
+      "notes": "[object Object]"
+    },
+    {
+      "key": "CONAMER1001932-25173",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - VN Submit Payment_Conversion Closed_Invoice not selected for Installments (End Dated Bank Account)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Triage",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "2026-11-02",
+      "notes": "[object Object]"
+    },
+    {
+      "key": "CONAMER1001932-25175",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Invoice export cannot retrieve all invoice records",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Critical",
+      "status": "Triage",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "2026-11-02",
+      "notes": "[object Object]"
+    },
+    {
+      "key": "CONAMER1001932-25177",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "PM didn't match the recon report from DEV5 - P2 Testing: Reviewing Project Details ",
+      "subledger": "PA",
+      "relatedObject": "PM didn't match the recon report from DEV5",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "",
+      "notes": "[object Object]"
     }
   ]
 }
