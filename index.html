@@ -1213,7 +1213,7 @@
         <p><strong>On track vs delayed:</strong> a stage that has not started stays cream. A fully completed stage uses the completed color. Once a stage has started, its color is taken only from the current open sub-task in that stage — delayed if that sub-task is past its Planned Complete Date, on track if it is still within date, brown if it is Blocked. Completed, Done, and Withdrawn are closed, so a Withdrawn step is skipped and the stage advances to the next incomplete step.</p>
         <p><strong>P2 RICE at risk:</strong> the list includes every item that is not Complete, and Complete items that still have at least one open CR. Complete items with no open CR are omitted.</p>
         <p><strong>Columns:</strong> RICE item, Jira status (current open sub-task / parent status), the five stages, and open CRs. The last count is linked change requests that still have an open defect — expand the row to see those CRs first.</p>
-        <p><strong>System of record:</strong> Jira remains authoritative. This is a read-only snapshot dated 29 October 2026.</p>
+        <p><strong>System of record:</strong> Jira remains authoritative. This is a read-only snapshot dated 2 November 2026.</p>
       </div>
     </details>
   </div>
@@ -1263,7 +1263,7 @@
         <p><strong>Completed vs planned:</strong> of activities whose due date is on or before the snapshot date, the share in a Done status category.</p>
         <p><strong>Overdue:</strong> activities that are still open and have a due date before the snapshot date.</p>
         <p><strong>RICE by workstream:</strong> Source to Pay, Acquire to Retire, and Plan to Report only. Complete / In Progress / Not Started uses each RICE item’s Jira status from the P2 RICE tracker. Drill into the P2 RICE Tracker tab for item-level detail.</p>
-        <p><strong>Dates:</strong> snapshot date is 29 October 2026. Key-activity due dates are the planned milestone dates. Population due dates come from Jira.</p>
+        <p><strong>Dates:</strong> snapshot date is 2 November 2026. Key-activity due dates are the planned milestone dates. Population due dates come from Jira.</p>
         <p><strong>System of record:</strong> Jira remains authoritative. This is a read-only snapshot; records cannot be edited in the dashboard.</p>
       </div>
     </details>
@@ -1293,7 +1293,7 @@
             </thead>
             <tbody id="uatExecBody"></tbody>
           </table>
-          <p class="uat-note">Today counts tests whose latest result is dated today. Overall includes today. Executed includes Passed, Failed, Retest (shown as Pass with minor defect), and Withdrawn — same Wave 2B definition.</p>
+          <p class="uat-note">To date counts every Passed, Failed, Retest (shown as Pass with minor defect), and Withdrawn test, including tests completed before their due date. Today counts results dated today.</p>
         </div>
         <div class="uat-panel">
           <h3>Defects</h3>
@@ -1365,7 +1365,7 @@
 
     <div class="section-heading" style="margin-top:28px;">
       <h2>Open Critical and High defects</h2>
-      <span class="section-sub">Detail list for open Critical/High only — totals and severity mix are in the P2 summary above. Due date comes straight from Jira.</span>
+      <span class="section-sub">Open Critical/High defects linked to an in-scope test execution. Totals and severity mix are in the P2 summary above. Due date comes straight from Jira.</span>
     </div>
     <p class="pte-count" id="pte-d-count" aria-live="polite"></p>
     <div class="pte-tablewrap is-tall">
@@ -1381,15 +1381,15 @@
     <details class="data-guide">
       <summary>How to read the P2 Testing Execution tab / About this data</summary>
       <div class="data-guide-grid">
-        <p><strong>Scope:</strong> Xray <code>Test Execution</code> issues in project <code>CONAMER1001932</code> with Test Cycle = <code>P2</code> and label not <code>conversion</code>. Defects use the same project / Test Cycle / label rule.</p>
-        <p><strong>P2 summary:</strong> Testers (unique assignees), Tests (in-scope count), and Execution rate (Executed ÷ Tests). Left panel is Today vs To date for Pass / Fail / Pass with minor defect (Retest) / Withdrawn / To do. Right panel is open defects by severity plus Resolved.</p>
-        <p><strong>Status mapping (Wave 2B):</strong> Jira Pass→Passed, Fail→Failed, Retest→Retest, Withdrawn→Withdrawn, To Do→Open, Executing→In Progress. Executed = Passed, Failed, Retest, Withdrawn. Deferred defects count as Resolved.</p>
-        <p><strong>Overall execution:</strong> Executed ÷ all in-scope test cases. Not executed is Open, In Progress, Blocked and On Hold.</p>
+        <p><strong>Scope:</strong> Xray <code>Test Execution</code> issues in project <code>CONAMER1001932</code> with Test Cycle = <code>P2</code> and label not <code>conversion</code>. Defects on this tab are only those linked to one of those test executions (Jira link type Defect).</p>
+        <p><strong>P2 summary:</strong> Testers (unique assignees), Tests (in-scope count), and Execution rate (executed ÷ all in-scope tests). Executed includes tests completed before their due date. Left panel is Today vs To date for Pass / Fail / Pass with minor defect (Retest) / Withdrawn / To do. Right panel is open defects by severity plus Resolved.</p>
+        <p><strong>Status mapping (Wave 2B):</strong> Jira Pass→Passed, Fail→Failed, Retest→Retest, Withdrawn→Withdrawn, To Do→Open, Executing→In Progress. Executed = Passed, Failed, Retest, or Withdrawn, including tests completed before their due date. Deferred defects count as Resolved.</p>
+        <p><strong>Overall execution:</strong> Executed ÷ all in-scope test cases. A test is executed when it is Passed, Failed, Retest, or Withdrawn, including tests completed before their due date. Not executed is Open, In Progress, Blocked, and On Hold.</p>
         <p><strong>Overdue:</strong> not executed, with a due date before the snapshot date. Ready to test now is overdue and Open or In Progress. Blocked / on hold is overdue and Blocked or On Hold. Due dates come from Jira’s standard Due date field.</p>
         <p><strong>Key blockers:</strong> the open defects linked to the most blocked or on-hold test cases.</p>
-        <p><strong>Critical and High defects:</strong> open defects with severity Critical or High (from Jira Priority, else Complexity). Past due means the Jira due date is before the snapshot date.</p>
-        <p><strong>Defects:</strong> Total is every defect to date. Open is every defect not Resolved (including Ready for Retest). Resolved includes Deferred / Completed / Rejected.</p>
-        <p><strong>Overall status:</strong> On track when executed is at least 95% of the test cases due before the snapshot date. Tests due on the snapshot date are not included yet. Behind plan when it is lower.</p>
+        <p><strong>Critical and High defects:</strong> open defects linked to an in-scope test execution, with severity Critical or High (from Jira Priority, else Complexity). Past due means the Jira due date is before the snapshot date.</p>
+        <p><strong>Defects:</strong> Only defects linked to an in-scope test execution. Total is every linked defect to date. Open is every linked defect not Resolved (including Ready for Retest). Resolved includes Deferred / Completed / Rejected.</p>
+        <p><strong>Overall status:</strong> On track when executed tests, including those completed early, are at least 95% of the test cases due before the snapshot date. Tests due on the snapshot date are not included in the expected count yet. Behind plan when it is lower.</p>
         <p><strong>Dates:</strong> snapshot <span id="pte-snapdate">–</span>. Source: <span id="pte-sor">Jira</span>.</p>
       </div>
     </details>
@@ -1503,8 +1503,8 @@ let CONVERSION_DATA = [];
    -------------------------------------------------------------------------
    Open Defects in CONAMER1001932 labeled "Conversion", excluding
    Resolved, Withdrawn, Closed, Done, and Completed.
-   Inclusion rule (defect list re-queried 29 Oct 2026; Conversion, RICE, and Prep
-   snapshots refreshed 29 Oct 2026):
+   Inclusion rule (defect list re-queried 2 Nov 2026; Conversion, RICE, and Prep
+   snapshots refreshed 2 Nov 2026):
      fixVersion = "Wave 3"
      OR (component = "Release 1" AND Test Cycle = P2)
    The prior rule required fixVersion = "Wave 3" only, which dropped Release 1 P2
@@ -1555,9 +1555,9 @@ function pctComplete(row){
   return Math.round((done/row.checklist.length)*100);
 }
 
-let TODAY = new Date("2026-10-29");
+let TODAY = new Date("2026-11-02T12:00:00-05:00");
 // When this dashboard snapshot was written from Cursor. Not a Jira issue updated date.
-let DASHBOARD_REFRESHED = new Date("2026-10-29T20:21:59.461Z");
+let DASHBOARD_REFRESHED = new Date("2026-11-02T16:13:41.195Z");
 const JIRA_BROWSE = "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/";
 let RICE_DATA = null;
 let PREP_DATA = null;
@@ -2818,7 +2818,7 @@ const GROUPS = [
 const GROUP_OF = {}; GROUPS.forEach(g => g.statuses.forEach(s => { GROUP_OF[s] = g.key; }));
 const RESULTS = GROUPS[0].statuses;
 const RESULT_VAR = { 'Passed': '--c-complete', 'Failed': '--c-blocked', 'Retest': '--stage-atrisk', 'Withdrawn': '--pte-withdrawn' };
-const TOLERANCE_PCT = 5;   // overall status: executed must be at least (100 - this)% of tests due before the snapshot date
+const TOLERANCE_PCT = 5;   // overall status: all executed tests must be at least (100 - this)% of tests due before the snapshot date
 const BADGE = { 'Passed': 'passed', 'Failed': 'failed', 'Retest': 'retest', 'Withdrawn': 'withdrawn', 'In Progress': 'progress', 'Blocked': 'blocked', 'On Hold': 'hold', 'Open': 'open' };
 let WS = [
   { id: 'S2P', name: 'Source to Pay' },
@@ -2835,6 +2835,15 @@ const esc = v => String(v == null ? '' : v).replace(/[&<>"']/g, c => ({ '&':'&am
 const pct = (n, d, dp) => d ? (100 * n / d).toFixed(dp || 0) + '%' : '–';
 const pctFloor = r => (Math.floor(r * 1000) / 10).toFixed(1) + '%';   // floors so 94.96% never displays as 95.0% while reading Behind plan
 const grp = t => GROUP_OF[t.status] || 'open';
+// Calendar date for "expected by" and overdue. Follows the dashboard refresh, not the date stored in the testing file.
+function asOfDate() {
+  if (typeof TODAY !== 'undefined' && TODAY instanceof Date && !isNaN(TODAY.getTime())) {
+    return new Intl.DateTimeFormat('en-CA', {
+      timeZone: 'America/New_York', year: 'numeric', month: '2-digit', day: '2-digit'
+    }).format(TODAY);
+  }
+  return (DATA && DATA.meta && DATA.meta.snapshot) || '';
+}
 
 /* ---------- date helpers (UTC so time zones never shift a day) ---------- */
 const DAY = 86400000;
@@ -2935,18 +2944,16 @@ function buildSample() {
 let DATA = null, M = null, DMAP = null;
 let groupBy = 'workstream';
 
-const isOverdue = t => grp(t) !== 'executed' && !!t.dueDate && t.dueDate < DATA.meta.snapshot;
+const isOverdue = t => grp(t) !== 'executed' && !!t.dueDate && t.dueDate < asOfDate();
 const isOpenDefect = d => d.status !== 'Resolved';
 
 function compute() {
-  const tcs = DATA.testCases, snap = DATA.meta.snapshot, total = tcs.length;
+  const tcs = DATA.testCases, snap = asOfDate(), total = tcs.length;
   const g = { executed: 0, progress: 0, blocked: 0, open: 0 }, by = {};
   tcs.forEach(t => { g[grp(t)]++; by[t.status] = (by[t.status] || 0) + 1; });
-  const executed = g.executed;
+  const executed = g.executed; // Passed, Failed, Retest, Withdrawn, including tests completed before their due date
   const dueBySnap = t => t.dueDate && t.dueDate < snap;
   const expected = tcs.filter(dueBySnap).length;   // due before the snapshot date; due today is not expected yet
-  // Plan comparison ignores tests finished before they are due, and tests due today.
-  const executedOfExpected = tcs.filter(t => grp(t) === 'executed' && dueBySnap(t)).length;
   const overdue = tcs.filter(isOverdue);
   const overdueBlocked = overdue.filter(t => grp(t) === 'blocked');
   const overdueReady = overdue.filter(t => grp(t) !== 'blocked');
@@ -2971,11 +2978,11 @@ function compute() {
   const testers = new Set(tcs.map(t => t.assignee).filter(Boolean)).size;
 
   M = {
-    total, g, by, byToday, executed, executedOfExpected, executedToday, notExecuted: total - executed, expected,
+    total, g, by, byToday, executed, executedToday, notExecuted: total - executed, expected,
     testers,
     // integer maths so exactly 95% counts as on track
-    onTrack: expected === 0 || executedOfExpected * 100 >= expected * (100 - TOLERANCE_PCT),
-    ofExpected: expected ? executedOfExpected / expected : null,
+    onTrack: expected === 0 || executed * 100 >= expected * (100 - TOLERANCE_PCT),
+    ofExpected: expected ? executed / expected : null,
     overdue, overdueBlocked, overdueReady, topBlockers,
     d: {
       total: defs.length, open: open.length, openToday, resolved: resolvedToDate, resolvedToday,
@@ -3017,7 +3024,7 @@ function resultBar(by, total) {
 function renderHeader() {
   const snap = document.getElementById('pte-snapdate'), sor = document.getElementById('pte-sor'), foot = document.getElementById('pte-foot');
   const note = document.getElementById('pte-scope-note');
-  if (snap) snap.textContent = fmtLong(DATA.meta.snapshot);
+  if (snap) snap.textContent = fmtLong(asOfDate());
   if (sor) sor.textContent = DATA.meta.source || 'Jira';
   if (foot) {
     foot.textContent = (DATA.meta.isSample
@@ -3029,15 +3036,15 @@ function renderHeader() {
     note.textContent = DATA.meta.isSample
       ? 'Sample data. Every number on this tab is a placeholder, not a Prototype 2 result.'
       : 'Live data from Jira: ' + (DATA.testCases || []).length.toLocaleString('en-US') + ' Test Executions and '
-        + (DATA.defects || []).length.toLocaleString('en-US') + ' defects (Test Cycle P2, label ≠ conversion). Snapshot '
-        + fmtLong(DATA.meta.snapshot) + '.';
+        + (DATA.defects || []).length.toLocaleString('en-US') + ' defects linked to those test executions. Snapshot '
+        + fmtLong(asOfDate()) + '.';
   }
   const gsub = document.getElementById('pte-groups-sub');
   if (gsub && WS.length) gsub.textContent = WS.map(w => w.name).join(', ') + '.';
 }
 
 function renderSummary() {
-  const snap = DATA.meta.snapshot, n = x => x.toLocaleString('en-US');
+  const snap = asOfDate(), n = x => x.toLocaleString('en-US');
   const overall = M.onTrack ? { l: 'On track', k: 'passed' } : { l: 'Behind plan', k: 'failed' };
   const rOpen = M.overdueReady.filter(t => grp(t) === 'open').length, rProg = M.overdueReady.length - rOpen;
   const blockers = M.topBlockers.map(b => '<li><b>' + keyLink(b.d.key) + '</b><span>Blocks ' + plural(b.n, 'test case', 'test cases') + ' · ' + esc(b.d.severity) + ' · ' + esc(b.d.status) + '</span></li>').join('');
@@ -3046,7 +3053,7 @@ function renderSummary() {
   $('#pte-exec').innerHTML =
     '<div class="pte-card"><h3>Overall status</h3>' +
       '<div><span class="pte-badge pte-b-' + overall.k + ' pte-b-lg"><i></i>' + overall.l + '</span></div>' +
-      '<p class="pte-exec-note">' + n(M.executedOfExpected) + ' executed vs ' + n(M.expected) + ' expected by ' + fmtShort(snap) + '.</p>' +
+      '<p class="pte-exec-note">' + n(M.executed) + ' executed vs ' + n(M.expected) + ' expected by ' + fmtShort(snap) + '.</p>' +
       '<p class="pte-exec-note">' + (M.ofExpected == null ? 'Nothing is expected yet.' : pctFloor(M.ofExpected) + ' of expected.') + '</p></div>' +
     '<div class="pte-card"><h3>Overdue · ready to test now</h3><div class="pte-big pte-num">' + M.overdueReady.length + '</div>' +
       '<p class="pte-exec-note">' + rOpen + ' open · ' + rProg + ' in progress. Not blocked, so testers can complete these now.</p></div>' +
@@ -3072,7 +3079,7 @@ function renderUatSummary() {
   const rate = pct(executed, M.total, 0);
 
   const sub = $('#pte-metrics-sub');
-  if (sub) sub.textContent = n(M.total) + ' in-scope test cases across ' + WS.length + ' workstreams · snapshot ' + fmtShort(DATA.meta.snapshot) + '.';
+  if (sub) sub.textContent = n(M.total) + ' in-scope test cases across ' + WS.length + ' workstreams · snapshot ' + fmtShort(asOfDate()) + '.';
 
   $('#uatKpis').innerHTML =
     '<div class="uat-kpi"><span class="lbl">Testers</span><span class="val">' + n(M.testers) + '</span></div>' +
@@ -3123,7 +3130,7 @@ const P2_TIMELINE_END = '2026-12-14'; // official end of P2 test cycle
 function drawChart() {
   const host = $('#pte-chart'), note = $('#pte-chart-note');
   if (!host || !DATA) return;
-  const tcs = DATA.testCases, snap = DATA.meta.snapshot;
+  const tcs = DATA.testCases, snap = asOfDate();
   const dues = tcs.map(t => t.dueDate).filter(Boolean).sort();
   const timelineEnd = (DATA.meta && DATA.meta.timelineEnd) || P2_TIMELINE_END;
   const rawWin = DATA.meta.window || (dues.length ? { start: dues[0], end: dues[dues.length - 1] } : null);
@@ -3141,16 +3148,15 @@ function drawChart() {
   const x = i => m.l + step * i;
   const y = v => m.t + (H - m.t - m.b) * (1 - v / total);
 
-  // A test becomes expected on the first chart day after its due date, so the point for "today" excludes tests due today.
+  // Expected grows on the first chart day after a due date. Executed includes a finished test from its result date, even when that is before the due date.
   const planned = new Array(days.length).fill(0), exAll = new Array(days.length).fill(0);
   let noDate = 0;
   tcs.forEach(t => {
-    if (!t.dueDate) { if (grp(t) === 'executed') noDate++; return; }
     const executed = grp(t) === 'executed';
+    if (!t.dueDate && executed) noDate++;
     for (let i = 0; i < days.length; i++) {
-      if (!(t.dueDate < days[i])) continue;
-      planned[i]++;
-      if (executed) exAll[i]++;
+      if (t.dueDate && t.dueDate < days[i]) planned[i]++;
+      if (executed && (!t.executedDate || t.executedDate <= days[i])) exAll[i]++;
     }
   });
   let si = -1; days.forEach((d, i) => { if (d <= snap) si = i; });
@@ -3302,7 +3308,7 @@ function renderOwners() {
   });
   const rows = [...map.values()].sort((a, b) => b.n - a.n || a.owner.localeCompare(b.owner));
   const body = $('#pte-owners-body');
-  if (!rows.length) { body.innerHTML = '<tr><td colspan="6" class="pte-empty">No overdue test cases. Every test case due before ' + fmtShort(DATA.meta.snapshot) + ' has been executed.</td></tr>'; return; }
+  if (!rows.length) { body.innerHTML = '<tr><td colspan="6" class="pte-empty">No overdue test cases. Every test case due before ' + fmtShort(asOfDate()) + ' has been executed.</td></tr>'; return; }
   const max = rows[0].n;
   body.innerHTML = rows.map(r =>
     '<tr><td><b>' + esc(r.owner) + '</b></td><td class="pte-wrap">' + esc([...r.areas].sort().join(', ') || '–') + '</td><td class="r">' + r.n + '</td><td class="r">' + (r.n - r.blocked) +
@@ -3312,7 +3318,7 @@ function renderOwners() {
 
 /* ---------- defects ---------- */
 function renderDefects() {
-  const snap = DATA.meta.snapshot, rank = s => { const i = SEVERITIES.indexOf(s); return i < 0 ? 9 : i; };
+  const snap = asOfDate(), rank = s => { const i = SEVERITIES.indexOf(s); return i < 0 ? 9 : i; };
   const list = M.d.crHighOpen.slice().sort((a, b) => rank(a.severity) - rank(b.severity) || (a.dueDate || '9').localeCompare(b.dueDate || '9'));
   $('#pte-d-count').textContent = list.length + (list.length === 1 ? ' open Critical or High defect' : ' open Critical and High defects');
   const body = $('#pte-defects-body');
@@ -3350,7 +3356,7 @@ function start(data) {
   }
   if (DATA && DATA.meta && DATA.meta.lastUpdated) {
     const d = new Date(DATA.meta.lastUpdated);
-    if (!isNaN(d.getTime())) DASHBOARD_REFRESHED = d;
+    if (!isNaN(d.getTime()) && (!DASHBOARD_REFRESHED || d > DASHBOARD_REFRESHED)) DASHBOARD_REFRESHED = d;
   }
   if (!bound) { bindOnce(); bound = true; }
   renderAll();
@@ -3361,7 +3367,7 @@ fetch(DATA_URL, { cache: 'no-store' })
   .then(r => { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
   .then(json => { if (json && Array.isArray(json.testCases)) start(json); })
   .catch(err => console.warn('Could not load ' + DATA_URL + '; keeping embedded sample.', err));
-window.PTE = { setData: function (d) { start(d); }, redraw: drawChart };
+window.PTE = { setData: function (d) { start(d); }, redraw: function () { if (DATA) renderAll(); } };
 })();
 
 function applyTabSnapshots(payloads){
@@ -3400,6 +3406,7 @@ function applyTabSnapshots(payloads){
     initPrepTracker();
   }
   renderAll();
+  if (window.PTE) window.PTE.redraw();
 }
 
 rebuildConversionViews();

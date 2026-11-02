@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-10-29",
-  "refreshedAt": "2026-10-29T20:21:59.461Z",
+  "asOf": "2026-11-02",
+  "refreshedAt": "2026-11-02T16:13:41.195Z",
   "items": [
     {
       "key": "CONAMER1001932-18578",
@@ -1148,8 +1148,8 @@
       "subledger": "PO",
       "relatedObject": "Supplier Headers",
       "severity": "Medium",
-      "status": "In Progress",
-      "owner": "Chanmye Myintthu",
+      "status": "Retest",
+      "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
       "notes": "N/A - needs to be fixed for R1 SIT"
@@ -1583,7 +1583,7 @@
       "status": "Ready for Retest",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
-      "targetRetestDate": "2026-09-28",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - Let records fall out during loads"
     },
     {
@@ -3710,7 +3710,7 @@
       "relatedObject": "Project Expenditures",
       "severity": "Medium",
       "status": "Not Started",
-      "owner": "Alice Linesch",
+      "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-19",
       "targetRetestDate": "",
       "notes": "N/A - should be ready to be fully retested in R1 SIT."
@@ -3917,7 +3917,7 @@
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "High",
-      "status": "Ready for Retest",
+      "status": "In Progress",
       "owner": "Joanna Bielecka",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2027-01-08",
@@ -3949,7 +3949,7 @@
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "Low",
-      "status": "Ready for Retest",
+      "status": "Triage",
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2026-11-06",
@@ -3980,11 +3980,11 @@
       "summary": "P590 - AP Invoice Conversion R1 P2 - Company-level validation not available",
       "subledger": "AP",
       "relatedObject": "AP Invoice",
-      "severity": "Not Set",
+      "severity": "Medium",
       "status": "Retest",
       "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-26",
-      "targetRetestDate": "2026-10-29",
+      "targetRetestDate": "2026-10-30",
       "notes": "N/A"
     },
     {
@@ -4132,6 +4132,22 @@
       "notes": "N/A"
     },
     {
+      "key": "CONAMER1001932-25136",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "CR - ACC - Projects Conversion R1 P2 - Missing Oracle EBS Logic to extend the Project Completion Date to 90 days",
+      "subledger": "PA",
+      "relatedObject": "CR - ACC - Projects",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-28",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Accept the AS-IS completion date provided by ACC extract until the CR has been updated and retested."
+    },
+    {
       "key": "CONAMER1001932-25138",
       "issueType": "Defect",
       "labels": [
@@ -4148,35 +4164,19 @@
       "notes": "n/a"
     },
     {
-      "key": "CONAMER1001932-25140",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - JP_Invoice Approval Workflow_Conversion Closed_Initiated_Rejected_status",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Triage",
-      "owner": "Anuradha Kumar",
-      "dateIdentified": "2026-10-28",
-      "targetRetestDate": "2026-10-29",
-      "notes": "N/A"
-    },
-    {
       "key": "CONAMER1001932-25143",
       "issueType": "Defect",
       "labels": [
         "Conversion"
       ],
-      "summary": "PE_Invoice Validation_Conversion Closed_Holds",
+      "summary": "P590 - AP Invoice Conversion R1 P2 - PE_Invoice Validation_Conversion Closed_Holds",
       "subledger": "AP",
-      "relatedObject": "PE_Invoice Validation_Conversion Closed_Holds",
-      "severity": "Not Set",
-      "status": "Not Started",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Triage",
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-29",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-10-30",
       "notes": "n/a"
     },
     {
@@ -4185,15 +4185,31 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "PE_Invoice Validation_Conversion Partial_Holds",
+      "summary": "P590 - AP Invoice Conersion R1 P2 - PE_Invoice Validation_Conversion Partial_Holds (Invoice Lines without distributions loaded)",
       "subledger": "AP",
-      "relatedObject": "PE_Invoice Validation_Conversion Partial_Holds",
-      "severity": "Not Set",
-      "status": "Not Started",
+      "relatedObject": "AP Invoice Conersion",
+      "severity": "Medium",
+      "status": "In Progress",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-10-29",
+      "targetRetestDate": "2027-01-08",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25145",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - CO_Validation_Conversion_Closed_HOLDS",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "In Progress",
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-29",
-      "targetRetestDate": "",
-      "notes": "n/a"
+      "targetRetestDate": "2026-10-30",
+      "notes": "N/A"
     },
     {
       "key": "CONAMER1001932-25151",
@@ -4201,14 +4217,174 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "ID Submit Payment_Conversion Closed_Supplier Bank End Dated",
+      "summary": "P590 - AP Invoice Conversion R1 P2 - ID Submit Payment_Conversion Closed_Supplier Bank End Dated",
       "subledger": "AP",
-      "relatedObject": "ID Submit Payment_Conversion Closed_Supplier Bank End Dated",
+      "relatedObject": "AP Invoice",
       "severity": "High",
       "status": "Triage",
       "owner": "Ashley Peterman",
       "dateIdentified": "2026-10-29",
       "targetRetestDate": "2026-11-02",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25170",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion P2 R1 - Auto-terminated payment batches",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "2026-11-02",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25171",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Rejected invoices require manual one by one re-approval",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "2026-11-06",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25172",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - ID_Submit Payment_Conversion Closed_Document Validation Errors (Payee account set up to allow domestic payments only)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Triage",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "2026-11-02",
+      "notes": "R1 P2 - 19 CONVERSION CLOSED Invoice were excluded from dummy payment run and will remain as \"not paid\" in DEV5"
+    },
+    {
+      "key": "CONAMER1001932-25173",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - VN Submit Payment_Conversion Closed_Invoice not selected for Installments (End Dated Bank Account)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Triage",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "2026-11-02",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-25175",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Invoice export cannot retrieve all invoice records",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Critical",
+      "status": "Triage",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "2026-11-02",
+      "notes": "N/A"
+    },
+    {
+      "key": "CONAMER1001932-25177",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "PM didn't match the recon report from DEV5 - P2 Testing: Reviewing Project Details ",
+      "subledger": "PA",
+      "relatedObject": "PM didn't match the recon report from DEV5",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-10-30",
+      "targetRetestDate": "",
+      "notes": "If a default manager email is to be used upon conversion, the functional/business would need to be communicated on when this occur through the recon report."
+    },
+    {
+      "key": "CONAMER1001932-27127",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - HN Submit Payment_Conversion Closed_Invoice not selected for Installments (No Bank Account in Cloud)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Triage",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-11-02",
+      "targetRetestDate": "2026-11-02",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-27128",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Invoice Conversion R1 P2 - MY_Invoice Validation_Conversion Closed_HOLDS",
+      "subledger": "AP",
+      "relatedObject": "Invoice",
+      "severity": "High",
+      "status": "Triage",
+      "owner": "Anuradha Kumar",
+      "dateIdentified": "2026-11-02",
+      "targetRetestDate": "2026-11-02",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-27129",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Invoice Conversion R1 P2 - MY_Invoices Reported as Loaded vs Extracted from Cloud",
+      "subledger": "AP",
+      "relatedObject": "Invoice",
+      "severity": "Low",
+      "status": "In Progress",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-11-02",
+      "targetRetestDate": "2027-01-08",
+      "notes": "n/a"
+    },
+    {
+      "key": "CONAMER1001932-27130",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - HN Submit Payment_Conversion Closed_Payment Validation Errors (Disbursement Account Issue - zero amount)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Subhaya Das",
+      "dateIdentified": "2026-11-02",
+      "targetRetestDate": "2026-11-04",
       "notes": "n/a"
     }
   ]

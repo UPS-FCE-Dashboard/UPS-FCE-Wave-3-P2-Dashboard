@@ -162,6 +162,17 @@ function mapDefect(issue) {
   };
 }
 
+function defectLinkSides(issue) {
+  const sides = [];
+  for (const link of issue.fields?.issuelinks || []) {
+    if ((link.type?.name || "") !== "Defect") continue;
+    for (const side of [link.outwardIssue, link.inwardIssue]) {
+      if (side?.key) sides.push({ key: side.key, type: side.fields?.issuetype?.name || "" });
+    }
+  }
+  return sides;
+}
+
 const tes = loadIssues("p2-test-executions.json");
 const defs = loadIssues("p2-test-defects.json");
 
@@ -171,7 +182,39 @@ const testCases = tes.map(mapTestCase).sort((a, b) => {
   if (da !== db) return da.localeCompare(db);
   return a.key.localeCompare(b.key);
 });
-const defects = defs.map(mapDefect).sort((a, b) => a.key.localeCompare(b.key));
+let defects = defs.map(mapDefect).sort((a, b) => a.key.localeCompare(b.key));
+
+const testByKey = new Map(testCases.map((t) => [t.key, t]));
+const defectByKey = new Map(defects.map((d) => [d.key, d]));
+let sawDefectLink = false;
+
+function joinDefect(testKey, defectKey) {
+  const test = testByKey.get(testKey);
+  const defect = defectByKey.get(defectKey);
+  if (!test || !defect) return;
+  sawDefectLink = true;
+  if (!test.defects.includes(defectKey)) test.defects.push(defectKey);
+  if (!defect.testCases.includes(testKey)) defect.testCases.push(testKey);
+}
+
+for (const issue of tes) {
+  for (const side of defectLinkSides(issue)) {
+    if (side.type && side.type !== "Defect") continue;
+    joinDefect(issue.key, side.key);
+  }
+}
+for (const issue of defs) {
+  for (const side of defectLinkSides(issue)) {
+    if (side.type && side.type !== "Test Execution") continue;
+    joinDefect(side.key, issue.key);
+  }
+}
+
+if (sawDefectLink) {
+  defects = defects.filter((d) => d.testCases.length > 0);
+} else {
+  console.warn("No Defect links on test executions; keeping the full P2 defect list.");
+}
 
 const workstreams = [
   WS_MAP["Source to Pay"],
@@ -193,7 +236,7 @@ const payload = {
       testExecutions:
         'project = CONAMER1001932 AND issuetype = "Test Execution" AND "Test Cycle" = P2 AND (labels is EMPTY OR labels != conversion)',
       defects:
-        'project = CONAMER1001932 AND issuetype = Defect AND "Test Cycle" = P2 AND (labels is EMPTY OR labels != conversion)',
+        'project = CONAMER1001932 AND issuetype = Defect AND "Test Cycle" = P2 AND (labels is EMPTY OR labels != conversion) AND issueLinkType = Defect',
     },
     workstreams,
     timelineEnd: "2026-12-14",
