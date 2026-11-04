@@ -3210,10 +3210,10 @@ function renderUatSummary() {
   $('#uatDefectBody').innerHTML =
     '<tr><td><span class="row-label">Total</span></td><td class="num">' + n(d.openToday + d.resolvedToday) + '</td><td class="num">' + n(raised) + '</td><td class="pct muted">' + (raised ? '100% of raised' : '–') + '</td></tr>' +
     '<tr><td><span class="row-label">Open</span></td><td class="num">' + n(d.openToday) + '</td><td class="num">' + n(d.open) + '</td><td class="pct muted">' + pct(d.open, raised) + ' of raised</td></tr>' +
-    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-crit"></span>Critical</span></td><td class="num">' + n(d.critToday) + '</td><td class="num">' + n(d.crit) + '</td><td class="pct muted">' + pct(d.crit, d.open) + ' of open</td></tr>' +
-    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-high"></span>High</span></td><td class="num">' + n(d.highToday) + '</td><td class="num">' + n(d.high) + '</td><td class="pct muted">' + pct(d.high, d.open) + ' of open</td></tr>' +
-    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-med"></span>Medium</span></td><td class="num">' + n(d.mediumToday) + '</td><td class="num">' + n(d.medium) + '</td><td class="pct muted">' + pct(d.medium, d.open) + ' of open</td></tr>' +
-    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-low"></span>Low</span></td><td class="num">' + n(d.lowToday) + '</td><td class="num">' + n(d.low) + '</td><td class="pct muted">' + pct(d.low, d.open) + ' of open</td></tr>' +
+    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-crit"></span>Critical</span></td><td class="num">' + n(d.critToday) + '</td><td class="num">' + n(d.crit) + '</td><td class="pct muted">' + pct(d.crit, raised) + ' of raised</td></tr>' +
+    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-high"></span>High</span></td><td class="num">' + n(d.highToday) + '</td><td class="num">' + n(d.high) + '</td><td class="pct muted">' + pct(d.high, raised) + ' of raised</td></tr>' +
+    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-med"></span>Medium</span></td><td class="num">' + n(d.mediumToday) + '</td><td class="num">' + n(d.medium) + '</td><td class="pct muted">' + pct(d.medium, raised) + ' of raised</td></tr>' +
+    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-low"></span>Low</span></td><td class="num">' + n(d.lowToday) + '</td><td class="num">' + n(d.low) + '</td><td class="pct muted">' + pct(d.low, raised) + ' of raised</td></tr>' +
     '<tr><td><span class="row-label"><span class="uat-swatch uat-c-resolved"></span>Resolved</span></td><td class="num">' + n(d.resolvedToday) + '</td><td class="num">' + n(d.resolved) + '</td><td class="pct muted">' + pct(d.resolved, raised) + ' of raised</td></tr>';
 }
 
