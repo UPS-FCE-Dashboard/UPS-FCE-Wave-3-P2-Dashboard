@@ -1326,7 +1326,7 @@
             </thead>
             <tbody id="uatDefectBody"></tbody>
           </table>
-          <p class="uat-note">Open rows count defects still open; Today is open defects raised today. Resolved means Completed, Rejected, or Deferred; Today is defects resolved today. Overall includes today. Conversion is open defects labeled Conversion. Non-conversion is defects linked to an in-scope test execution. Both shows the two sets together.</p>
+          <p class="uat-note">Total is every defect in the selected filter, open and resolved. Open rows count defects still open; Today is open defects raised today. Resolved means Completed, Rejected, or Deferred; Today is defects resolved today. Overall includes today. Every defect here has Test Cycle P2, whether or not it is linked to a test execution. Conversion is the subset labeled Conversion. Non-conversion is the rest. Both shows the two sets together. Defect Type New Requirement is excluded.</p>
         </div>
       </div>
     </div>
@@ -1398,14 +1398,14 @@
     <details class="data-guide">
       <summary>How to read the P2 Testing Execution tab / About this data</summary>
       <div class="data-guide-grid">
-        <p><strong>Scope:</strong> Xray <code>Test Execution</code> issues in project <code>CONAMER1001932</code> with Test Cycle = <code>P2</code> and label not <code>conversion</code>. Non-conversion defects are linked to one of those test executions (Jira link type Defect). Conversion defects are open Jira defects labeled <code>conversion</code>, the same set as the Data Conversion tab. The Defects filter shows conversion, non-conversion, or both. Test execution counts stay on the non-conversion tests.</p>
-        <p><strong>P2 summary:</strong> Testers (unique assignees), Tests (in-scope count), and Execution rate (executed ÷ all in-scope tests). Executed includes tests completed before their due date. Left panel is Today vs To date for Pass / Fail / Pass with minor defect (Retest) / Withdrawn, then the other Jira statuses on these test executions: To Do, Executing, Blocked, and On Hold. Right panel is open defects by severity plus Resolved.</p>
+        <p><strong>Scope:</strong> Xray <code>Test Execution</code> issues in project <code>CONAMER1001932</code> with Test Cycle = <code>P2</code> and label not <code>conversion</code>. Defects are every Jira defect with Test Cycle = <code>P2</code>, including defects that are not linked to a test execution. The Defects filter shows non-conversion, conversion (label <code>conversion</code>), or both. Test execution counts stay on the non-conversion tests.</p>
+        <p><strong>P2 summary:</strong> Testers (unique assignees), Tests (in-scope count), and Execution rate (executed ÷ all in-scope tests). Executed includes tests completed before their due date. Left panel is Today vs To date for Pass / Fail / Pass with minor defect (Retest) / Withdrawn, then the other Jira statuses on these test executions: To Do, Executing, Blocked, and On Hold. Right panel is total defects (open and resolved), open defects by severity, and Resolved.</p>
         <p><strong>Status mapping (Wave 2B):</strong> Jira Pass→Passed, Fail→Failed, Retest→Retest, Withdrawn→Withdrawn, To Do→Open, Executing→In Progress. Executed = Passed, Failed, Retest, or Withdrawn, including tests completed before their due date. Deferred defects count as Resolved.</p>
         <p><strong>Overall execution:</strong> Executed ÷ all in-scope test cases. A test is executed when it is Passed, Failed, Retest, or Withdrawn, including tests completed before their due date. Not executed is Open, In Progress, Blocked, and On Hold.</p>
         <p><strong>Overdue:</strong> not executed, with a due date before the snapshot date. Ready to test now is overdue and Open or In Progress. Blocked / on hold is overdue and Blocked or On Hold. Due dates come from Jira’s standard Due date field.</p>
         <p><strong>Key blockers:</strong> the open defects linked to the most blocked or on-hold test cases.</p>
         <p><strong>Critical and High defects:</strong> open defects in the selected Defects filter with severity Critical or High (from Jira Priority, else Complexity). Past due means the Jira due date is before the snapshot date.</p>
-        <p><strong>Defects:</strong> Non-conversion defects are linked to an in-scope test execution. Conversion defects are open defects labeled <code>conversion</code>. Defect Type <code>New Requirement</code> is excluded on this tab and on Data Conversion. Total is every defect in the selected filter. Open is every selected defect not Resolved (including Ready for Retest). Resolved includes Deferred / Completed / Rejected. The conversion snapshot is the open set, so resolved conversion defects are not in this tab.</p>
+        <p><strong>Defects:</strong> Every defect with Test Cycle <code>P2</code>, linked to a test execution or not. Non-conversion is that set without the <code>conversion</code> label. Conversion is that set with the label. Defect Type <code>New Requirement</code> is excluded on this tab and on Data Conversion. Total is every defect in the selected filter. Open is every selected defect not Resolved (including Ready for Retest). Resolved includes Deferred / Completed / Rejected.</p>
         <p><strong>Overall status:</strong> On track when executed tests, including those completed early, are at least 95% of the test cases due before the snapshot date. Tests due on the snapshot date are not included in the expected count yet. Behind plan when it is lower.</p>
         <p><strong>Dates:</strong> snapshot <span id="pte-snapdate">–</span>. Source: <span id="pte-sor">Jira</span>.</p>
       </div>
@@ -3017,46 +3017,15 @@ function defectScopeLabel() {
   return 'Conversion and non-conversion';
 }
 
-function conversionDefectRecords() {
-  const src = (typeof DEFECT_DATA !== 'undefined' && Array.isArray(DEFECT_DATA)) ? DEFECT_DATA : [];
-  return src.filter(d => {
-    if (d.issueType && d.issueType !== 'Defect') return false;
-    if (typeof DEFECT_CLOSED_STATUSES !== 'undefined' && DEFECT_CLOSED_STATUSES.includes(d.status)) return false;
-    if (typeof isNewRequirementDefect === 'function' && isNewRequirementDefect(d)) return false;
-    return typeof hasConversionLabel === 'function' ? hasConversionLabel(d) : false;
-  }).map(d => {
-    const sev = d.severity;
-    return {
-      key: d.key,
-      summary: d.summary || '',
-      assignee: d.owner || null,
-      status: d.status || '',
-      type: d.defectType || 'Defect',
-      severity: (!sev || sev === 'Not Set' || sev === 'No priority') ? 'Medium' : sev,
-      dueDate: d.targetRetestDate || null,
-      raisedDate: d.dateIdentified || null,
-      resolvedDate: null,
-      testCases: [],
-      workstream: '',
-      area: d.subledger || '',
-      conversion: true,
-      _fromConversion: true
-    };
-  });
-}
-
 function attachConversionDefects() {
   if (!DATA) return;
   if (!DATA._baseDefects) {
-    DATA._baseDefects = (DATA.defects || []).filter(d => !d._fromConversion).map(d => ({ ...d, conversion: false }));
+    DATA._baseDefects = (DATA.defects || []).filter(d => !d._fromConversion).map(d => ({
+      ...d,
+      conversion: d.conversion === true || (typeof hasConversionLabel === 'function' && hasConversionLabel(d))
+    }));
   }
-  const byKey = new Map(DATA._baseDefects.map(d => [d.key, { ...d, conversion: false }]));
-  conversionDefectRecords().forEach(c => {
-    const existing = byKey.get(c.key);
-    if (existing) existing.conversion = true;
-    else byKey.set(c.key, c);
-  });
-  DATA.defects = [...byKey.values()];
+  DATA.defects = DATA._baseDefects.map(d => ({ ...d, testCases: d.testCases || [] }));
 }
 
 function compute() {
@@ -3239,6 +3208,7 @@ function renderUatSummary() {
   ].filter(s => s.value > 0));
 
   $('#uatDefectBody').innerHTML =
+    '<tr><td><span class="row-label">Total</span></td><td class="num">' + n(d.openToday + d.resolvedToday) + '</td><td class="num">' + n(raised) + '</td><td class="pct muted">' + (raised ? '100% of raised' : '–') + '</td></tr>' +
     '<tr><td><span class="row-label">Open</span></td><td class="num">' + n(d.openToday) + '</td><td class="num">' + n(d.open) + '</td><td class="pct muted">' + pct(d.open, raised) + ' of raised</td></tr>' +
     '<tr><td><span class="row-label"><span class="uat-swatch uat-c-crit"></span>Critical</span></td><td class="num">' + n(d.critToday) + '</td><td class="num">' + n(d.crit) + '</td><td class="pct muted">' + pct(d.crit, d.open) + ' of open</td></tr>' +
     '<tr><td><span class="row-label"><span class="uat-swatch uat-c-high"></span>High</span></td><td class="num">' + n(d.highToday) + '</td><td class="num">' + n(d.high) + '</td><td class="pct muted">' + pct(d.high, d.open) + ' of open</td></tr>' +

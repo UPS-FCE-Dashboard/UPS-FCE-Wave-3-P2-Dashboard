@@ -159,6 +159,8 @@ function mapDefect(issue) {
     testCases: [],
     workstream: ws.id,
     area: cf(issue, "Module") || "",
+    labels: issue.fields?.labels || [],
+    conversion: (issue.fields?.labels || []).some((l) => String(l).trim().toLowerCase() === "conversion"),
   };
 }
 
@@ -210,12 +212,6 @@ for (const issue of defs) {
   }
 }
 
-if (sawDefectLink) {
-  defects = defects.filter((d) => d.testCases.length > 0);
-} else {
-  console.warn("No Defect links on test executions; keeping the full P2 defect list.");
-}
-
 const workstreams = [
   WS_MAP["Source to Pay"],
   WS_MAP["Acquire to Retire"],
@@ -236,7 +232,7 @@ const payload = {
       testExecutions:
         'project = CONAMER1001932 AND issuetype = "Test Execution" AND "Test Cycle" = P2 AND (labels is EMPTY OR labels != conversion)',
       defects:
-        'project = CONAMER1001932 AND issuetype = Defect AND "Test Cycle" = P2 AND (labels is EMPTY OR labels != conversion) AND issueLinkType = Defect',
+        'project = CONAMER1001932 AND issuetype = Defect AND "Test Cycle" = P2',
     },
     workstreams,
     timelineEnd: "2026-12-14",

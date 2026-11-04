@@ -19,7 +19,7 @@ const JQL = {
   prep: `project = ${PROJECT} AND labels = P2-Prep ORDER BY key ASC`,
   riceParents: `project = ${PROJECT} AND component = "Release 1" AND "Test Cycle" = P2 AND fixVersion = "Wave 3" AND status != Withdrawn AND issuetype in (Integration, Extension, Report, Conversion) ORDER BY key ASC`,
   testExecutions: `project = ${PROJECT} AND issuetype = "Test Execution" AND "Test Cycle" = P2 AND (labels is EMPTY OR labels != conversion) ORDER BY key ASC`,
-  testDefects: `project = ${PROJECT} AND issuetype = Defect AND "Test Cycle" = P2 AND (labels is EMPTY OR labels != conversion) ORDER BY key ASC`,
+  testDefects: `project = ${PROJECT} AND issuetype = Defect AND "Test Cycle" = P2 ORDER BY key ASC`,
 };
 
 async function fetchSubsForParents(parents, label) {
