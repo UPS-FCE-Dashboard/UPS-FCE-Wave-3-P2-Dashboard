@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-03",
-  "refreshedAt": "2026-11-03T17:25:44.980Z",
+  "asOf": "2026-11-04",
+  "refreshedAt": "2026-11-04T21:55:16.442Z",
   "items": [
     {
       "key": "CONAMER1001932-18578",
@@ -80,10 +80,10 @@
       "subledger": "AP",
       "relatedObject": "Multiple tax lines are not allowed to be loaded with same tax rate code in one invoice",
       "severity": "Medium",
-      "status": "Ready for Retest",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-05-28",
-      "targetRetestDate": "2026-10-28",
+      "targetRetestDate": "2027-01-08",
       "notes": "Create EBS tax rates in Oracle Cloud till the time tax engine design is finalized",
       "defectType": "Configuration Update"
     },
@@ -797,7 +797,7 @@
       "status": "Not Started",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-11",
-      "targetRetestDate": "2026-09-15",
+      "targetRetestDate": "2027-01-08",
       "notes": "Need to understand why these characters are included in the names first- from there we can determine whether any data cleanup and/or code logic updates are needed.",
       "defectType": "Master Data"
     },
@@ -2447,7 +2447,7 @@
       "status": "Not Started",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A",
       "defectType": "Technical Defect"
     },
@@ -3090,7 +3090,7 @@
       "subledger": "FA",
       "relatedObject": "Fixed Assets Additions",
       "severity": "Low",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
@@ -3919,9 +3919,9 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "R1 P2 AP Invoices Conversion: Missing Withholding Tax for Taiwan",
+      "summary": "P590 - AP Invoices Conversion R1 P2 -  Missing Withholding Tax for Taiwan",
       "subledger": "AP",
-      "relatedObject": "R1 P2 AP Invoices",
+      "relatedObject": "AP Invoices",
       "severity": "Medium",
       "status": "Not Started",
       "owner": "Mani Varadan",
@@ -4106,7 +4106,7 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "P590 - AP Invoice Lines Conversion R1 P2 - Invoices having offset taxes need to have tax rate code added in \"Tax Classification Code\" in the \"ITEM\" line",
+      "summary": "P590 - AP Invoice Lines Conversion R1 P2 - Invoices having offset tax rate codes (Reverse Charge) failed load",
       "subledger": "AP",
       "relatedObject": "AP Invoice Lines",
       "severity": "Medium",
@@ -4198,43 +4198,9 @@
       "status": "Retest",
       "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-26",
-      "targetRetestDate": "2026-10-30",
+      "targetRetestDate": "2027-01-01",
       "notes": "N/A",
       "defectType": "End-User Training/Guidance"
-    },
-    {
-      "key": "CONAMER1001932-25120",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - KR_Validation_Conversion_Closed_HOLDS (FX Rate 31/7/26 missing)",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Fail",
-      "owner": "Anuradha Kumar",
-      "dateIdentified": "2026-10-26",
-      "targetRetestDate": "2026-10-29",
-      "notes": "N/A",
-      "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-25121",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - TW_Validation_Conversion_Partial_HOLDS (Invoice Lines without distributions loaded - should have not been loaded )",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "Medium",
-      "status": "In Progress",
-      "owner": "Patrycja Niewiera",
-      "dateIdentified": "2026-10-26",
-      "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
-      "defectType": "Technical Defect"
     },
     {
       "key": "CONAMER1001932-25128",
@@ -4331,8 +4297,8 @@
       "subledger": "PA",
       "relatedObject": "CR - ACC - Projects",
       "severity": "Medium",
-      "status": "Not Started",
-      "owner": "Brandon Leslie",
+      "status": "Ready for Retest",
+      "owner": "Rohit Gupta",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2027-01-08",
       "notes": "Accept the AS-IS completion date provided by ACC extract until the CR has been updated and retested.",
@@ -4407,23 +4373,6 @@
       "defectType": "Technical Defect"
     },
     {
-      "key": "CONAMER1001932-25151",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - ID Submit Payment_Conversion Closed_Supplier Bank (End Dated Bank Account)",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Triage",
-      "owner": "Ashley Peterman",
-      "dateIdentified": "2026-10-29",
-      "targetRetestDate": "2026-11-02",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
       "key": "CONAMER1001932-25170",
       "issueType": "Defect",
       "labels": [
@@ -4467,7 +4416,7 @@
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "High",
-      "status": "Triage",
+      "status": "Fail",
       "owner": "Subhaya Das",
       "dateIdentified": "2026-10-30",
       "targetRetestDate": "2026-11-02",
@@ -4509,40 +4458,6 @@
       "defectType": "Source File"
     },
     {
-      "key": "CONAMER1001932-27127",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - HN Submit Payment_Conversion Closed_Invoice not selected for Installments (No Bank Account in Cloud)",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "In Progress",
-      "owner": "Subhaya Das",
-      "dateIdentified": "2026-11-02",
-      "targetRetestDate": "2026-11-02",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-27128",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Invoice Conversion R1 P2 - MY_Invoice Validation_Conversion Closed_HOLDS (Fx rates Missing)",
-      "subledger": "AP",
-      "relatedObject": "Invoice",
-      "severity": "High",
-      "status": "Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-11-02",
-      "targetRetestDate": "2026-11-02",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
       "key": "CONAMER1001932-27130",
       "issueType": "Defect",
       "labels": [
@@ -4556,40 +4471,6 @@
       "owner": "Joanna Bielecka",
       "dateIdentified": "2026-11-02",
       "targetRetestDate": "2026-11-04",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-27227",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - PH_Invoice Approval Workflow_Conversion Closed_Initiated status",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-11-02",
-      "targetRetestDate": "2026-11-03",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-27229",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - HK Submit Payment_Conversion Closed_Invoice not selected for Installments (End Dated Bank Account)",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-11-03",
-      "targetRetestDate": "2026-11-03",
       "notes": "n/a",
       "defectType": "Technical Defect"
     },
@@ -4609,6 +4490,40 @@
       "targetRetestDate": "2027-01-08",
       "notes": "N/A - needs to be udpated and implemented for R1 SIT",
       "defectType": "Coding Update – Report"
+    },
+    {
+      "key": "CONAMER1001932-27235",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Invoice Conversion R1 P2 - Installment hold: The value Document payee bank account number is required",
+      "subledger": "AP",
+      "relatedObject": "Invoice",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-11-03",
+      "targetRetestDate": "2026-11-05",
+      "notes": "n/a",
+      "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-27242",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - CONVERSION_CLOSED - Unpaid Prepayments",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-11-04",
+      "targetRetestDate": "2026-11-06",
+      "notes": "n/a",
+      "defectType": "Technical Defect"
     }
   ]
 }
