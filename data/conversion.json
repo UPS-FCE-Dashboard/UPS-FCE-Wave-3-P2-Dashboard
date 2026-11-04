@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-02",
-  "refreshedAt": "2026-11-02T16:13:41.195Z",
+  "asOf": "2026-11-03",
+  "refreshedAt": "2026-11-03T17:25:44.980Z",
   "jiraBase": "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/",
   "items": [
     {
@@ -11,7 +11,7 @@
       "status": "Complete",
       "owner": "Christina Rodriguez",
       "environment": "ACC",
-      "dueDate": "",
+      "dueDate": "2026-09-21",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -78,7 +78,7 @@
       "status": "Complete",
       "owner": "Christina Rodriguez",
       "environment": "ACC",
-      "dueDate": "",
+      "dueDate": "2026-09-08",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -140,7 +140,7 @@
       "status": "In Progress",
       "owner": "Christina Rodriguez",
       "environment": "BLK",
-      "dueDate": "",
+      "dueDate": "2026-11-04",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -202,7 +202,7 @@
       "status": "In Progress",
       "owner": "Mike Iorfino",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-10-28",
       "priority": "Medium",
       "blocker": "Generate Recon Report; Perform Post Load Validation & Provide Sign-Off",
       "checklist": [
@@ -264,7 +264,7 @@
       "status": "Complete",
       "owner": "Mike Iorfino",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-09-15",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -374,7 +374,7 @@
       "status": "Complete",
       "owner": "Mike Iorfino",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-09-08",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -436,7 +436,7 @@
       "status": "Complete",
       "owner": "Christina Rodriguez",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-09-16",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -498,7 +498,7 @@
       "status": "Complete",
       "owner": "Mike Iorfino",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-09-04",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -560,7 +560,7 @@
       "status": "Complete",
       "owner": "Mike Iorfino",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-09-28",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -622,7 +622,7 @@
       "status": "Complete",
       "owner": "Mike Iorfino",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-10-12",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -684,7 +684,7 @@
       "status": "Complete",
       "owner": "Christina Rodriguez",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-09-25",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -750,7 +750,7 @@
       "status": "Complete",
       "owner": "Christina Rodriguez",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-09-21",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -817,7 +817,7 @@
       "status": "In Progress",
       "owner": "Christina Rodriguez",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-11-04",
       "priority": "Medium",
       "blocker": "",
       "checklist": [
@@ -859,9 +859,9 @@
         },
         {
           "label": "Generate Recon Report",
-          "done": false,
+          "done": true,
           "dueDate": "2026-10-28",
-          "status": "In Progress"
+          "status": "Completed"
         },
         {
           "label": "Perform Post Load Validation & Provide Sign-Off",
@@ -879,7 +879,7 @@
       "status": "Complete",
       "owner": "Christina Rodriguez",
       "environment": "P590",
-      "dueDate": "",
+      "dueDate": "2026-09-08",
       "priority": "Medium",
       "blocker": "",
       "checklist": [

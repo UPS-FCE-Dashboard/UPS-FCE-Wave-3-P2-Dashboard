@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-02",
-  "refreshedAt": "2026-11-02T16:13:41.195Z",
+  "asOf": "2026-11-03",
+  "refreshedAt": "2026-11-03T17:25:44.980Z",
   "jiraBase": "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/",
   "nodes": [
     {
@@ -7976,8 +7976,8 @@
       "summary": "Update the functional design document, as required",
       "type": "Concourse Sub-task",
       "assignee": "Ashley Peterman",
-      "status": "Not Started",
-      "statusCat": "new",
+      "status": "Completed",
+      "statusCat": "done",
       "due": "2026-10-29",
       "workstream": "Other Technical",
       "parent": null,

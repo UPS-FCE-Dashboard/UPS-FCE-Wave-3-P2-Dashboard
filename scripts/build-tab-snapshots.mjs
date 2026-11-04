@@ -388,6 +388,7 @@ function buildDefects() {
         ? String(d.fields.duedate).slice(0, 10)
         : "",
       notes: stripHtml(workaround) || "",
+      defectType: cf(d, "Defect Type") || "Not set",
     };
   });
   items.sort((a, b) => String(a.key).localeCompare(String(b.key)));

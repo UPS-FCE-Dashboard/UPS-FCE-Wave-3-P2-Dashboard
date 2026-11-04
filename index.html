@@ -466,6 +466,8 @@
   .uat-panel{padding:18px 22px 16px}
   .uat-panel + .uat-panel{border-left:1px solid var(--line)}
   .uat-panel h3{margin:0 0 14px;font-size:18px;font-weight:700;color:var(--brown-950)}
+  .uat-panel-head{display:flex;align-items:flex-start;justify-content:space-between;gap:12px;flex-wrap:wrap;margin-bottom:14px}
+  .uat-panel-head h3{margin:0}
   .uat-bar{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--cream-200);margin-bottom:16px}
   .uat-bar > span{display:block;height:100%;min-width:0}
   .uat-table{width:100%;border-collapse:collapse;font-size:13.5px}
@@ -483,6 +485,9 @@
   .uat-c-fail{background:#C62828}
   .uat-c-minor{background:#F0B429}
   .uat-c-todo{background:#D5D0C8}
+  .uat-c-executing{background:#E0A100}
+  .uat-c-blocked{background:#5C4033}
+  .uat-c-hold{background:#B7A99A}
   .uat-c-withdrawn{background:#9A9086}
   .uat-c-crit{background:#C62828}
   .uat-c-high{background:#E65100}
@@ -797,6 +802,11 @@
   }
   tbody tr:hover{background:var(--cream-50);}
   tbody tr:last-child td{border-bottom:none;}
+  tbody tr.table-total td{
+    font-weight:700;
+    border-top:1px solid var(--line);
+    background:var(--cream-50);
+  }
   .key-cell{font-family:'IBM Plex Mono',monospace;color:var(--brown-700);font-weight:600;font-size:12.5px;}
 
   /* ===== CONVERSION OBJECT LIST (workstream-grouped, stage pills) ===== */
@@ -1213,7 +1223,7 @@
         <p><strong>On track vs delayed:</strong> a stage that has not started stays cream. A fully completed stage uses the completed color. Once a stage has started, its color is taken only from the current open sub-task in that stage — delayed if that sub-task is past its Planned Complete Date, on track if it is still within date, brown if it is Blocked. Completed, Done, and Withdrawn are closed, so a Withdrawn step is skipped and the stage advances to the next incomplete step.</p>
         <p><strong>P2 RICE at risk:</strong> the list includes every item that is not Complete, and Complete items that still have at least one open CR. Complete items with no open CR are omitted.</p>
         <p><strong>Columns:</strong> RICE item, Jira status (current open sub-task / parent status), the five stages, and open CRs. The last count is linked change requests that still have an open defect — expand the row to see those CRs first.</p>
-        <p><strong>System of record:</strong> Jira remains authoritative. This is a read-only snapshot dated 2 November 2026.</p>
+        <p><strong>System of record:</strong> Jira remains authoritative. This is a read-only snapshot dated 3 November 2026.</p>
       </div>
     </details>
   </div>
@@ -1263,7 +1273,7 @@
         <p><strong>Completed vs planned:</strong> of activities whose due date is on or before the snapshot date, the share in a Done status category.</p>
         <p><strong>Overdue:</strong> activities that are still open and have a due date before the snapshot date.</p>
         <p><strong>RICE by workstream:</strong> Source to Pay, Acquire to Retire, and Plan to Report only. Complete / In Progress / Not Started uses each RICE item’s Jira status from the P2 RICE tracker. Drill into the P2 RICE Tracker tab for item-level detail.</p>
-        <p><strong>Dates:</strong> snapshot date is 2 November 2026. Key-activity due dates are the planned milestone dates. Population due dates come from Jira.</p>
+        <p><strong>Dates:</strong> snapshot date is 3 November 2026. Key-activity due dates are the planned milestone dates. Population due dates come from Jira.</p>
         <p><strong>System of record:</strong> Jira remains authoritative. This is a read-only snapshot; records cannot be edited in the dashboard.</p>
       </div>
     </details>
@@ -1293,10 +1303,17 @@
             </thead>
             <tbody id="uatExecBody"></tbody>
           </table>
-          <p class="uat-note">To date counts every Passed, Failed, Retest (shown as Pass with minor defect), and Withdrawn test, including tests completed before their due date. Today counts results dated today.</p>
+          <p class="uat-note">To date counts every Passed, Failed, Retest (shown as Pass with minor defect), and Withdrawn test, including tests completed before their due date. Today counts results dated today. The other rows are the remaining Jira statuses on these test executions: To Do, Executing, Blocked, and On Hold.</p>
         </div>
         <div class="uat-panel">
-          <h3>Defects</h3>
+          <div class="uat-panel-head">
+            <h3>Defects</h3>
+            <div class="pte-seg-toggle" role="group" aria-label="Defect population">
+              <button type="button" data-defect-scope="non" aria-pressed="true">Non-conversion</button>
+              <button type="button" data-defect-scope="conversion" aria-pressed="false">Conversion</button>
+              <button type="button" data-defect-scope="both" aria-pressed="false">Both</button>
+            </div>
+          </div>
           <div class="uat-bar" id="uatDefectBar" aria-hidden="true"></div>
           <table class="uat-table">
             <thead>
@@ -1309,7 +1326,7 @@
             </thead>
             <tbody id="uatDefectBody"></tbody>
           </table>
-          <p class="uat-note">Open rows count defects still open; Today is open defects raised today. Resolved means Completed, Rejected, or Deferred; Today is defects resolved today. Overall includes today.</p>
+          <p class="uat-note">Open rows count defects still open; Today is open defects raised today. Resolved means Completed, Rejected, or Deferred; Today is defects resolved today. Overall includes today. Conversion is open defects labeled Conversion. Non-conversion is defects linked to an in-scope test execution. Both shows the two sets together.</p>
         </div>
       </div>
     </div>
@@ -1365,7 +1382,7 @@
 
     <div class="section-heading" style="margin-top:28px;">
       <h2>Open Critical and High defects</h2>
-      <span class="section-sub">Open Critical/High defects linked to an in-scope test execution. Totals and severity mix are in the P2 summary above. Due date comes straight from Jira.</span>
+      <span class="section-sub" id="pte-defects-sub">Open Critical/High defects. Totals and severity mix follow the Defects filter above. Due date comes straight from Jira.</span>
     </div>
     <p class="pte-count" id="pte-d-count" aria-live="polite"></p>
     <div class="pte-tablewrap is-tall">
@@ -1381,14 +1398,14 @@
     <details class="data-guide">
       <summary>How to read the P2 Testing Execution tab / About this data</summary>
       <div class="data-guide-grid">
-        <p><strong>Scope:</strong> Xray <code>Test Execution</code> issues in project <code>CONAMER1001932</code> with Test Cycle = <code>P2</code> and label not <code>conversion</code>. Defects on this tab are only those linked to one of those test executions (Jira link type Defect).</p>
-        <p><strong>P2 summary:</strong> Testers (unique assignees), Tests (in-scope count), and Execution rate (executed ÷ all in-scope tests). Executed includes tests completed before their due date. Left panel is Today vs To date for Pass / Fail / Pass with minor defect (Retest) / Withdrawn / To do. Right panel is open defects by severity plus Resolved.</p>
+        <p><strong>Scope:</strong> Xray <code>Test Execution</code> issues in project <code>CONAMER1001932</code> with Test Cycle = <code>P2</code> and label not <code>conversion</code>. Non-conversion defects are linked to one of those test executions (Jira link type Defect). Conversion defects are open Jira defects labeled <code>conversion</code>, the same set as the Data Conversion tab. The Defects filter shows conversion, non-conversion, or both. Test execution counts stay on the non-conversion tests.</p>
+        <p><strong>P2 summary:</strong> Testers (unique assignees), Tests (in-scope count), and Execution rate (executed ÷ all in-scope tests). Executed includes tests completed before their due date. Left panel is Today vs To date for Pass / Fail / Pass with minor defect (Retest) / Withdrawn, then the other Jira statuses on these test executions: To Do, Executing, Blocked, and On Hold. Right panel is open defects by severity plus Resolved.</p>
         <p><strong>Status mapping (Wave 2B):</strong> Jira Pass→Passed, Fail→Failed, Retest→Retest, Withdrawn→Withdrawn, To Do→Open, Executing→In Progress. Executed = Passed, Failed, Retest, or Withdrawn, including tests completed before their due date. Deferred defects count as Resolved.</p>
         <p><strong>Overall execution:</strong> Executed ÷ all in-scope test cases. A test is executed when it is Passed, Failed, Retest, or Withdrawn, including tests completed before their due date. Not executed is Open, In Progress, Blocked, and On Hold.</p>
         <p><strong>Overdue:</strong> not executed, with a due date before the snapshot date. Ready to test now is overdue and Open or In Progress. Blocked / on hold is overdue and Blocked or On Hold. Due dates come from Jira’s standard Due date field.</p>
         <p><strong>Key blockers:</strong> the open defects linked to the most blocked or on-hold test cases.</p>
-        <p><strong>Critical and High defects:</strong> open defects linked to an in-scope test execution, with severity Critical or High (from Jira Priority, else Complexity). Past due means the Jira due date is before the snapshot date.</p>
-        <p><strong>Defects:</strong> Only defects linked to an in-scope test execution. Total is every linked defect to date. Open is every linked defect not Resolved (including Ready for Retest). Resolved includes Deferred / Completed / Rejected.</p>
+        <p><strong>Critical and High defects:</strong> open defects in the selected Defects filter with severity Critical or High (from Jira Priority, else Complexity). Past due means the Jira due date is before the snapshot date.</p>
+        <p><strong>Defects:</strong> Non-conversion defects are linked to an in-scope test execution. Conversion defects are open defects labeled <code>conversion</code>. Defect Type <code>New Requirement</code> is excluded on this tab and on Data Conversion. Total is every defect in the selected filter. Open is every selected defect not Resolved (including Ready for Retest). Resolved includes Deferred / Completed / Rejected. The conversion snapshot is the open set, so resolved conversion defects are not in this tab.</p>
         <p><strong>Overall status:</strong> On track when executed tests, including those completed early, are at least 95% of the test cases due before the snapshot date. Tests due on the snapshot date are not included in the expected count yet. Behind plan when it is lower.</p>
         <p><strong>Dates:</strong> snapshot <span id="pte-snapdate">–</span>. Source: <span id="pte-sor">Jira</span>.</p>
       </div>
@@ -1456,7 +1473,7 @@
     <summary>How to read this dashboard / About this data</summary>
     <div class="data-guide-grid">
       <p><strong>Conversion objects and subtasks:</strong> Jira Conversion Execution subtasks for Release 1 - P2. Withdrawn objects are excluded. The Executive Summary uses Data Conversion records only; Release 1 - P2 Prep never contributes to these metrics.</p>
-      <p><strong>Defects:</strong> open Jira defects labeled <code>conversion</code> that have fixVersion <code>Wave 3</code> (including functional-team defects) or component <code>Release 1</code> and Test Cycle <code>P2</code> (including defects with no fix version). On Hold defects remain in the open count and are labeled On Hold; they are not blockers.</p>
+      <p><strong>Defects:</strong> open Jira defects labeled <code>conversion</code> that have fixVersion <code>Wave 3</code> (including functional-team defects) or component <code>Release 1</code> and Test Cycle <code>P2</code> (including defects with no fix version). Defect Type <code>New Requirement</code> is excluded. On Hold defects remain in the open count and are labeled On Hold; they are not blockers. The table at the bottom groups those open defects by Jira Defect Type.</p>
       <p><strong>Risk:</strong> any past-due conversion subtask, plus any past-due open defect of <code>Critical</code> or <code>High</code> severity. Medium, Low, and <code>On Hold</code> items stay on the dashboard but are not raised as Risks. Recon-related work is excluded from Risks and Blockers because it does not gate downstream activity.</p>
       <p><strong>Blocker:</strong> only an item whose Jira status is exactly <code>Blocked</code>. The dashboard does not infer blockers, and <code>On Hold</code> never counts as Blocked.</p>
       <p><strong>Key blocker / issue:</strong> an overdue Extract-through-Load subtask with a Jira predecessor link to downstream work. The section lists those linked items when they exist and shows a readiness note when they do not.</p>
@@ -1466,6 +1483,14 @@
     </div>
     <p class="scope-note"><strong>Out of scope:</strong> Jira Action Items are not included. This dashboard contains only Conversion Execution subtasks and open conversion defects in the Wave 3 or Release 1 P2 scope above.</p>
   </details>
+
+  <div class="section-heading" style="margin-top:28px;">
+    <h2>Open conversion defects by type</h2>
+    <span class="section-sub">Open Jira defects labeled Conversion, excluding Defect Type New Requirement, grouped by Defect Type.</span>
+  </div>
+  <div class="table-wrap">
+    <table id="convDefectTypeTable"></table>
+  </div>
 
   </div> <!-- /#dataConversionView -->
 
@@ -1503,8 +1528,8 @@ let CONVERSION_DATA = [];
    -------------------------------------------------------------------------
    Open Defects in CONAMER1001932 labeled "Conversion", excluding
    Resolved, Withdrawn, Closed, Done, and Completed.
-   Inclusion rule (defect list re-queried 2 Nov 2026; Conversion, RICE, and Prep
-   snapshots refreshed 2 Nov 2026):
+   Inclusion rule (defect list re-queried 3 Nov 2026; Conversion, RICE, and Prep
+   snapshots refreshed 3 Nov 2026):
      fixVersion = "Wave 3"
      OR (component = "Release 1" AND Test Cycle = P2)
    The prior rule required fixVersion = "Wave 3" only, which dropped Release 1 P2
@@ -1555,9 +1580,9 @@ function pctComplete(row){
   return Math.round((done/row.checklist.length)*100);
 }
 
-let TODAY = new Date("2026-11-02T12:00:00-05:00");
+let TODAY = new Date("2026-11-03T12:00:00-05:00");
 // When this dashboard snapshot was written from Cursor. Not a Jira issue updated date.
-let DASHBOARD_REFRESHED = new Date("2026-11-02T16:13:41.195Z");
+let DASHBOARD_REFRESHED = new Date("2026-11-03T17:25:44.980Z");
 const JIRA_BROWSE = "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/";
 let RICE_DATA = null;
 let PREP_DATA = null;
@@ -1618,6 +1643,11 @@ function hasConversionLabel(defect){
   return labels.some(label=>label.trim().toLowerCase()==="conversion");
 }
 
+function isNewRequirementDefect(defect){
+  const t = String((defect && (defect.defectType || defect.type)) || "").trim().toLowerCase();
+  return t === "new requirement";
+}
+
 // Embedded set: label Conversion AND (fixVersion Wave 3 OR component Release 1
 // AND Test Cycle P2). Functional-team Wave 3 defects stay in scope. Blank fix
 // versions are included only for Release 1 P2. Action Items stay excluded.
@@ -1630,7 +1660,8 @@ function rebuildConversionViews(){
   OPEN_DEFECT_DATA = DEFECT_DATA.filter(d =>
     !DEFECT_CLOSED_STATUSES.includes(d.status) &&
     (!d.issueType || d.issueType==="Defect") &&
-    hasConversionLabel(d)
+    hasConversionLabel(d) &&
+    !isNewRequirementDefect(d)
   );
   // Conversion Preparation tab is hidden for now (data stays in CONVERSION_DATA
   // above, untouched, so it's a one-line change to bring it back later — just
@@ -2473,6 +2504,31 @@ function renderAll(){
   renderRisks();
   renderManifests();
   renderObjectGroups();
+  renderDefectTypeTable();
+}
+
+function renderDefectTypeTable(){
+  const el = document.getElementById("convDefectTypeTable");
+  if(!el) return;
+  const rows = OPEN_DEFECT_DATA.filter(hasConversionLabel);
+  const map = {};
+  rows.forEach(d => {
+    const t = (d.defectType && String(d.defectType).trim()) || "Not set";
+    map[t] = (map[t] || 0) + 1;
+  });
+  const total = rows.length;
+  const fmtPct = v => String(v).replace(/\.0$/, "") + "%";
+  const keys = Object.keys(map).sort((a,b) => map[b] - map[a] || a.localeCompare(b));
+  const body = keys.map(s => {
+    const pct = total ? Math.round(map[s] * 1000 / total) / 10 : 0;
+    return `<tr><td>${escapeHtml(s)}</td><td class="mono">${map[s]}</td><td class="mono">${fmtPct(pct)}</td></tr>`;
+  }).join("");
+  const totalPct = total ? "100%" : "—";
+  el.innerHTML =
+    `<thead><tr><th>Defect type</th><th>Count</th><th>% of total</th></tr></thead><tbody>` +
+    body +
+    `<tr class="table-total"><td>Total</td><td class="mono">${total}</td><td class="mono">${totalPct}</td></tr>` +
+    `</tbody>`;
 }
 
 // ---- event wiring ----
@@ -2943,9 +2999,65 @@ function buildSample() {
    ===================================================================== */
 let DATA = null, M = null, DMAP = null;
 let groupBy = 'workstream';
+let defectScope = 'non';
 
 const isOverdue = t => grp(t) !== 'executed' && !!t.dueDate && t.dueDate < asOfDate();
 const isOpenDefect = d => d.status !== 'Resolved';
+
+function defectInScope(d) {
+  if (typeof isNewRequirementDefect === 'function' && isNewRequirementDefect(d)) return false;
+  if (defectScope === 'conversion') return !!d.conversion;
+  if (defectScope === 'non') return !d.conversion;
+  return true;
+}
+
+function defectScopeLabel() {
+  if (defectScope === 'conversion') return 'Conversion only';
+  if (defectScope === 'non') return 'Non-conversion only';
+  return 'Conversion and non-conversion';
+}
+
+function conversionDefectRecords() {
+  const src = (typeof DEFECT_DATA !== 'undefined' && Array.isArray(DEFECT_DATA)) ? DEFECT_DATA : [];
+  return src.filter(d => {
+    if (d.issueType && d.issueType !== 'Defect') return false;
+    if (typeof DEFECT_CLOSED_STATUSES !== 'undefined' && DEFECT_CLOSED_STATUSES.includes(d.status)) return false;
+    if (typeof isNewRequirementDefect === 'function' && isNewRequirementDefect(d)) return false;
+    return typeof hasConversionLabel === 'function' ? hasConversionLabel(d) : false;
+  }).map(d => {
+    const sev = d.severity;
+    return {
+      key: d.key,
+      summary: d.summary || '',
+      assignee: d.owner || null,
+      status: d.status || '',
+      type: d.defectType || 'Defect',
+      severity: (!sev || sev === 'Not Set' || sev === 'No priority') ? 'Medium' : sev,
+      dueDate: d.targetRetestDate || null,
+      raisedDate: d.dateIdentified || null,
+      resolvedDate: null,
+      testCases: [],
+      workstream: '',
+      area: d.subledger || '',
+      conversion: true,
+      _fromConversion: true
+    };
+  });
+}
+
+function attachConversionDefects() {
+  if (!DATA) return;
+  if (!DATA._baseDefects) {
+    DATA._baseDefects = (DATA.defects || []).filter(d => !d._fromConversion).map(d => ({ ...d, conversion: false }));
+  }
+  const byKey = new Map(DATA._baseDefects.map(d => [d.key, { ...d, conversion: false }]));
+  conversionDefectRecords().forEach(c => {
+    const existing = byKey.get(c.key);
+    if (existing) existing.conversion = true;
+    else byKey.set(c.key, c);
+  });
+  DATA.defects = [...byKey.values()];
+}
 
 function compute() {
   const tcs = DATA.testCases, snap = asOfDate(), total = tcs.length;
@@ -2958,14 +3070,15 @@ function compute() {
   const overdueBlocked = overdue.filter(t => grp(t) === 'blocked');
   const overdueReady = overdue.filter(t => grp(t) !== 'blocked');
 
-  DMAP = new Map(DATA.defects.map(d => [d.key, d]));
+  attachConversionDefects();
+  DMAP = new Map((DATA.defects || []).map(d => [d.key, d]));
   const block = new Map();
   tcs.filter(t => grp(t) === 'blocked').forEach(t => (t.defects || []).forEach(k => {
-    const d = DMAP.get(k); if (d && isOpenDefect(d)) block.set(k, (block.get(k) || 0) + 1);
+    const d = DMAP.get(k); if (d && isOpenDefect(d) && !(typeof isNewRequirementDefect === 'function' && isNewRequirementDefect(d))) block.set(k, (block.get(k) || 0) + 1);
   }));
   const topBlockers = [...block].sort((a, b) => b[1] - a[1]).slice(0, 3).map(x => ({ d: DMAP.get(x[0]), n: x[1] }));
 
-  const defs = DATA.defects, open = defs.filter(isOpenDefect);
+  const defs = (DATA.defects || []).filter(defectInScope), open = defs.filter(isOpenDefect);
   const crHighOpen = open.filter(d => d.severity === 'Critical' || d.severity === 'High');
   const sevOpen = s => open.filter(d => d.severity === s).length;
   const executedToday = tcs.filter(t => grp(t) === 'executed' && t.executedDate === snap).length;
@@ -3035,8 +3148,8 @@ function renderHeader() {
   if (note) {
     note.textContent = DATA.meta.isSample
       ? 'Sample data. Every number on this tab is a placeholder, not a Prototype 2 result.'
-      : 'Live data from Jira: ' + (DATA.testCases || []).length.toLocaleString('en-US') + ' Test Executions and '
-        + (DATA.defects || []).length.toLocaleString('en-US') + ' defects linked to those test executions. Snapshot '
+      : 'Live data from Jira: ' + (DATA.testCases || []).length.toLocaleString('en-US') + ' Test Executions. Defects: '
+        + ((DATA.defects || []).filter(defectInScope).length).toLocaleString('en-US') + ' (' + defectScopeLabel().toLowerCase() + '). Snapshot '
         + fmtLong(asOfDate()) + '.';
   }
   const gsub = document.getElementById('pte-groups-sub');
@@ -3060,7 +3173,7 @@ function renderSummary() {
     '<div class="pte-card"><h3>Overdue · blocked or on hold</h3><div class="pte-big pte-num">' + M.overdueBlocked.length + '</div>' +
       (blockers ? '<ul class="pte-list">' + blockers + '</ul>' : '<p class="pte-exec-note">No open defects are linked to these test cases.</p>') + '</div>' +
     '<div class="pte-card"><h3>Critical and High Defects</h3><div class="pte-big pte-num">' + d.crHighOpen.length + '</div>' +
-      '<p class="pte-exec-note">' + (d.crHighOpen.length ? 'open: ' + d.crit + ' Critical, ' + d.high + ' High.' + (d.pastDue ? ' ' + d.pastDue + ' past due.' : '') : 'No open Critical or High defects.') + '</p></div>';
+      '<p class="pte-exec-note">' + defectScopeLabel() + '. ' + (d.crHighOpen.length ? 'open: ' + d.crit + ' Critical, ' + d.high + ' High.' + (d.pastDue ? ' ' + d.pastDue + ' past due.' : '') : 'No open Critical or High defects.') + '</p></div>';
 }
 
 function uatBar(el, segments) {
@@ -3075,8 +3188,18 @@ function renderUatSummary() {
   const n = x => x.toLocaleString('en-US');
   const pass = M.by['Passed'] || 0, fail = M.by['Failed'] || 0, minor = M.by['Retest'] || 0, withdrawn = M.by['Withdrawn'] || 0;
   const passT = M.byToday['Passed'] || 0, failT = M.byToday['Failed'] || 0, minorT = M.byToday['Retest'] || 0, withdrawnT = M.byToday['Withdrawn'] || 0;
-  const todo = M.notExecuted, d = M.d, executed = M.executed, raised = d.total;
+  const d = M.d, executed = M.executed, raised = d.total;
   const rate = pct(executed, M.total, 0);
+  const otherStatuses = [
+    { status: 'Open', label: 'To Do', cls: 'uat-c-todo' },
+    { status: 'In Progress', label: 'Executing', cls: 'uat-c-executing' },
+    { status: 'Blocked', label: 'Blocked', cls: 'uat-c-blocked' },
+    { status: 'On Hold', label: 'On Hold', cls: 'uat-c-hold' }
+  ];
+  const listed = new Set(['Passed', 'Failed', 'Retest', 'Withdrawn'].concat(otherStatuses.map(s => s.status)));
+  Object.keys(M.by).forEach(status => {
+    if (!listed.has(status) && M.by[status]) otherStatuses.push({ status, label: status, cls: 'uat-c-todo' });
+  });
 
   const sub = $('#pte-metrics-sub');
   if (sub) sub.textContent = n(M.total) + ' in-scope test cases across ' + WS.length + ' workstreams · snapshot ' + fmtShort(asOfDate()) + '.';
@@ -3090,18 +3213,22 @@ function renderUatSummary() {
     { label: 'Pass', value: pass, cls: 'uat-c-pass' },
     { label: 'Fail', value: fail, cls: 'uat-c-fail' },
     { label: 'Pass with minor defect', value: minor, cls: 'uat-c-minor' },
-    { label: 'Withdrawn', value: withdrawn, cls: 'uat-c-withdrawn' },
-    { label: 'To do', value: todo, cls: 'uat-c-todo' }
-  ].filter(s => s.value > 0 || s.label === 'To do');
+    { label: 'Withdrawn', value: withdrawn, cls: 'uat-c-withdrawn' }
+  ].concat(otherStatuses.map(s => ({ label: s.label, value: M.by[s.status] || 0, cls: s.cls })))
+    .filter(s => s.value > 0);
   uatBar($('#uatExecBar'), execSegs);
 
   $('#uatExecBody').innerHTML =
     '<tr><td><span class="row-label">Executed</span></td><td class="num">' + n(M.executedToday) + '</td><td class="num">' + n(executed) + '</td><td class="pct muted">' + pct(executed, M.total) + ' of plan</td></tr>' +
-    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-pass"></span>Pass</span></td><td class="num">' + n(passT) + '</td><td class="num">' + n(pass) + '</td><td class="pct muted">' + pct(pass, executed) + ' of executed</td></tr>' +
-    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-fail"></span>Fail</span></td><td class="num">' + n(failT) + '</td><td class="num">' + n(fail) + '</td><td class="pct muted">' + pct(fail, executed) + ' of executed</td></tr>' +
-    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-minor"></span>Pass with minor defect</span></td><td class="num">' + n(minorT) + '</td><td class="num">' + n(minor) + '</td><td class="pct muted">' + pct(minor, executed) + ' of executed</td></tr>' +
-    (withdrawn ? '<tr><td><span class="row-label"><span class="uat-swatch uat-c-withdrawn"></span>Withdrawn</span></td><td class="num">' + n(withdrawnT) + '</td><td class="num">' + n(withdrawn) + '</td><td class="pct muted">' + pct(withdrawn, executed) + ' of executed</td></tr>' : '') +
-    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-todo"></span>To do</span></td><td class="num muted">—</td><td class="num">' + n(todo) + '</td><td class="pct muted">' + pct(todo, M.total) + ' of plan</td></tr>';
+    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-pass"></span>Pass</span></td><td class="num">' + n(passT) + '</td><td class="num">' + n(pass) + '</td><td class="pct muted">' + pct(pass, M.total, 1) + ' of plan</td></tr>' +
+    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-fail"></span>Fail</span></td><td class="num">' + n(failT) + '</td><td class="num">' + n(fail) + '</td><td class="pct muted">' + pct(fail, M.total, 1) + ' of plan</td></tr>' +
+    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-minor"></span>Pass with minor defect</span></td><td class="num">' + n(minorT) + '</td><td class="num">' + n(minor) + '</td><td class="pct muted">' + pct(minor, M.total, 1) + ' of plan</td></tr>' +
+    '<tr><td><span class="row-label"><span class="uat-swatch uat-c-withdrawn"></span>Withdrawn</span></td><td class="num">' + n(withdrawnT) + '</td><td class="num">' + n(withdrawn) + '</td><td class="pct muted">' + pct(withdrawn, M.total, 1) + ' of plan</td></tr>' +
+    otherStatuses.map(s => {
+      const count = M.by[s.status] || 0;
+      const todayCount = DATA.testCases.filter(t => t.status === s.status && t.executedDate === asOfDate()).length;
+      return '<tr><td><span class="row-label"><span class="uat-swatch ' + s.cls + '"></span>' + esc(s.label) + '</span></td><td class="num">' + n(todayCount) + '</td><td class="num">' + n(count) + '</td><td class="pct muted">' + pct(count, M.total, 1) + ' of plan</td></tr>';
+    }).join('');
 
   uatBar($('#uatDefectBar'), [
     { label: 'Open Critical', value: d.crit, cls: 'uat-c-crit' },
@@ -3320,6 +3447,8 @@ function renderOwners() {
 function renderDefects() {
   const snap = asOfDate(), rank = s => { const i = SEVERITIES.indexOf(s); return i < 0 ? 9 : i; };
   const list = M.d.crHighOpen.slice().sort((a, b) => rank(a.severity) - rank(b.severity) || (a.dueDate || '9').localeCompare(b.dueDate || '9'));
+  const dsub = document.getElementById('pte-defects-sub');
+  if (dsub) dsub.textContent = 'Open Critical/High defects, ' + defectScopeLabel().toLowerCase() + '. Totals and severity mix follow the Defects filter above. Due date comes straight from Jira.';
   $('#pte-d-count').textContent = list.length + (list.length === 1 ? ' open Critical or High defect' : ' open Critical and High defects');
   const body = $('#pte-defects-body');
   if (!list.length) { body.innerHTML = '<tr><td colspan="8" class="pte-empty">No open Critical or High defects.</td></tr>'; return; }
@@ -3337,6 +3466,11 @@ function bindOnce() {
     groupBy = b.dataset.group;
     document.querySelectorAll('#testingTrackerView [data-group]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
     renderGroups();
+  }));
+  document.querySelectorAll('#testingTrackerView [data-defect-scope]').forEach(b => b.addEventListener('click', () => {
+    defectScope = b.dataset.defectScope;
+    document.querySelectorAll('#testingTrackerView [data-defect-scope]').forEach(x => x.setAttribute('aria-pressed', String(x === b)));
+    renderAll();
   }));
 
   let t; window.addEventListener('resize', () => { clearTimeout(t); t = setTimeout(drawChart, 150); });
