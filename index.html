@@ -1402,7 +1402,7 @@
         <p><strong>P2 summary:</strong> Testers (unique assignees), Tests (in-scope count), and Execution rate (executed ÷ all in-scope tests). Executed includes tests completed before their due date. Left panel is Today vs To date for Pass / Fail / Pass with minor defect (Retest) / Withdrawn, then the other Jira statuses on these test executions: To Do, Executing, Blocked, and On Hold. Right panel is total defects (open and resolved), open defects by severity, and Resolved.</p>
         <p><strong>Status mapping (Wave 2B):</strong> Jira Pass→Passed, Fail→Failed, Retest→Retest, Withdrawn→Withdrawn, To Do→Open, Executing→In Progress. Executed = Passed, Failed, Retest, or Withdrawn, including tests completed before their due date. Deferred defects count as Resolved.</p>
         <p><strong>Overall execution:</strong> Executed ÷ all in-scope test cases. A test is executed when it is Passed, Failed, Retest, or Withdrawn, including tests completed before their due date. Not executed is Open, In Progress, Blocked, and On Hold.</p>
-        <p><strong>Overdue:</strong> not executed, with a due date before the snapshot date. Ready to test now is overdue and Open or In Progress. Blocked / on hold is overdue and Blocked or On Hold. Due dates come from Jira’s standard Due date field.</p>
+        <p><strong>Overdue:</strong> not executed and not Withdrawn, with a due date before the snapshot date. Withdrawn test executions are left out of every overdue count. Ready to test now is overdue and Open or In Progress. Blocked / on hold is overdue and Blocked or On Hold. Due dates come from Jira’s standard Due date field.</p>
         <p><strong>Key blockers:</strong> the open defects linked to the most blocked or on-hold test cases.</p>
         <p><strong>Critical and High defects:</strong> open defects in the selected Defects filter with severity Critical or High (from Jira Priority, else Complexity). Past due means the Jira due date is before the snapshot date.</p>
         <p><strong>Defects:</strong> Every defect with Test Cycle <code>P2</code>, linked to a test execution or not. Non-conversion is that set without the <code>conversion</code> label. Conversion is that set with the label. Defect Type <code>New Requirement</code> is excluded on this tab and on Data Conversion. Total is every defect in the selected filter. Open is every selected defect not Resolved (including Ready for Retest). Resolved includes Deferred / Completed / Rejected.</p>
@@ -3001,7 +3001,8 @@ let DATA = null, M = null, DMAP = null;
 let groupBy = 'workstream';
 let defectScope = 'non';
 
-const isOverdue = t => grp(t) !== 'executed' && !!t.dueDate && t.dueDate < asOfDate();
+const isWithdrawnTest = t => String(t.status || '').toLowerCase() === 'withdrawn';
+const isOverdue = t => !isWithdrawnTest(t) && grp(t) !== 'executed' && !!t.dueDate && t.dueDate < asOfDate();
 const isOpenDefect = d => d.status !== 'Resolved';
 
 function defectInScope(d) {
