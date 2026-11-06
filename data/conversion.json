@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-04",
-  "refreshedAt": "2026-11-04T21:55:16.442Z",
+  "asOf": "2026-11-06",
+  "refreshedAt": "2026-11-06T17:43:40.347Z",
   "jiraBase": "https://pwc-us-adv-cc-85ef5f50.atlassian.net/browse/",
   "items": [
     {
@@ -182,15 +182,15 @@
         },
         {
           "label": "Generate Recon Report",
-          "done": false,
+          "done": true,
           "dueDate": "2026-10-28",
-          "status": "Not Started"
+          "status": "Completed"
         },
         {
           "label": "Perform Post Load Validation & Provide Sign-Off",
-          "done": false,
+          "done": true,
           "dueDate": "2026-11-04",
-          "status": "Not Started"
+          "status": "Completed"
         }
       ]
     },
@@ -867,7 +867,7 @@
           "label": "Perform Post Load Validation & Provide Sign-Off",
           "done": false,
           "dueDate": "2026-11-04",
-          "status": "Not Started"
+          "status": "In Progress"
         }
       ]
     },
