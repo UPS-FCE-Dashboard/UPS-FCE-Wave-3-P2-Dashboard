@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-04",
-  "refreshedAt": "2026-11-04T21:55:16.442Z",
+  "asOf": "2026-11-09",
+  "refreshedAt": "2026-11-09T20:21:31.378Z",
   "filters": {
     "project": "CONAMER1001932",
     "component": "Release 1",
@@ -9,22 +9,22 @@
     "status": "not Withdrawn"
   },
   "metrics": {
-    "totalRice": 68,
-    "complete": 60,
-    "delayed": 8,
+    "totalRice": 67,
+    "complete": 62,
+    "delayed": 5,
     "onTarget": 0,
-    "pctComplete": 88.2,
-    "pctDelayed": 11.8,
+    "pctComplete": 92.5,
+    "pctDelayed": 7.5,
     "pctOnTarget": 0,
-    "highRisk": 30,
-    "watch": 5,
-    "stable": 33,
-    "overdueSubtasks": 121,
-    "uniqueCrs": 55,
-    "crOpen": 5,
-    "crCompleted": 41,
+    "highRisk": 29,
+    "watch": 3,
+    "stable": 35,
+    "overdueSubtasks": 113,
+    "uniqueCrs": 56,
+    "crOpen": 4,
+    "crCompleted": 42,
     "crWithdrawn": 2,
-    "crNoDefect": 7
+    "crNoDefect": 8
   },
   "rice": [
     {
@@ -558,7 +558,7 @@
           "plannedComplete": "2026-03-12",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 242
         },
         {
           "jiraOrder": 6,
@@ -566,7 +566,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 237
         },
         {
           "jiraOrder": 7,
@@ -574,7 +574,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 237
         },
         {
           "jiraOrder": 8,
@@ -630,7 +630,7 @@
           "plannedComplete": "2026-04-24",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 194
+          "daysOverdue": 199
         }
       ]
     },
@@ -1307,7 +1307,7 @@
           "plannedComplete": "2026-02-27",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 250
+          "daysOverdue": 255
         },
         {
           "jiraOrder": 6,
@@ -1315,7 +1315,7 @@
           "plannedComplete": "2026-03-04",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 245
+          "daysOverdue": 250
         },
         {
           "jiraOrder": 7,
@@ -1323,7 +1323,7 @@
           "plannedComplete": "2026-03-04",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 245
+          "daysOverdue": 250
         },
         {
           "jiraOrder": 8,
@@ -1379,7 +1379,7 @@
           "plannedComplete": "2026-04-09",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 209
+          "daysOverdue": 214
         }
       ]
     },
@@ -1450,7 +1450,7 @@
           "plannedComplete": "2026-03-12",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 242
         },
         {
           "jiraOrder": 6,
@@ -1458,7 +1458,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 237
         },
         {
           "jiraOrder": 7,
@@ -1466,7 +1466,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 237
         },
         {
           "jiraOrder": 8,
@@ -1522,7 +1522,7 @@
           "plannedComplete": "2026-04-24",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 194
+          "daysOverdue": 199
         }
       ]
     },
@@ -1593,7 +1593,7 @@
           "plannedComplete": "2026-03-10",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 239
+          "daysOverdue": 244
         },
         {
           "jiraOrder": 6,
@@ -1601,7 +1601,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 236
+          "daysOverdue": 241
         },
         {
           "jiraOrder": 7,
@@ -1609,7 +1609,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 236
+          "daysOverdue": 241
         },
         {
           "jiraOrder": 8,
@@ -1665,7 +1665,7 @@
           "plannedComplete": "2026-04-21",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 197
+          "daysOverdue": 202
         }
       ]
     },
@@ -1736,7 +1736,7 @@
           "plannedComplete": "2026-02-27",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 250
+          "daysOverdue": 255
         },
         {
           "jiraOrder": 6,
@@ -1744,7 +1744,7 @@
           "plannedComplete": "2026-03-04",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 245
+          "daysOverdue": 250
         },
         {
           "jiraOrder": 7,
@@ -1752,7 +1752,7 @@
           "plannedComplete": "2026-03-04",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 245
+          "daysOverdue": 250
         },
         {
           "jiraOrder": 8,
@@ -1808,7 +1808,7 @@
           "plannedComplete": "2026-04-09",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 209
+          "daysOverdue": 214
         }
       ]
     },
@@ -2178,7 +2178,7 @@
           "plannedComplete": "2026-02-13",
           "assignee": "aartis",
           "status": "Withdrawn",
-          "daysOverdue": 264
+          "daysOverdue": 269
         },
         {
           "jiraOrder": 6,
@@ -2186,7 +2186,7 @@
           "plannedComplete": "2026-02-18",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 259
+          "daysOverdue": 264
         },
         {
           "jiraOrder": 7,
@@ -2194,7 +2194,7 @@
           "plannedComplete": "2026-02-18",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 259
+          "daysOverdue": 264
         },
         {
           "jiraOrder": 8,
@@ -2250,7 +2250,7 @@
           "plannedComplete": "2026-03-11",
           "assignee": "aartis",
           "status": "Withdrawn",
-          "daysOverdue": 238
+          "daysOverdue": 243
         }
       ]
     },
@@ -2321,7 +2321,7 @@
           "plannedComplete": "2026-02-13",
           "assignee": "aartis",
           "status": "Withdrawn",
-          "daysOverdue": 264
+          "daysOverdue": 269
         },
         {
           "jiraOrder": 6,
@@ -2329,7 +2329,7 @@
           "plannedComplete": "2026-02-18",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 259
+          "daysOverdue": 264
         },
         {
           "jiraOrder": 7,
@@ -2337,7 +2337,7 @@
           "plannedComplete": "2026-02-18",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 259
+          "daysOverdue": 264
         },
         {
           "jiraOrder": 8,
@@ -2393,7 +2393,7 @@
           "plannedComplete": "2026-03-11",
           "assignee": "aartis",
           "status": "Withdrawn",
-          "daysOverdue": 238
+          "daysOverdue": 243
         }
       ]
     },
@@ -2468,7 +2468,7 @@
           "plannedComplete": "2026-03-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 247
+          "daysOverdue": 252
         },
         {
           "jiraOrder": 6,
@@ -2476,7 +2476,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 249
         },
         {
           "jiraOrder": 7,
@@ -2484,7 +2484,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 249
         },
         {
           "jiraOrder": 8,
@@ -2540,7 +2540,7 @@
           "plannedComplete": "2026-04-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 216
+          "daysOverdue": 221
         }
       ]
     },
@@ -2611,7 +2611,7 @@
           "plannedComplete": "2026-03-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 247
+          "daysOverdue": 252
         },
         {
           "jiraOrder": 6,
@@ -2619,7 +2619,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 249
         },
         {
           "jiraOrder": 7,
@@ -2627,7 +2627,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 249
         },
         {
           "jiraOrder": 8,
@@ -2683,7 +2683,7 @@
           "plannedComplete": "2026-04-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 216
+          "daysOverdue": 221
         }
       ]
     },
@@ -2992,7 +2992,7 @@
           "plannedComplete": "2026-08-18",
           "assignee": "rsurumbarkuzhali",
           "status": "In Progress",
-          "daysOverdue": 78
+          "daysOverdue": 83
         }
       ]
     },
@@ -3063,7 +3063,7 @@
           "plannedComplete": "2026-03-11",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 238
+          "daysOverdue": 243
         },
         {
           "jiraOrder": 6,
@@ -3071,7 +3071,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 233
+          "daysOverdue": 238
         },
         {
           "jiraOrder": 7,
@@ -3079,7 +3079,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 233
+          "daysOverdue": 238
         },
         {
           "jiraOrder": 8,
@@ -3135,7 +3135,7 @@
           "plannedComplete": "2026-04-23",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 195
+          "daysOverdue": 200
         }
       ]
     },
@@ -3206,7 +3206,7 @@
           "plannedComplete": "2026-03-10",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 239
+          "daysOverdue": 244
         },
         {
           "jiraOrder": 6,
@@ -3214,7 +3214,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 236
+          "daysOverdue": 241
         },
         {
           "jiraOrder": 7,
@@ -3222,7 +3222,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 236
+          "daysOverdue": 241
         },
         {
           "jiraOrder": 8,
@@ -3278,7 +3278,7 @@
           "plannedComplete": "2026-04-22",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 196
+          "daysOverdue": 201
         }
       ]
     },
@@ -3509,7 +3509,7 @@
           "plannedComplete": "2026-03-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 247
+          "daysOverdue": 252
         },
         {
           "jiraOrder": 6,
@@ -3517,7 +3517,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 249
         },
         {
           "jiraOrder": 7,
@@ -3525,7 +3525,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 249
         },
         {
           "jiraOrder": 8,
@@ -3581,7 +3581,7 @@
           "plannedComplete": "2026-04-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 216
+          "daysOverdue": 221
         }
       ]
     },
@@ -3652,7 +3652,7 @@
           "plannedComplete": "2026-02-03",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 274
+          "daysOverdue": 279
         },
         {
           "jiraOrder": 6,
@@ -3660,7 +3660,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 271
+          "daysOverdue": 276
         },
         {
           "jiraOrder": 7,
@@ -3668,7 +3668,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 271
+          "daysOverdue": 276
         },
         {
           "jiraOrder": 8,
@@ -3724,7 +3724,7 @@
           "plannedComplete": "2026-02-26",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 251
+          "daysOverdue": 256
         }
       ]
     },
@@ -3795,7 +3795,7 @@
           "plannedComplete": "2026-02-03",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 274
+          "daysOverdue": 279
         },
         {
           "jiraOrder": 6,
@@ -3803,7 +3803,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 271
+          "daysOverdue": 276
         },
         {
           "jiraOrder": 7,
@@ -3811,7 +3811,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 271
+          "daysOverdue": 276
         },
         {
           "jiraOrder": 8,
@@ -3867,7 +3867,7 @@
           "plannedComplete": "2026-02-26",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 251
+          "daysOverdue": 256
         }
       ]
     },
@@ -3938,7 +3938,7 @@
           "plannedComplete": "2026-02-03",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 274
+          "daysOverdue": 279
         },
         {
           "jiraOrder": 6,
@@ -3946,7 +3946,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 271
+          "daysOverdue": 276
         },
         {
           "jiraOrder": 7,
@@ -3954,7 +3954,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 271
+          "daysOverdue": 276
         },
         {
           "jiraOrder": 8,
@@ -4010,7 +4010,7 @@
           "plannedComplete": "2026-02-26",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 251
+          "daysOverdue": 256
         }
       ]
     },
@@ -4019,19 +4019,19 @@
       "summary": "RTA POs to Oracle",
       "id": "FCE-INT-IN-RTA-PO-0505",
       "type": "Integration",
-      "status": "Update Technical Design",
+      "status": "Completed",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Anuradha Kumar",
       "subTotal": 15,
-      "subDone": 14,
-      "subOpen": 1,
-      "delayedCount": 1,
-      "bucket": "In Progress",
-      "risk": "Watch",
-      "riskWhy": "1 delayed sub-tasks; 1 open CR",
-      "openCr": 1,
-      "completedCr": 0,
+      "subDone": 15,
+      "subOpen": 0,
+      "delayedCount": 0,
+      "bucket": "Complete",
+      "risk": "Stable",
+      "riskWhy": "No delayed sub-tasks, not blocked, no open overdue CR",
+      "openCr": 0,
+      "completedCr": 1,
       "noDefCr": 1,
       "crs": [
         {
@@ -4159,8 +4159,8 @@
           "step": "Update Technical Design",
           "plannedComplete": "2026-08-17",
           "assignee": "Shivani Patel",
-          "status": "In Progress",
-          "daysOverdue": 79
+          "status": "Completed",
+          "daysOverdue": null
         }
       ]
     },
@@ -4231,7 +4231,7 @@
           "plannedComplete": "2026-02-03",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 274
+          "daysOverdue": 279
         },
         {
           "jiraOrder": 6,
@@ -4239,7 +4239,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 271
+          "daysOverdue": 276
         },
         {
           "jiraOrder": 7,
@@ -4247,7 +4247,7 @@
           "plannedComplete": "2026-02-06",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 271
+          "daysOverdue": 276
         },
         {
           "jiraOrder": 8,
@@ -4303,7 +4303,7 @@
           "plannedComplete": "2026-02-26",
           "assignee": "Chanmye Myintthu",
           "status": "Withdrawn",
-          "daysOverdue": 251
+          "daysOverdue": 256
         }
       ]
     },
@@ -4374,7 +4374,7 @@
           "plannedComplete": "2026-03-10",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 239
+          "daysOverdue": 244
         },
         {
           "jiraOrder": 6,
@@ -4382,7 +4382,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 236
+          "daysOverdue": 241
         },
         {
           "jiraOrder": 7,
@@ -4390,7 +4390,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 236
+          "daysOverdue": 241
         },
         {
           "jiraOrder": 8,
@@ -4446,7 +4446,7 @@
           "plannedComplete": "2026-04-22",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 196
+          "daysOverdue": 201
         }
       ]
     },
@@ -4517,7 +4517,7 @@
           "plannedComplete": "2026-03-12",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 242
         },
         {
           "jiraOrder": 6,
@@ -4525,7 +4525,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 237
         },
         {
           "jiraOrder": 7,
@@ -4533,7 +4533,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 237
         },
         {
           "jiraOrder": 8,
@@ -4589,7 +4589,7 @@
           "plannedComplete": "2026-04-24",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 194
+          "daysOverdue": 199
         }
       ]
     },
@@ -4660,7 +4660,7 @@
           "plannedComplete": "2026-03-12",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 237
+          "daysOverdue": 242
         },
         {
           "jiraOrder": 6,
@@ -4668,7 +4668,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 237
         },
         {
           "jiraOrder": 7,
@@ -4676,7 +4676,7 @@
           "plannedComplete": "2026-03-17",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 232
+          "daysOverdue": 237
         },
         {
           "jiraOrder": 8,
@@ -4732,7 +4732,7 @@
           "plannedComplete": "2026-04-24",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 194
+          "daysOverdue": 199
         }
       ]
     },
@@ -4803,7 +4803,7 @@
           "plannedComplete": "2026-03-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 247
+          "daysOverdue": 252
         },
         {
           "jiraOrder": 6,
@@ -4811,7 +4811,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 249
         },
         {
           "jiraOrder": 7,
@@ -4819,7 +4819,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 249
         },
         {
           "jiraOrder": 8,
@@ -4875,7 +4875,7 @@
           "plannedComplete": "2026-04-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 216
+          "daysOverdue": 221
         }
       ]
     },
@@ -4946,7 +4946,7 @@
           "plannedComplete": "2026-03-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 247
+          "daysOverdue": 252
         },
         {
           "jiraOrder": 6,
@@ -4954,7 +4954,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 249
         },
         {
           "jiraOrder": 7,
@@ -4962,7 +4962,7 @@
           "plannedComplete": "2026-03-05",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 244
+          "daysOverdue": 249
         },
         {
           "jiraOrder": 8,
@@ -5018,7 +5018,7 @@
           "plannedComplete": "2026-04-02",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 216
+          "daysOverdue": 221
         }
       ]
     },
@@ -5089,7 +5089,7 @@
           "plannedComplete": "2026-03-11",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 238
+          "daysOverdue": 243
         },
         {
           "jiraOrder": 6,
@@ -5097,7 +5097,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 233
+          "daysOverdue": 238
         },
         {
           "jiraOrder": 7,
@@ -5105,7 +5105,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 233
+          "daysOverdue": 238
         },
         {
           "jiraOrder": 8,
@@ -5161,7 +5161,7 @@
           "plannedComplete": "2026-04-23",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 195
+          "daysOverdue": 200
         }
       ]
     },
@@ -5232,7 +5232,7 @@
           "plannedComplete": "2026-03-11",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 238
+          "daysOverdue": 243
         },
         {
           "jiraOrder": 6,
@@ -5240,7 +5240,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 233
+          "daysOverdue": 238
         },
         {
           "jiraOrder": 7,
@@ -5248,7 +5248,7 @@
           "plannedComplete": "2026-03-16",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 233
+          "daysOverdue": 238
         },
         {
           "jiraOrder": 8,
@@ -5304,7 +5304,7 @@
           "plannedComplete": "2026-04-23",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 195
+          "daysOverdue": 200
         }
       ]
     },
@@ -6468,7 +6468,7 @@
           "plannedComplete": "2026-09-02",
           "assignee": "Ignacio Amadeo",
           "status": "In Progress",
-          "daysOverdue": 63
+          "daysOverdue": 68
         },
         {
           "jiraOrder": 12,
@@ -6476,7 +6476,7 @@
           "plannedComplete": "2026-09-10",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 55
+          "daysOverdue": 60
         },
         {
           "jiraOrder": 13,
@@ -6484,7 +6484,7 @@
           "plannedComplete": "2026-09-11",
           "assignee": "hkk",
           "status": "Not Started",
-          "daysOverdue": 54
+          "daysOverdue": 59
         },
         {
           "jiraOrder": 14,
@@ -6492,7 +6492,7 @@
           "plannedComplete": "2026-09-16",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 49
+          "daysOverdue": 54
         }
       ]
     },
@@ -6621,7 +6621,7 @@
           "plannedComplete": "2026-09-02",
           "assignee": "Ignacio Amadeo",
           "status": "In Progress",
-          "daysOverdue": 63
+          "daysOverdue": 68
         },
         {
           "jiraOrder": 12,
@@ -6629,7 +6629,7 @@
           "plannedComplete": "2026-09-10",
           "assignee": "arajanvk",
           "status": "Not Started",
-          "daysOverdue": 55
+          "daysOverdue": 60
         },
         {
           "jiraOrder": 13,
@@ -6637,7 +6637,7 @@
           "plannedComplete": "2026-09-11",
           "assignee": "hkk",
           "status": "Not Started",
-          "daysOverdue": 54
+          "daysOverdue": 59
         },
         {
           "jiraOrder": 14,
@@ -6645,7 +6645,7 @@
           "plannedComplete": "2026-09-16",
           "assignee": "arajanvk",
           "status": "Not Started",
-          "daysOverdue": 49
+          "daysOverdue": 54
         }
       ]
     },
@@ -6774,7 +6774,7 @@
           "plannedComplete": "2026-09-02",
           "assignee": "Ignacio Amadeo",
           "status": "In Progress",
-          "daysOverdue": 63
+          "daysOverdue": 68
         },
         {
           "jiraOrder": 12,
@@ -6782,7 +6782,7 @@
           "plannedComplete": "2026-09-10",
           "assignee": "arajanvk",
           "status": "Not Started",
-          "daysOverdue": 55
+          "daysOverdue": 60
         },
         {
           "jiraOrder": 13,
@@ -6790,7 +6790,7 @@
           "plannedComplete": "2026-09-11",
           "assignee": "hkk",
           "status": "Not Started",
-          "daysOverdue": 54
+          "daysOverdue": 59
         },
         {
           "jiraOrder": 14,
@@ -6798,7 +6798,7 @@
           "plannedComplete": "2026-09-16",
           "assignee": "arajanvk",
           "status": "Not Started",
-          "daysOverdue": 49
+          "daysOverdue": 54
         }
       ]
     },
@@ -6927,7 +6927,7 @@
           "plannedComplete": "2026-09-02",
           "assignee": "Ignacio Amadeo",
           "status": "In Progress",
-          "daysOverdue": 63
+          "daysOverdue": 68
         },
         {
           "jiraOrder": 12,
@@ -6935,7 +6935,7 @@
           "plannedComplete": "2026-09-10",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 55
+          "daysOverdue": 60
         },
         {
           "jiraOrder": 13,
@@ -6943,7 +6943,7 @@
           "plannedComplete": "2026-09-11",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 54
+          "daysOverdue": 59
         },
         {
           "jiraOrder": 14,
@@ -6951,7 +6951,7 @@
           "plannedComplete": "2026-09-16",
           "assignee": "lsuresh",
           "status": "Not Started",
-          "daysOverdue": 49
+          "daysOverdue": 54
         }
       ]
     },
@@ -7770,7 +7770,7 @@
           "plannedComplete": "2026-03-10",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 239
+          "daysOverdue": 244
         },
         {
           "jiraOrder": 6,
@@ -7778,7 +7778,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 236
+          "daysOverdue": 241
         },
         {
           "jiraOrder": 7,
@@ -7786,7 +7786,7 @@
           "plannedComplete": "2026-03-13",
           "assignee": "Shivani Patel",
           "status": "Withdrawn",
-          "daysOverdue": 236
+          "daysOverdue": 241
         },
         {
           "jiraOrder": 8,
@@ -7842,7 +7842,7 @@
           "plannedComplete": "2026-04-22",
           "assignee": "dborkar",
           "status": "Withdrawn",
-          "daysOverdue": 196
+          "daysOverdue": 201
         }
       ]
     },
@@ -8897,7 +8897,7 @@
       "riskWhy": "No delayed sub-tasks, not blocked, no open overdue CR",
       "openCr": 0,
       "completedCr": 2,
-      "noDefCr": 1,
+      "noDefCr": 2,
       "crs": [
         {
           "key": "CONAMER1001932-20449"
@@ -8907,6 +8907,9 @@
         },
         {
           "key": "CONAMER1001932-27230"
+        },
+        {
+          "key": "CONAMER1001932-27264"
         }
       ],
       "allSubs": [
@@ -9050,7 +9053,7 @@
       "riskWhy": "No delayed sub-tasks, not blocked, no open overdue CR",
       "openCr": 0,
       "completedCr": 3,
-      "noDefCr": 1,
+      "noDefCr": 2,
       "crs": [
         {
           "key": "CONAMER1001932-20449"
@@ -9063,6 +9066,9 @@
         },
         {
           "key": "CONAMER1001932-27230"
+        },
+        {
+          "key": "CONAMER1001932-27264"
         }
       ],
       "allSubs": [
@@ -9185,149 +9191,6 @@
           "assignee": "arajanvk",
           "status": "Completed",
           "daysOverdue": null
-        }
-      ]
-    },
-    {
-      "key": "CONAMER1001932-19748",
-      "summary": "Invoices to Tax Engine",
-      "id": "FCE-INT-OUT-INV-AP-TREUTERS-0402",
-      "type": "Integration",
-      "status": "Unit Testing",
-      "workstream": "Source to Pay",
-      "module": "Accounts Payable",
-      "assignee": "Ignacio Amadeo",
-      "subTotal": 15,
-      "subDone": 9,
-      "subOpen": 6,
-      "delayedCount": 6,
-      "bucket": "In Progress",
-      "risk": "High",
-      "riskWhy": "6 delayed sub-tasks",
-      "openCr": 0,
-      "completedCr": 0,
-      "noDefCr": 0,
-      "crs": [],
-      "allSubs": [
-        {
-          "jiraOrder": 0,
-          "step": "Functional Design",
-          "plannedComplete": "2026-04-30",
-          "assignee": "Ignacio Amadeo",
-          "status": "Completed",
-          "daysOverdue": null
-        },
-        {
-          "jiraOrder": 1,
-          "step": "Review Functional Design",
-          "plannedComplete": "2026-05-13",
-          "assignee": "Mike Iorfino",
-          "status": "Completed",
-          "daysOverdue": null
-        },
-        {
-          "jiraOrder": 2,
-          "step": "Approve Functional Design",
-          "plannedComplete": "2026-05-20",
-          "assignee": "Mike Iorfino",
-          "status": "Completed",
-          "daysOverdue": null
-        },
-        {
-          "jiraOrder": 3,
-          "step": "FSD Handoff",
-          "plannedComplete": "2026-05-27",
-          "assignee": "Ignacio Amadeo",
-          "status": "Completed",
-          "daysOverdue": null
-        },
-        {
-          "jiraOrder": 4,
-          "step": "Technical Analysis",
-          "plannedComplete": "2026-06-04",
-          "assignee": "srinivasnakka",
-          "status": "Completed",
-          "daysOverdue": null
-        },
-        {
-          "jiraOrder": 5,
-          "step": "Technical Design",
-          "plannedComplete": "2026-06-15",
-          "assignee": "srinivasnakka",
-          "status": "Completed",
-          "daysOverdue": null
-        },
-        {
-          "jiraOrder": 6,
-          "step": "Review Technical Design",
-          "plannedComplete": "2026-06-17",
-          "assignee": "Shivani Patel",
-          "status": "Completed",
-          "daysOverdue": null
-        },
-        {
-          "jiraOrder": 7,
-          "step": "Approve Technical Design",
-          "plannedComplete": "2026-06-17",
-          "assignee": "Shivani Patel",
-          "status": "Completed",
-          "daysOverdue": null
-        },
-        {
-          "jiraOrder": 8,
-          "step": "Build",
-          "plannedComplete": "2026-07-06",
-          "assignee": "Mahesh kanna",
-          "status": "Completed",
-          "daysOverdue": null
-        },
-        {
-          "jiraOrder": 9,
-          "step": "Unit Testing",
-          "plannedComplete": "2026-07-17",
-          "assignee": "Mahesh kanna",
-          "status": "Blocked",
-          "daysOverdue": 110
-        },
-        {
-          "jiraOrder": 10,
-          "step": "Functional Testing Handoff",
-          "plannedComplete": "2026-07-17",
-          "assignee": "Priyam Parmar",
-          "status": "Not Started",
-          "daysOverdue": 110
-        },
-        {
-          "jiraOrder": 11,
-          "step": "Functional Testing",
-          "plannedComplete": "2026-08-06",
-          "assignee": "Ignacio Amadeo",
-          "status": "Not Started",
-          "daysOverdue": 90
-        },
-        {
-          "jiraOrder": 12,
-          "step": "Defect Resolution",
-          "plannedComplete": "2026-08-13",
-          "assignee": "Mahesh kanna",
-          "status": "Not Started",
-          "daysOverdue": 83
-        },
-        {
-          "jiraOrder": 13,
-          "step": "Code Promotion",
-          "plannedComplete": "2026-08-14",
-          "assignee": "Priyam Parmar",
-          "status": "Not Started",
-          "daysOverdue": 82
-        },
-        {
-          "jiraOrder": 14,
-          "step": "Update Technical Design",
-          "plannedComplete": "2026-08-19",
-          "assignee": "Priyam Parmar",
-          "status": "Not Started",
-          "daysOverdue": 77
         }
       ]
     },
@@ -9777,17 +9640,17 @@
       "summary": "UPS PO Headers to RTA",
       "id": "FCE-INT-OUT-PO-HDR-RTA-0518",
       "type": "Integration",
-      "status": "Update Technical Design",
+      "status": "Completed",
       "workstream": "Source to Pay",
       "module": "Accounts Payable",
       "assignee": "Anuradha Kumar",
       "subTotal": 15,
-      "subDone": 14,
-      "subOpen": 1,
-      "delayedCount": 1,
-      "bucket": "In Progress",
-      "risk": "Watch",
-      "riskWhy": "1 delayed sub-tasks",
+      "subDone": 15,
+      "subOpen": 0,
+      "delayedCount": 0,
+      "bucket": "Complete",
+      "risk": "Stable",
+      "riskWhy": "No delayed sub-tasks, not blocked, no open overdue CR",
       "openCr": 0,
       "completedCr": 0,
       "noDefCr": 0,
@@ -9910,8 +9773,8 @@
           "step": "Update Technical Design",
           "plannedComplete": "2026-10-01",
           "assignee": "Shivani Patel",
-          "status": "In Progress",
-          "daysOverdue": 34
+          "status": "Completed",
+          "daysOverdue": null
         }
       ]
     },
@@ -10569,10 +10432,10 @@
       "assignee": "Ray Ashton",
       "crStatus": "Accepted",
       "due": "2026-06-30",
-      "dueOverdue": true,
+      "dueOverdue": false,
       "defectCount": 2,
-      "openDefectCount": 1,
-      "delivery": "Open",
+      "openDefectCount": 0,
+      "delivery": "Completed",
       "defects": [
         {
           "key": "CONAMER1001932-21569",
@@ -10583,7 +10446,7 @@
         {
           "key": "CONAMER1001932-20531",
           "summary": "Defect to track progress of CR CONAMER1001932-20530 Include logic for Attribute3 of \"SCS\" context",
-          "status": "Blocked",
+          "status": "Resolved",
           "assignee": null
         }
       ]
@@ -11303,7 +11166,7 @@
       "key": "CONAMER1001932-27230",
       "summary": "Include additional columns in \"UPS_DEFAULT_COMPANY_CODE\" value set extract from EDMCS to Oracle Cloud and ERPP",
       "assignee": "Ray Ashton",
-      "crStatus": "Not Started",
+      "crStatus": "Accepted",
       "due": "2026-11-20",
       "dueOverdue": false,
       "defectCount": 0,
@@ -11329,6 +11192,18 @@
           "assignee": null
         }
       ]
+    },
+    {
+      "key": "CONAMER1001932-27264",
+      "summary": "Additional Value Sets need to be added to EDMCS and sent to ERPP.",
+      "assignee": "Ray Ashton",
+      "crStatus": "Not Started",
+      "due": null,
+      "dueOverdue": false,
+      "defectCount": 0,
+      "openDefectCount": 0,
+      "delivery": "No linked defect",
+      "defects": []
     }
   ]
 }

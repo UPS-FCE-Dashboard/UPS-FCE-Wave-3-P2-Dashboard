@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-04",
-  "refreshedAt": "2026-11-04T21:55:16.442Z",
+  "asOf": "2026-11-09",
+  "refreshedAt": "2026-11-09T20:21:31.378Z",
   "items": [
     {
       "key": "CONAMER1001932-18578",
@@ -54,23 +54,6 @@
       "defectType": "Master Data"
     },
     {
-      "key": "CONAMER1001932-20419",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "Project Cost Unit Testing - Enhancements",
-      "subledger": "PA",
-      "relatedObject": "Project Cost Unit Testing",
-      "severity": "Medium",
-      "status": "Ready for Retest",
-      "owner": "Brandon Leslie",
-      "dateIdentified": "2026-05-28",
-      "targetRetestDate": "2026-11-04",
-      "notes": "N/A",
-      "defectType": "New Requirement"
-    },
-    {
       "key": "CONAMER1001932-20420",
       "issueType": "Defect",
       "labels": [
@@ -103,23 +86,6 @@
       "targetRetestDate": "2027-12-31",
       "notes": "N/A",
       "defectType": "New Requirement"
-    },
-    {
-      "key": "CONAMER1001932-20465",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "Determine Exchange Rate - Due to Differences Between AP Invoice BU and Project Ledger BU",
-      "subledger": "PA",
-      "relatedObject": "Determine Exchange Rate",
-      "severity": "Medium",
-      "status": "Ready for Retest",
-      "owner": "Brandon Leslie",
-      "dateIdentified": "2026-06-11",
-      "targetRetestDate": "2026-11-04",
-      "notes": "NA",
-      "defectType": "Master Data"
     },
     {
       "key": "CONAMER1001932-20470",
@@ -318,7 +284,7 @@
       "subledger": "PA",
       "relatedObject": "Projects",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-21",
       "targetRetestDate": "2027-01-08",
@@ -2818,7 +2784,7 @@
       "subledger": "FA",
       "relatedObject": "Fixed Assets Distributions",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
@@ -2835,7 +2801,7 @@
       "subledger": "FA",
       "relatedObject": "Fixed Assets Distributions",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
@@ -2852,8 +2818,8 @@
       "subledger": "FA",
       "relatedObject": "Fixed Assets Distributions",
       "severity": "Medium",
-      "status": "Not Started",
-      "owner": "Brandon Leslie",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
@@ -2865,11 +2831,11 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment1",
+      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment2",
       "subledger": "FA",
       "relatedObject": "Fixed Assets Distributions",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
@@ -2886,7 +2852,7 @@
       "subledger": "FA",
       "relatedObject": "Fixed Assets Distributions",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
@@ -3073,7 +3039,7 @@
       "subledger": "FA",
       "relatedObject": "Fixed Assets Additions",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
@@ -3243,8 +3209,8 @@
       "subledger": "PO",
       "relatedObject": "PO Receipts",
       "severity": "High",
-      "status": "Not Started",
-      "owner": "Brandon Leslie",
+      "status": "In Progress",
+      "owner": "Ashley Peterman",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2026-11-30",
       "notes": "N/A - These records are failing to load",
@@ -3362,12 +3328,12 @@
       "subledger": "PO",
       "relatedObject": "PO Line Distributions",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "Retest",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
       "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT.",
-      "defectType": "Test Script/Documentation"
+      "defectType": "System Functionality Limitation"
     },
     {
       "key": "CONAMER1001932-23690",
@@ -3770,7 +3736,7 @@
       "subledger": "PA",
       "relatedObject": "Project Budgets",
       "severity": "High",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
@@ -4152,23 +4118,6 @@
       "defectType": "Requirement Defect"
     },
     {
-      "key": "CONAMER1001932-25113",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - Invoice Validation reports do not provide clear results",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "Low",
-      "status": "Triage",
-      "owner": "Anuradha Kumar",
-      "dateIdentified": "2026-10-26",
-      "targetRetestDate": "2026-11-06",
-      "notes": "N/A",
-      "defectType": "End-User Training/Guidance"
-    },
-    {
       "key": "CONAMER1001932-25114",
       "issueType": "Defect",
       "labels": [
@@ -4212,7 +4161,7 @@
       "subledger": "PA",
       "relatedObject": "P590 & BL - Project Expenditure",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "Ready for Retest",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-27",
       "targetRetestDate": "2027-01-08",
@@ -4322,23 +4271,6 @@
       "defectType": "Technical Defect"
     },
     {
-      "key": "CONAMER1001932-25143",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - PE_Invoice Validation_Conversion Closed_Holds (Tax Line On Hold but has distribution).",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "In Progress",
-      "owner": "Chanmye Myintthu",
-      "dateIdentified": "2026-10-29",
-      "targetRetestDate": "2026-10-30",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
       "key": "CONAMER1001932-25144",
       "issueType": "Defect",
       "labels": [
@@ -4353,23 +4285,6 @@
       "dateIdentified": "2026-10-29",
       "targetRetestDate": "2027-01-08",
       "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-25145",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - CO_Validation_Conversion_Closed_HOLDS (Tax Line on hold but has distribution)",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "In Progress",
-      "owner": "Chanmye Myintthu",
-      "dateIdentified": "2026-10-29",
-      "targetRetestDate": "2026-10-30",
-      "notes": "N/A",
       "defectType": "Technical Defect"
     },
     {
@@ -4390,23 +4305,6 @@
       "defectType": "End-User Training/Guidance"
     },
     {
-      "key": "CONAMER1001932-25171",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - Rejected invoices require manual one by one re-approval",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "Medium",
-      "status": "Not Started",
-      "owner": "Ashley Peterman",
-      "dateIdentified": "2026-10-30",
-      "targetRetestDate": "2026-11-06",
-      "notes": "N/A",
-      "defectType": "System Functionality Limitation"
-    },
-    {
       "key": "CONAMER1001932-25172",
       "issueType": "Defect",
       "labels": [
@@ -4416,10 +4314,10 @@
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "High",
-      "status": "Fail",
-      "owner": "Subhaya Das",
+      "status": "In Progress",
+      "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-30",
-      "targetRetestDate": "2026-11-02",
+      "targetRetestDate": "2026-11-30",
       "notes": "R1 P2 - 19 CONVERSION CLOSED Invoice were excluded from dummy payment run and will remain as \"not paid\" in DEV5",
       "defectType": "Technical Defect"
     },
@@ -4468,9 +4366,9 @@
       "relatedObject": "AP Invoice",
       "severity": "High",
       "status": "Ready for Retest",
-      "owner": "Joanna Bielecka",
+      "owner": "Ashley Peterman",
       "dateIdentified": "2026-11-02",
-      "targetRetestDate": "2026-11-04",
+      "targetRetestDate": "2026-11-05",
       "notes": "n/a",
       "defectType": "Technical Defect"
     },
@@ -4492,23 +4390,6 @@
       "defectType": "Coding Update – Report"
     },
     {
-      "key": "CONAMER1001932-27235",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Invoice Conversion R1 P2 - Installment hold: The value Document payee bank account number is required",
-      "subledger": "AP",
-      "relatedObject": "Invoice",
-      "severity": "High",
-      "status": "Not Started",
-      "owner": "Ashley Peterman",
-      "dateIdentified": "2026-11-03",
-      "targetRetestDate": "2026-11-05",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
       "key": "CONAMER1001932-27242",
       "issueType": "Defect",
       "labels": [
@@ -4523,6 +4404,159 @@
       "dateIdentified": "2026-11-04",
       "targetRetestDate": "2026-11-06",
       "notes": "n/a",
+      "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-27247",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - PH Submit Payment_Conversion Closed_missmatch between Installments proposal and PPR (value)",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Subhaya Das",
+      "dateIdentified": "2026-11-05",
+      "targetRetestDate": "2026-11-09",
+      "notes": "n/a",
+      "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-27248",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project Expenditures Conversion R1 P2 - Recon - Loaded NegativeTxnFlag Not Found",
+      "subledger": "PA",
+      "relatedObject": "Project Expenditures",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Rohit Gupta",
+      "dateIdentified": "2026-11-05",
+      "targetRetestDate": "2026-11-20",
+      "notes": "If the NegativeTxnFlag is not stored in Oracle, we can remove the \"Loaded\" column from the recon report",
+      "defectType": "Requirement Defect"
+    },
+    {
+      "key": "CONAMER1001932-27249",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project Expenditures Conversion R1 P2 -  Recon - ACCT Rate Type Auto-populated on Load",
+      "subledger": "PA",
+      "relatedObject": "Project Expenditures",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Rohit Gupta",
+      "dateIdentified": "2026-11-05",
+      "targetRetestDate": "2026-11-20",
+      "notes": "N/A",
+      "defectType": "Requirement Defect"
+    },
+    {
+      "key": "CONAMER1001932-27250",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project Expenditures Conversion R1 P2 -  Recon  - AcctRateDate Auto-populated upon Import",
+      "subledger": "PA",
+      "relatedObject": "Project Expenditures",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Rohit Gupta",
+      "dateIdentified": "2026-11-05",
+      "targetRetestDate": "2026-11-20",
+      "notes": "N/A",
+      "defectType": "Requirement Defect"
+    },
+    {
+      "key": "CONAMER1001932-27268",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Submit Payment - Conversion Closed - Payment Approval Initiated",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-11-06",
+      "targetRetestDate": "2026-11-10",
+      "notes": "n/a",
+      "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-27272",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Project Expenditures Load Error - Ledger Raw Cost Rounding Limit",
+      "subledger": "PA",
+      "relatedObject": "Project Expenditures Load Error",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-11-06",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A",
+      "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-27273",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Project Expenditures Load Error - Budgetary Control Validation Failure",
+      "subledger": "PA",
+      "relatedObject": "Project Expenditures Load Error",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-11-06",
+      "targetRetestDate": "2027-01-08",
+      "notes": "Unknown",
+      "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-27274",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Project Expenditures Load Error - Invalid RawCost Credit Account",
+      "subledger": "PA",
+      "relatedObject": "Project Expenditures Load Error",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-11-06",
+      "targetRetestDate": "",
+      "notes": "N/A",
+      "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-27276",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Project Expenditures Load Error - Miscellaneous Type Require Supplier Attr",
+      "subledger": "PA",
+      "relatedObject": "Project Expenditures Load Error",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-11-06",
+      "targetRetestDate": "",
+      "notes": "N/A",
       "defectType": "Technical Defect"
     }
   ]
