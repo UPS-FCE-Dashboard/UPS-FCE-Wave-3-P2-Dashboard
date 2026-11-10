@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-09",
-  "refreshedAt": "2026-11-09T20:21:31.378Z",
+  "asOf": "2026-11-10",
+  "refreshedAt": "2026-11-10T19:38:07.541Z",
   "items": [
     {
       "key": "CONAMER1001932-18578",
@@ -369,7 +369,7 @@
       "subledger": "PA",
       "relatedObject": "Projects Conversions",
       "severity": "High",
-      "status": "Not Started",
+      "status": "Ready for Retest",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
@@ -692,7 +692,7 @@
       "subledger": "CM",
       "relatedObject": "Bank",
       "severity": "High",
-      "status": "In Progress",
+      "status": "Ready for Retest",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
@@ -1174,23 +1174,6 @@
       "targetRetestDate": "",
       "notes": "N/A - needs to be addressed and fixed for R1 SIT",
       "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-23491",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Supplier Headers Conversion R1 P2 - Federal Reportable Flag Logic/Loading difference",
-      "subledger": "PO",
-      "relatedObject": "Supplier Headers",
-      "severity": "Medium",
-      "status": "Retest",
-      "owner": "Monika Neuhauser",
-      "dateIdentified": "2026-09-16",
-      "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be fixed for R1 SIT",
-      "defectType": "Test Script/Documentation"
     },
     {
       "key": "CONAMER1001932-23492",
@@ -2775,74 +2758,6 @@
       "defectType": "Coding Update – Report"
     },
     {
-      "key": "CONAMER1001932-23639",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment5",
-      "subledger": "FA",
-      "relatedObject": "Fixed Assets Distributions",
-      "severity": "Medium",
-      "status": "In Progress",
-      "owner": "Brandon Leslie",
-      "dateIdentified": "2026-09-24",
-      "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-23640",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment4",
-      "subledger": "FA",
-      "relatedObject": "Fixed Assets Distributions",
-      "severity": "Medium",
-      "status": "In Progress",
-      "owner": "Brandon Leslie",
-      "dateIdentified": "2026-09-24",
-      "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-23641",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment3",
-      "subledger": "FA",
-      "relatedObject": "Fixed Assets Distributions",
-      "severity": "Medium",
-      "status": "In Progress",
-      "owner": "Anuradha Kumar",
-      "dateIdentified": "2026-09-24",
-      "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-23642",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Fixed Assets Distributions Conversion R1 P2 - Wrong Target Asset Location Segment2",
-      "subledger": "FA",
-      "relatedObject": "Fixed Assets Distributions",
-      "severity": "Medium",
-      "status": "In Progress",
-      "owner": "Brandon Leslie",
-      "dateIdentified": "2026-09-24",
-      "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
-    },
-    {
       "key": "CONAMER1001932-23643",
       "issueType": "Defect",
       "labels": [
@@ -4271,23 +4186,6 @@
       "defectType": "Technical Defect"
     },
     {
-      "key": "CONAMER1001932-25144",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conersion R1 P2 - PE_Invoice Validation_Conversion Partial_Holds (Invoice Lines without distributions loaded)",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice Conersion",
-      "severity": "Medium",
-      "status": "In Progress",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-10-29",
-      "targetRetestDate": "2027-01-08",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
       "key": "CONAMER1001932-25170",
       "issueType": "Defect",
       "labels": [
@@ -4365,7 +4263,7 @@
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "High",
-      "status": "Ready for Retest",
+      "status": "In Progress",
       "owner": "Ashley Peterman",
       "dateIdentified": "2026-11-02",
       "targetRetestDate": "2026-11-05",
@@ -4390,29 +4288,12 @@
       "defectType": "Coding Update – Report"
     },
     {
-      "key": "CONAMER1001932-27242",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - CONVERSION_CLOSED - Unpaid Prepayments",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Not Started",
-      "owner": "Monika Neuhauser",
-      "dateIdentified": "2026-11-04",
-      "targetRetestDate": "2026-11-06",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
       "key": "CONAMER1001932-27247",
       "issueType": "Defect",
       "labels": [
         "Conversion"
       ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - PH Submit Payment_Conversion Closed_missmatch between Installments proposal and PPR (value)",
+      "summary": "P590 - AP Invoice Conversion R1 P2 - PH Submit Payment_Conversion Closed_missmatch between Installments proposal and PPR (value) - Intercompany Payment Run",
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "High",
@@ -4558,6 +4439,74 @@
       "targetRetestDate": "",
       "notes": "N/A",
       "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-30446",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - GR Submit Payment_Conversion Closed_Unselected credit due to not loaded invoices",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-11-09",
+      "targetRetestDate": "2026-11-10",
+      "notes": "n/a",
+      "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-30447",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Invoice Conversion R1 P2 - GT_Invoice Validation_Conversion Closed_Loaded vs Validated vs Not Validated",
+      "subledger": "AP",
+      "relatedObject": "Invoice",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-11-09",
+      "targetRetestDate": "2026-11-10",
+      "notes": "n/a",
+      "defectType": "End-User Training/Guidance"
+    },
+    {
+      "key": "CONAMER1001932-30448",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Invoice Conversion R1 P2 - GT_Invoice Validation_Conversion Closed_Unable to validate invoice (Tax Line on Hold wo Distribution but is 0.00)",
+      "subledger": "AP",
+      "relatedObject": "Invoice",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-11-09",
+      "targetRetestDate": "2026-11-11",
+      "notes": "n/a",
+      "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-30455",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "Project Budgets Conversion - Convert Budgets with Zero/Blank Budget Amount in Source EBS/ACC",
+      "subledger": "PA",
+      "relatedObject": "Project Budgets",
+      "severity": "Medium",
+      "status": "Ready for Retest",
+      "owner": "Brandon Leslie",
+      "dateIdentified": "2026-11-10",
+      "targetRetestDate": "2027-01-08",
+      "notes": "N/A",
+      "defectType": "New Requirement"
     }
   ]
 }
