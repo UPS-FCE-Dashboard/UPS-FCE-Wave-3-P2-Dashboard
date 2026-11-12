@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-10",
-  "refreshedAt": "2026-11-10T19:38:07.541Z",
+  "asOf": "2026-11-11",
+  "refreshedAt": "2026-11-12T01:45:01.266Z",
   "items": [
     {
       "key": "CONAMER1001932-18578",
@@ -29,7 +29,7 @@
       "subledger": "AP",
       "relatedObject": "AP Invoices Load Issue for AWT Line Type",
       "severity": "Medium",
-      "status": "Ready for Retest",
+      "status": "In Progress",
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-05-19",
       "targetRetestDate": "2026-10-28",
@@ -710,7 +710,7 @@
       "relatedObject": "Bank",
       "severity": "Medium",
       "status": "Not Started",
-      "owner": "Alice Linesch",
+      "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
       "notes": "Need to understand why the Alternate Name was not loaded against the Bank and Branch record. Potentially due to duplicate records and/or validation occurring in Oracle Cloud at the time of loading that is causing the alternate name to be ignored.",
@@ -727,7 +727,7 @@
       "relatedObject": "Bank Conversions",
       "severity": "Medium",
       "status": "Not Started",
-      "owner": "Alice Linesch",
+      "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
       "notes": "Potentially a reporting issue, we are seeing that several of the affected records have special/unicode characters that are slightly off between target and loaded. Need to investigate further and resolve in the report.",
@@ -778,7 +778,7 @@
       "relatedObject": "Bank",
       "severity": "Medium",
       "status": "Not Started",
-      "owner": "Alice Linesch",
+      "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-11",
       "targetRetestDate": "2027-01-08",
       "notes": "Need to understand what is causing the duplicate record before next steps",
@@ -829,9 +829,9 @@
       "relatedObject": "Bank",
       "severity": "Low",
       "status": "Not Started",
-      "owner": "Alice Linesch",
+      "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-14",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - manually explained in R1 P2 Recon Report (notes) - should be fixed though for R1 SIT",
       "defectType": "Coding Update – Report"
     },
@@ -846,7 +846,7 @@
       "relatedObject": "Bank",
       "severity": "Low",
       "status": "Not Started",
-      "owner": "Alice Linesch",
+      "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2027-01-08",
       "notes": "N/A - need to be investigated and fixed before R1 SIT",
@@ -967,7 +967,7 @@
       "status": "Not Started",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-15",
-      "targetRetestDate": "2026-11-16",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - improvements to be implemented by R1 SIT",
       "defectType": "Coding Update – Report"
     },
@@ -984,7 +984,7 @@
       "status": "Not Started",
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Configuration Update"
     },
@@ -1001,7 +1001,7 @@
       "status": "Not Started",
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Configuration Update"
     },
@@ -1018,7 +1018,7 @@
       "status": "Not Started",
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Configuration Update"
     },
@@ -1035,7 +1035,7 @@
       "status": "Not Started",
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Configuration Update"
     },
@@ -1046,13 +1046,13 @@
         "Conversion"
       ],
       "summary": "P590 - Supplier Attachments Conversion R1 P2 - Zscaler Server API Load Issue",
-      "subledger": "AP",
+      "subledger": "PO",
       "relatedObject": "Supplier Attachments",
       "severity": "Medium",
       "status": "Ready for Retest",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-15",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "Let records fall out for P2 loads since over 99% of records were still loaded.",
       "defectType": "Technical Defect"
     },
@@ -1086,7 +1086,7 @@
       "status": "Ready for Retest",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A for R1 P2 - needs to be fixed for R1 SIT",
       "defectType": "Coding Update – Report"
     },
@@ -1120,7 +1120,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - needs to be investigated and resolved for R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1137,7 +1137,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - needs to be investigate and addressed/fixed before R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1171,7 +1171,7 @@
       "status": "Ready for Retest",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - needs to be addressed and fixed for R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1273,7 +1273,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - root cause must be identified and fixed in time for R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1307,7 +1307,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1324,7 +1324,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1341,7 +1341,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1409,7 +1409,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1424,9 +1424,9 @@
       "relatedObject": "Supplier Site",
       "severity": "Low",
       "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1443,7 +1443,7 @@
       "status": "Ready for Retest",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Coding Update – Report"
     },
@@ -1696,9 +1696,9 @@
       "relatedObject": "Supplier Site Assignment",
       "severity": "Low",
       "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1746,12 +1746,12 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site Assignment",
       "severity": "Low",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "Ready for Retest",
+      "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
+      "defectType": "Configuration Update"
     },
     {
       "key": "CONAMER1001932-23553",
@@ -1766,7 +1766,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1851,7 +1851,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1885,7 +1885,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1902,7 +1902,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1919,7 +1919,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -1936,7 +1936,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -2018,10 +2018,10 @@
       "subledger": "PO",
       "relatedObject": "Supplier Bank Account",
       "severity": "Low",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -2035,10 +2035,10 @@
       "subledger": "PO",
       "relatedObject": "Supplier Bank Account",
       "severity": "Low",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -2053,9 +2053,9 @@
       "relatedObject": "Supplier Bank Account",
       "severity": "Low",
       "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -2086,12 +2086,12 @@
       "subledger": "PO",
       "relatedObject": "Supplier Bank Account",
       "severity": "Low",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
+      "defectType": "Test Script/Documentation"
     },
     {
       "key": "CONAMER1001932-23583",
@@ -2154,10 +2154,10 @@
       "subledger": "PO",
       "relatedObject": "Supplier Bank Account",
       "severity": "Low",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -2205,10 +2205,10 @@
       "subledger": "PO",
       "relatedObject": "Supplier Bank Account",
       "severity": "Low",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -2259,7 +2259,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A",
       "defectType": "Requirement Defect"
     },
@@ -2345,7 +2345,7 @@
       "status": "Not Started",
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Technical Defect"
     },
@@ -2362,7 +2362,7 @@
       "status": "Not Started",
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Technical Defect"
     },
@@ -2379,7 +2379,7 @@
       "status": "Not Started",
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Technical Defect"
     },
@@ -2396,7 +2396,7 @@
       "status": "Not Started",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "2027-01-08",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Technical Defect"
     },
@@ -2413,7 +2413,7 @@
       "status": "Not Started",
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Technical Defect"
     },
@@ -2447,7 +2447,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -2464,7 +2464,7 @@
       "status": "Not Started",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - must be understood & corrected prior to R1 SIT",
       "defectType": "Technical Defect"
     },
@@ -3737,7 +3737,7 @@
       "relatedObject": "Project Budgets",
       "severity": "Medium",
       "status": "Not Started",
-      "owner": "Alice Linesch",
+      "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "2027-01-08",
       "notes": "NA",
@@ -3807,7 +3807,7 @@
       "status": "Not Started",
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-15",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "No workaround. Either the configuration details need to be provided or the withholding tax code won;t be featured in AP invoice.",
       "defectType": "Configuration Update"
     },
@@ -3824,7 +3824,7 @@
       "status": "Not Started",
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-19",
-      "targetRetestDate": "",
+      "targetRetestDate": "2027-01-08",
       "notes": "N/A - should be ready to be fully retested in R1 SIT.",
       "defectType": "Requirement Defect"
     },
@@ -3948,6 +3948,23 @@
       "defectType": "Technical Defect"
     },
     {
+      "key": "CONAMER1001932-25079",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "CR  - Item Master Conversion R1 P2: Populate Item DFF Attribute 11 with Legacy Natural Account (CR CONAMER1001932-25077)",
+      "subledger": "INV",
+      "relatedObject": "CR  - Item Master",
+      "severity": "Medium",
+      "status": "Not Started",
+      "owner": "Alice Linesch",
+      "dateIdentified": "2026-10-21",
+      "targetRetestDate": "2027-01-08",
+      "notes": "None – without the fix, ERPP falls back to the survivor account",
+      "defectType": "New Requirement"
+    },
+    {
       "key": "CONAMER1001932-25091",
       "issueType": "Defect",
       "labels": [
@@ -4011,7 +4028,7 @@
       "status": "Not Started",
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-23",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A - These records failed to load during P2",
       "defectType": "Technical Defect"
     },
@@ -4031,6 +4048,24 @@
       "targetRetestDate": "2026-11-30",
       "notes": "N/A - needs to be clarified for R1 SIT",
       "defectType": "Requirement Defect"
+    },
+    {
+      "key": "CONAMER1001932-25113",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion",
+        "Functional"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Invoice Validation reports do not provide clear results",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "Low",
+      "status": "Retest",
+      "owner": "Patrycja Niewiera",
+      "dateIdentified": "2026-10-26",
+      "targetRetestDate": "2026-11-06",
+      "notes": "N/A",
+      "defectType": "End-User Training/Guidance"
     },
     {
       "key": "CONAMER1001932-25114",
@@ -4247,28 +4282,11 @@
       "relatedObject": "PM didn't match the recon report from DEV5",
       "severity": "Low",
       "status": "Not Started",
-      "owner": "Brandon Leslie",
+      "owner": "Rohit Gupta",
       "dateIdentified": "2026-10-30",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-16",
       "notes": "If a default manager email is to be used upon conversion, the functional/business would need to be communicated on when this occur through the recon report.",
       "defectType": "Source File"
-    },
-    {
-      "key": "CONAMER1001932-27130",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - HN Submit Payment_Conversion Closed_Payment Validation Errors (Disbursement Account Issue - zero amount)",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "In Progress",
-      "owner": "Ashley Peterman",
-      "dateIdentified": "2026-11-02",
-      "targetRetestDate": "2026-11-05",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
     },
     {
       "key": "CONAMER1001932-27234",
@@ -4356,6 +4374,23 @@
       "defectType": "Requirement Defect"
     },
     {
+      "key": "CONAMER1001932-27251",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Project Expenditures Conversion R1 P2 - Recon - Unit of Measure Defaulted upon Import",
+      "subledger": "PA",
+      "relatedObject": "Project Expenditures",
+      "severity": "Low",
+      "status": "Not Started",
+      "owner": "Rohit Gupta",
+      "dateIdentified": "2026-11-05",
+      "targetRetestDate": "2026-11-30",
+      "notes": "If this field is auto-populated upon import due to the design of the Oracle backend and will not impact the users, one workaround could be to remove the \"Loaded\" column for this field on the Recon report, since we are never populating it in the FBDI anways.",
+      "defectType": "Requirement Defect"
+    },
+    {
       "key": "CONAMER1001932-27268",
       "issueType": "Defect",
       "labels": [
@@ -4365,12 +4400,12 @@
       "subledger": "AP",
       "relatedObject": "AP Invoice",
       "severity": "High",
-      "status": "Not Started",
-      "owner": "Ashley Peterman",
+      "status": "Ready for Retest",
+      "owner": "Joanna Bielecka",
       "dateIdentified": "2026-11-06",
       "targetRetestDate": "2026-11-10",
       "notes": "n/a",
-      "defectType": "Technical Defect"
+      "defectType": "End-User Training/Guidance"
     },
     {
       "key": "CONAMER1001932-27272",
@@ -4378,14 +4413,14 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "Project Expenditures Load Error - Ledger Raw Cost Rounding Limit",
+      "summary": "P590 - Project Expenditures Conversion R1 P2 - Load Error - Ledger Raw Cost Rounding Limit",
       "subledger": "PA",
-      "relatedObject": "Project Expenditures Load Error",
+      "relatedObject": "Project Expenditures",
       "severity": "Medium",
       "status": "Not Started",
-      "owner": "Brandon Leslie",
+      "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-06",
-      "targetRetestDate": "2027-01-08",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Technical Defect"
     },
@@ -4395,14 +4430,14 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "Project Expenditures Load Error - Budgetary Control Validation Failure",
+      "summary": "P590 - Project Expenditures Conversion R1 P2 -  Load Error - Budgetary Control Validation Failure",
       "subledger": "PA",
-      "relatedObject": "Project Expenditures Load Error",
+      "relatedObject": "Project Expenditures",
       "severity": "Medium",
       "status": "Not Started",
-      "owner": "Brandon Leslie",
+      "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-06",
-      "targetRetestDate": "2027-01-08",
+      "targetRetestDate": "2026-11-30",
       "notes": "Unknown",
       "defectType": "Technical Defect"
     },
@@ -4412,14 +4447,14 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "Project Expenditures Load Error - Invalid RawCost Credit Account",
+      "summary": "P590 - Project Expenditures Conversion R1 P2 -  Load Error - Invalid RawCost Credit Account",
       "subledger": "PA",
-      "relatedObject": "Project Expenditures Load Error",
+      "relatedObject": "Project Expenditures",
       "severity": "Medium",
       "status": "Not Started",
-      "owner": "Brandon Leslie",
+      "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-06",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Technical Defect"
     },
@@ -4429,14 +4464,14 @@
       "labels": [
         "Conversion"
       ],
-      "summary": "Project Expenditures Load Error - Miscellaneous Type Require Supplier Attr",
+      "summary": "P590 - Project Expenditures Conversion R1 P2 -  Load Error - Miscellaneous Type Require Supplier Attr",
       "subledger": "PA",
-      "relatedObject": "Project Expenditures Load Error",
+      "relatedObject": "Project Expenditures",
       "severity": "Medium",
       "status": "Not Started",
-      "owner": "Brandon Leslie",
+      "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-06",
-      "targetRetestDate": "",
+      "targetRetestDate": "2026-11-30",
       "notes": "N/A",
       "defectType": "Technical Defect"
     },
@@ -4451,43 +4486,9 @@
       "relatedObject": "AP Invoice",
       "severity": "High",
       "status": "Ready for Retest",
-      "owner": "Monika Neuhauser",
-      "dateIdentified": "2026-11-09",
-      "targetRetestDate": "2026-11-10",
-      "notes": "n/a",
-      "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-30447",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Invoice Conversion R1 P2 - GT_Invoice Validation_Conversion Closed_Loaded vs Validated vs Not Validated",
-      "subledger": "AP",
-      "relatedObject": "Invoice",
-      "severity": "High",
-      "status": "Ready for Retest",
       "owner": "Joanna Bielecka",
       "dateIdentified": "2026-11-09",
       "targetRetestDate": "2026-11-10",
-      "notes": "n/a",
-      "defectType": "End-User Training/Guidance"
-    },
-    {
-      "key": "CONAMER1001932-30448",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Invoice Conversion R1 P2 - GT_Invoice Validation_Conversion Closed_Unable to validate invoice (Tax Line on Hold wo Distribution but is 0.00)",
-      "subledger": "AP",
-      "relatedObject": "Invoice",
-      "severity": "High",
-      "status": "Ready for Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-11-09",
-      "targetRetestDate": "2026-11-11",
       "notes": "n/a",
       "defectType": "Technical Defect"
     },
