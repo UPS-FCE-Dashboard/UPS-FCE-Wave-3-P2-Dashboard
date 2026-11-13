@@ -1,6 +1,6 @@
 {
-  "asOf": "2026-11-11",
-  "refreshedAt": "2026-11-12T01:45:01.266Z",
+  "asOf": "2026-11-13",
+  "refreshedAt": "2026-11-13T18:12:41.790Z",
   "items": [
     {
       "key": "CONAMER1001932-18578",
@@ -16,7 +16,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-03-18",
       "targetRetestDate": "2026-11-04",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -33,7 +33,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-05-19",
       "targetRetestDate": "2026-10-28",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -50,7 +50,7 @@
       "owner": "Anthony Gold",
       "dateIdentified": "2026-05-19",
       "targetRetestDate": "2026-10-28",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -67,7 +67,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-05-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "Create EBS tax rates in Oracle Cloud till the time tax engine design is finalized",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -84,7 +84,7 @@
       "owner": "Prerna Thadani",
       "dateIdentified": "2026-06-09",
       "targetRetestDate": "2027-12-31",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -101,7 +101,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-06-12",
       "targetRetestDate": "2026-10-28",
-      "notes": "Load invoices with their actual accounting date",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -118,7 +118,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-06-18",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -135,7 +135,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-07-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "Profile report program to be updated",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -152,7 +152,7 @@
       "owner": "Subhaya Das",
       "dateIdentified": "2026-07-17",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -169,7 +169,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-07-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -186,7 +186,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-07-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -203,7 +203,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-07-31",
       "targetRetestDate": "2026-12-14",
-      "notes": "N?A",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -220,7 +220,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-10",
       "targetRetestDate": "2026-11-04",
-      "notes": "Potential workarounds to be discussed.",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -237,7 +237,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-18",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -254,7 +254,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-20",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -271,7 +271,7 @@
       "owner": "asaloni",
       "dateIdentified": "2026-08-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "Not yet determined.",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -288,7 +288,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -305,7 +305,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -322,7 +322,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - however for R1 P2 we will load data as is (with Attribure7 blank as per the existing RTA ItemListing).",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -339,7 +339,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "Letting these records error out during P2 loads. Will update the conversion code for SIT to leave the AWT_GROUP_NAME blank for Colombia BUs",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -356,7 +356,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "Update UNSPSC Code mapping with missing item records for R1 P2 upload. To be retested with R1 SIT '",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -373,7 +373,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -386,12 +386,12 @@
       "subledger": "PO",
       "relatedObject": "Supplier Sites",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "Loaded with the Hold Reason blanked out",
-      "defectType": "New Requirement"
+      "notes": "[object Object]",
+      "defectType": "Coding Update – Report"
     },
     {
       "key": "CONAMER1001932-23219",
@@ -407,7 +407,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-26",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Interface"
     },
     {
@@ -424,7 +424,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -441,7 +441,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - 6 records failed to load",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -458,7 +458,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - these records errored out during loads",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -475,7 +475,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-08-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - Let these records error out during loads since it only affected 4 records",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -492,7 +492,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-08-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to figure out whether we consolidate these banks or break them out into separate records in Cloud.",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -509,7 +509,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-08-31",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - no impact on Release 1 though as the impacted companies are only in subsequent releases for for P590",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -526,7 +526,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-08-31",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -543,7 +543,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-04",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - were not excluded for R1 P2 but should be for all other releases and test cycles going forward",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -560,7 +560,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-04",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - currently included in R1 P2 pull and US companies in P590 UPS CORP books caused critical - exclusion error (inability to determine scope) but no direct impact on R1 P2 overall load volumes",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -577,7 +577,7 @@
       "owner": "Prerna Thadani",
       "dateIdentified": "2026-09-04",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need confirmation from functional team on if there's any setup that would default the category at the time of item creation if blank. Need resolution on missing item category mapping for SIT conversions.",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -594,7 +594,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-09-04",
       "targetRetestDate": "2027-01-08",
-      "notes": "Update recon report for SIT conversions to resolve issue with special characters.",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -611,7 +611,7 @@
       "owner": "Glenn Siedlarczyk",
       "dateIdentified": "2026-09-07",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - Not loaded in R1 P2 for Budget conversion (as project itself not loaded in R1 P2 Project & Task conversion)",
+      "notes": "[object Object]",
       "defectType": "Source File"
     },
     {
@@ -628,7 +628,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-09-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - loaded wrong in R1 P2 (found in recon report) - defect to be resolvled and retested in R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -645,7 +645,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to determine why duplicate project classifications are coming through and what next steps are to resolve them.",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -662,7 +662,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-09-09",
       "targetRetestDate": "2027-01-08",
-      "notes": "For R1 P2, these distirbutions will be loaded without a location code but needs to be addressed before R1 SIT starts",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -679,7 +679,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "Records for R1 P2 that could not be loaded are excluded from R1 P2 load but must be resolved prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -696,7 +696,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to understand why the BIC Code was not loaded and/or loaded different than what was converted. Need clarification on Oracle's validation against the BIC Code values.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -713,7 +713,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to understand why the Alternate Name was not loaded against the Bank and Branch record. Potentially due to duplicate records and/or validation occurring in Oracle Cloud at the time of loading that is causing the alternate name to be ignored.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -730,7 +730,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "Potentially a reporting issue, we are seeing that several of the affected records have special/unicode characters that are slightly off between target and loaded. Need to investigate further and resolve in the report.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -747,7 +747,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to figure out whether we consolidate these branches or break them out into separate records in Cloud.",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -764,7 +764,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-11",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to understand why these characters are included in the names first- from there we can determine whether any data cleanup and/or code logic updates are needed.",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -781,7 +781,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-11",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to understand what is causing the duplicate record before next steps",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -798,7 +798,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-11",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -815,7 +815,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-11",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - Leaving this field blank for P2",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -832,7 +832,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - manually explained in R1 P2 Recon Report (notes) - should be fixed though for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -849,7 +849,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - need to be investigated and fixed before R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -866,7 +866,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -883,7 +883,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -900,7 +900,7 @@
       "owner": "Glenn Siedlarczyk",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -917,7 +917,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -934,7 +934,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -951,7 +951,7 @@
       "owner": "Saloni A Hemani",
       "dateIdentified": "2026-09-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to review calendar period setups for projects and confirm these missing periods should be set up going forward with the business.",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -968,7 +968,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -985,7 +985,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -1002,7 +1002,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -1019,7 +1019,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -1036,7 +1036,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -1053,7 +1053,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-15",
       "targetRetestDate": "2027-01-08",
-      "notes": "Let records fall out for P2 loads since over 99% of records were still loaded.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1070,7 +1070,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "For R1 P2 load files were manually adjusted to load Attribute 4 values transformed into Attribute 5. However, this also meant that actual Cloud Attribute 4 values were overwritten in the transformation.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1087,7 +1087,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A for R1 P2 - needs to be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1104,7 +1104,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1121,7 +1121,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be investigated and resolved for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1138,7 +1138,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be investigate and addressed/fixed before R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1155,7 +1155,7 @@
       "owner": "Christian Dylla",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - was loaded without parent vendor name in R1 P2 - needs to be reviewed and fixed before R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1172,7 +1172,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be addressed and fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1189,7 +1189,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1202,11 +1202,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "High",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1219,11 +1219,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1236,11 +1236,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Low",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated and address before R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -1257,25 +1257,8 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - these records failed to load",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
-    },
-    {
-      "key": "CONAMER1001932-23497",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Supplier Site Conversion R1 P2 - Attribute 4 Loaded Value Different from Transformed Value",
-      "subledger": "PO",
-      "relatedObject": "Supplier Site",
-      "severity": "Low",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
-      "dateIdentified": "2026-09-16",
-      "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause must be identified and fixed in time for R1 SIT",
-      "defectType": "Technical Defect"
     },
     {
       "key": "CONAMER1001932-23500",
@@ -1287,12 +1270,12 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
+      "notes": "[object Object]",
+      "defectType": "Coding Update – Report"
     },
     {
       "key": "CONAMER1001932-23501",
@@ -1304,11 +1287,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Low",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1321,12 +1304,12 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Low",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
+      "targetRetestDate": "2027-01-08",
+      "notes": "[object Object]",
+      "defectType": "Coding Update – Report"
     },
     {
       "key": "CONAMER1001932-23503",
@@ -1338,11 +1321,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Low",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1355,12 +1338,12 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
+      "notes": "[object Object]",
+      "defectType": "Coding Update – Report"
     },
     {
       "key": "CONAMER1001932-23505",
@@ -1372,12 +1355,12 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
+      "notes": "[object Object]",
+      "defectType": "Coding Update – Report"
     },
     {
       "key": "CONAMER1001932-23506",
@@ -1389,12 +1372,12 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "2026-12-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
+      "targetRetestDate": "2027-01-08",
+      "notes": "[object Object]",
+      "defectType": "Coding Update – Report"
     },
     {
       "key": "CONAMER1001932-23507",
@@ -1406,11 +1389,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Low",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1423,12 +1406,12 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Low",
-      "status": "Not Started",
-      "owner": "Anuradha Kumar",
+      "status": "In Progress",
+      "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
-      "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
+      "targetRetestDate": "2027-01-08",
+      "notes": "[object Object]",
+      "defectType": "Coding Update – Report"
     },
     {
       "key": "CONAMER1001932-23509",
@@ -1444,7 +1427,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-16",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1461,7 +1444,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SITN",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1478,7 +1461,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & documented & corrected prior to R1 SITN",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1491,11 +1474,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Medium",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1508,11 +1491,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Medium",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Mani Varadan",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1525,11 +1508,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1542,12 +1525,12 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "Medium",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
-      "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
+      "targetRetestDate": "2027-01-08",
+      "notes": "[object Object]",
+      "defectType": "Coding Update – Report"
     },
     {
       "key": "CONAMER1001932-23523",
@@ -1563,7 +1546,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1580,7 +1563,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - correct updated mapping has to be in place for R1 SIT the latest",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -1597,7 +1580,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "For R1 P2, the change will be made manually in the FBID upload files to default per BU - note that this will result in a difference between Target & Loaded on the recon Report for R1 P2 also. Change must be implemented fully for R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -1614,7 +1597,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1631,7 +1614,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - Let records fall out during loads",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -1648,7 +1631,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-17",
       "targetRetestDate": "2026-11-30",
-      "notes": "Anuradha manually updated the Purchasable Flag to \"Y\" for P2 loads. There was one Item that was missed that fell out during loads",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -1665,7 +1648,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1682,7 +1665,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1695,11 +1678,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site Assignment",
       "severity": "Low",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1716,7 +1699,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1733,7 +1716,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1750,7 +1733,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -1767,7 +1750,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1784,7 +1767,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1801,7 +1784,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1818,7 +1801,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1835,7 +1818,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1852,7 +1835,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1869,7 +1852,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1886,7 +1869,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1903,7 +1886,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1920,7 +1903,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1937,7 +1920,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -1954,7 +1937,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-18",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1971,7 +1954,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -1988,7 +1971,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2005,7 +1988,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2022,7 +2005,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2039,7 +2022,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2056,7 +2039,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2073,25 +2056,8 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be investigated, documented & fixed prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-23582",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - Supplier Bank Account Conversion R1 P2 - Wrong End Date Loaded (Blank in Legacy & Target but default date of 12/31/4712",
-      "subledger": "PO",
-      "relatedObject": "Supplier Bank Account",
-      "severity": "Low",
-      "status": "In Progress",
-      "owner": "Anuradha Kumar",
-      "dateIdentified": "2026-09-21",
-      "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Test Script/Documentation"
     },
     {
       "key": "CONAMER1001932-23583",
@@ -2107,7 +2073,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2124,7 +2090,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2137,11 +2103,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Bank Account",
       "severity": "Medium",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2155,11 +2121,11 @@
       "relatedObject": "Supplier Bank Account",
       "severity": "Low",
       "status": "In Progress",
-      "owner": "Anuradha Kumar",
+      "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
-      "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
-      "defectType": "Technical Defect"
+      "targetRetestDate": "2027-01-08",
+      "notes": "[object Object]",
+      "defectType": "End-User Training/Guidance"
     },
     {
       "key": "CONAMER1001932-23587",
@@ -2175,7 +2141,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2192,7 +2158,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must becorrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2209,7 +2175,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2226,7 +2192,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2243,7 +2209,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2260,7 +2226,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -2277,7 +2243,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -2295,7 +2261,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - to be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2312,7 +2278,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -2329,7 +2295,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -2346,7 +2312,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2363,7 +2329,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2380,7 +2346,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2397,7 +2363,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2414,7 +2380,7 @@
       "owner": "Alex Payne",
       "dateIdentified": "2026-09-21",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2431,7 +2397,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs clarification before R1 SIT start",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2444,11 +2410,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Bank Account Assignments",
       "severity": "Low",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2461,11 +2427,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Bank Account Assignments",
       "severity": "Medium",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2482,7 +2448,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2499,7 +2465,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2516,7 +2482,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2533,7 +2499,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2550,7 +2516,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2567,7 +2533,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - the recon report counts MUST tie to profile report + load report counts. No exceptions. MUST be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2581,10 +2547,10 @@
       "relatedObject": "Project & Tasks &  Budget Tolerance",
       "severity": "High",
       "status": "In Progress",
-      "owner": "Monika Neuhauser",
+      "owner": "Alice Linesch",
       "dateIdentified": "2026-09-22",
       "targetRetestDate": "2027-01-08",
-      "notes": "Working with the functional team on the pending items/blockers encountered with the Project Budgets tolerance load using the REST API for P2.",
+      "notes": "[object Object]",
       "defectType": "System Functionality Limitation"
     },
     {
@@ -2601,7 +2567,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - documentation update only required - should be completed asap",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -2618,7 +2584,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2635,7 +2601,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - to be researched and addressed prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -2652,7 +2618,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2669,7 +2635,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "End-User Training/Guidance"
     },
     {
@@ -2686,7 +2652,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-23",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -2703,7 +2669,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - report was not available for R1 P2 but must be made available for R1 SIT onwards as need to also ensure that source lines were loaded correctly",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2720,7 +2686,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - to be fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2737,7 +2703,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be addressed & fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2754,7 +2720,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2771,7 +2737,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2788,7 +2754,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2805,7 +2771,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-24",
       "targetRetestDate": "2027-01-08",
-      "notes": "Change the Conversion logic for EBS-sourced projects",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -2822,7 +2788,7 @@
       "owner": "Ignacio Amadeo",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2839,7 +2805,7 @@
       "owner": "Ignacio Amadeo",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2856,7 +2822,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be investigated and if indeed a coding issue exists fixed for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2873,7 +2839,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2890,7 +2856,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2907,7 +2873,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & corrected prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2924,7 +2890,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-25",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2941,7 +2907,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be reviewed, explained and if needed underlying issues fixed prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2958,7 +2924,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
-      "notes": "N.A - needs to be reviewed, explained and if needed fixed (coding) prior to R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -2975,7 +2941,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
-      "notes": "N.A - needs to be confirmed and updated prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -2992,7 +2958,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be urgently investigated and fixed once root cause is known so the issue does not reoccur during R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3005,11 +2971,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "High",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "In Progress",
+      "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - need to understand why these 2 countries had no converted records at all for supplies and if underlying coding issue exists, this needs to be addressed before R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3026,7 +2992,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2026-11-30",
-      "notes": "For P2, we manually updated the values for the following UOMs to resolve load issues.",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -3043,7 +3009,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -3060,7 +3026,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - these records are currently failing to load",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -3073,11 +3039,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "High",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be understood & documented & corrected prior to R1 SITN",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3094,7 +3060,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3111,7 +3077,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -3128,7 +3094,7 @@
       "owner": "Ashley Peterman",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - These records are failing to load",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3145,7 +3111,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be corrected prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3162,7 +3128,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be corrected prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3179,7 +3145,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-29",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3196,7 +3162,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3213,7 +3179,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3230,7 +3196,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3243,11 +3209,11 @@
       "subledger": "PO",
       "relatedObject": "PO Line Distributions",
       "severity": "Medium",
-      "status": "Retest",
-      "owner": "Chanmye Myintthu",
+      "status": "Ready for Retest",
+      "owner": "Monika Neuhauser",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be investigated, explained and corrected prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "System Functionality Limitation"
     },
     {
@@ -3264,7 +3230,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -3281,7 +3247,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-09-30",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3298,7 +3264,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-02",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be corrected prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -3315,7 +3281,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-02",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - must be corrected prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -3332,7 +3298,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-05",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - need to fully understand before R1 SIT if there is an issue with the selection/exclusion method for Open POs and if so, address prior R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3349,7 +3315,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-05",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - root cause needs to be identified and resolved prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3366,7 +3332,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-05",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - root cause needs to be identified and resolved prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3383,7 +3349,7 @@
       "owner": "Monika Neuhauser",
       "dateIdentified": "2026-10-05",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - root cause needs to be identified and resolved prior to R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3400,7 +3366,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -3417,7 +3383,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3434,7 +3400,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -3451,7 +3417,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -3468,7 +3434,7 @@
       "owner": "Ignacio Amadeo",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -3485,7 +3451,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -3502,7 +3468,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3519,7 +3485,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - root cause to be investigated and documented/resolved prior R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3536,7 +3502,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3553,7 +3519,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-06",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - improvements to be implemented by R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3570,7 +3536,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Test Script/Documentation"
     },
     {
@@ -3587,7 +3553,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3604,7 +3570,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3621,7 +3587,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-08",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3638,7 +3604,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-08",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3655,7 +3621,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "Need to investigate these records further to understand why they are in error and cannot be baselined.",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3672,7 +3638,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3689,7 +3655,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "For R1 P2, Attribute9 was loaded as blank (manually adjusted in the upload files) where the item number was not converted as part for R1 P2 conversion. However, needs to be addressed for R1 SIT Item Master conversion.",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3706,7 +3672,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3723,7 +3689,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-14",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3740,7 +3706,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3757,7 +3723,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -3774,7 +3740,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3791,7 +3757,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3808,7 +3774,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-15",
       "targetRetestDate": "2026-11-30",
-      "notes": "No workaround. Either the configuration details need to be provided or the withholding tax code won;t be featured in AP invoice.",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -3825,7 +3791,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-19",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - should be ready to be fully retested in R1 SIT.",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -3842,7 +3808,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-19",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - change must be ready for full retest from R1 SI Supplier Conversion on wards",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -3855,11 +3821,11 @@
       "subledger": "PO",
       "relatedObject": "Supplier Site",
       "severity": "High",
-      "status": "Not Started",
-      "owner": "Chanmye Myintthu",
+      "status": "Triage",
+      "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-20",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - for R1 P2 impacted PO & AP Invoice records were not attempted to load (critical errors on Profile Reports)",
+      "notes": "[object Object]",
       "defectType": "System Functionality Limitation"
     },
     {
@@ -3876,7 +3842,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-20",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3893,7 +3859,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-20",
       "targetRetestDate": "2027-01-08",
-      "notes": "NA",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -3910,7 +3876,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-20",
       "targetRetestDate": "2026-11-04",
-      "notes": "N/A - These records failed to load as part of P2 loads",
+      "notes": "[object Object]",
       "defectType": "System Functionality Limitation"
     },
     {
@@ -3927,7 +3893,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -3944,7 +3910,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-21",
       "targetRetestDate": "2026-12-18",
-      "notes": "N/A - These records failed to load during P2",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -3961,7 +3927,7 @@
       "owner": "Alice Linesch",
       "dateIdentified": "2026-10-21",
       "targetRetestDate": "2027-01-08",
-      "notes": "None – without the fix, ERPP falls back to the survivor account",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -3978,7 +3944,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-22",
       "targetRetestDate": "2027-01-08",
-      "notes": "If ACC Extract does not provide the required data, no tolerances can be converted if the project does not exist in EBS but only in ACC. This was done for R1 P2 but needs to be resolved for subsequent testing cycles.",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -3995,7 +3961,7 @@
       "owner": "Glenn Siedlarczyk",
       "dateIdentified": "2026-10-22",
       "targetRetestDate": "2026-10-23",
-      "notes": "N/A - need to have the RRDD to company mapping provided to us to be able to update our master XREF accordingly to ensure that all the projects that should be converted are included in the conversion and assigned to the the right cloud BU/Company.",
+      "notes": "[object Object]",
       "defectType": "Master Data"
     },
     {
@@ -4012,7 +3978,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-23",
       "targetRetestDate": "2026-12-18",
-      "notes": "N/A - These records failed to load during P2",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4029,7 +3995,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-23",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - These records failed to load during P2",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4046,7 +4012,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - needs to be clarified for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -4064,7 +4030,7 @@
       "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2026-11-06",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "End-User Training/Guidance"
     },
     {
@@ -4081,7 +4047,7 @@
       "owner": "Ashley Peterman",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2026-11-06",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Configuration Update"
     },
     {
@@ -4098,7 +4064,7 @@
       "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-26",
       "targetRetestDate": "2027-01-01",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "End-User Training/Guidance"
     },
     {
@@ -4115,7 +4081,7 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-10-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "For R1 P2, the relevant lines need to be removed manually from the FBID load as they will fail upload. They should be reported as part of not loaded in the Load Summary. For R1 SIT onwards these should already be reported (if still present) as critical errors and not even be included in the FBDI load files.",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -4132,7 +4098,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-27",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - These records were not loaded for P2",
+      "notes": "[object Object]",
       "defectType": "System Functionality Limitation"
     },
     {
@@ -4149,7 +4115,7 @@
       "owner": "Mani Varadan",
       "dateIdentified": "2026-10-27",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A - These records were not loaded for P2",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4166,7 +4132,7 @@
       "owner": "Anuradha Kumar",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2026-10-29",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "System Functionality Limitation"
     },
     {
@@ -4183,7 +4149,7 @@
       "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2026-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4200,7 +4166,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2027-01-08",
-      "notes": "Accept the AS-IS completion date provided by ACC extract until the CR has been updated and retested.",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
     },
     {
@@ -4217,7 +4183,7 @@
       "owner": "Joanna Bielecka",
       "dateIdentified": "2026-10-28",
       "targetRetestDate": "2026-10-29",
-      "notes": "n/a",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4234,7 +4200,7 @@
       "owner": "Ashley Peterman",
       "dateIdentified": "2026-10-30",
       "targetRetestDate": "2026-11-02",
-      "notes": "n/a",
+      "notes": "[object Object]",
       "defectType": "End-User Training/Guidance"
     },
     {
@@ -4251,7 +4217,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-10-30",
       "targetRetestDate": "2026-11-30",
-      "notes": "R1 P2 - 19 CONVERSION CLOSED Invoice were excluded from dummy payment run and will remain as \"not paid\" in DEV5",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4268,7 +4234,7 @@
       "owner": "Ashley Peterman",
       "dateIdentified": "2026-10-30",
       "targetRetestDate": "2026-11-02",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "System Functionality Limitation"
     },
     {
@@ -4281,11 +4247,11 @@
       "subledger": "PA",
       "relatedObject": "PM didn't match the recon report from DEV5",
       "severity": "Low",
-      "status": "Not Started",
+      "status": "In Progress",
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-10-30",
       "targetRetestDate": "2026-11-16",
-      "notes": "If a default manager email is to be used upon conversion, the functional/business would need to be communicated on when this occur through the recon report.",
+      "notes": "[object Object]",
       "defectType": "Source File"
     },
     {
@@ -4302,7 +4268,7 @@
       "owner": "Chanmye Myintthu",
       "dateIdentified": "2026-11-03",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A - needs to be udpated and implemented for R1 SIT",
+      "notes": "[object Object]",
       "defectType": "Coding Update – Report"
     },
     {
@@ -4319,7 +4285,7 @@
       "owner": "Subhaya Das",
       "dateIdentified": "2026-11-05",
       "targetRetestDate": "2026-11-09",
-      "notes": "n/a",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4336,7 +4302,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-05",
       "targetRetestDate": "2026-11-20",
-      "notes": "If the NegativeTxnFlag is not stored in Oracle, we can remove the \"Loaded\" column from the recon report",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -4353,7 +4319,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-05",
       "targetRetestDate": "2026-11-20",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -4370,7 +4336,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-05",
       "targetRetestDate": "2026-11-20",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -4387,7 +4353,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-05",
       "targetRetestDate": "2026-11-30",
-      "notes": "If this field is auto-populated upon import due to the design of the Oracle backend and will not impact the users, one workaround could be to remove the \"Loaded\" column for this field on the Recon report, since we are never populating it in the FBDI anways.",
+      "notes": "[object Object]",
       "defectType": "Requirement Defect"
     },
     {
@@ -4401,10 +4367,10 @@
       "relatedObject": "AP Invoice",
       "severity": "High",
       "status": "Ready for Retest",
-      "owner": "Joanna Bielecka",
+      "owner": "Patrycja Niewiera",
       "dateIdentified": "2026-11-06",
-      "targetRetestDate": "2026-11-10",
-      "notes": "n/a",
+      "targetRetestDate": "2026-11-16",
+      "notes": "[object Object]",
       "defectType": "End-User Training/Guidance"
     },
     {
@@ -4421,7 +4387,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4438,7 +4404,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "Unknown",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4455,7 +4421,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4472,24 +4438,7 @@
       "owner": "Rohit Gupta",
       "dateIdentified": "2026-11-06",
       "targetRetestDate": "2026-11-30",
-      "notes": "N/A",
-      "defectType": "Technical Defect"
-    },
-    {
-      "key": "CONAMER1001932-30446",
-      "issueType": "Defect",
-      "labels": [
-        "Conversion"
-      ],
-      "summary": "P590 - AP Invoice Conversion R1 P2 - GR Submit Payment_Conversion Closed_Unselected credit due to not loaded invoices",
-      "subledger": "AP",
-      "relatedObject": "AP Invoice",
-      "severity": "High",
-      "status": "Ready for Retest",
-      "owner": "Joanna Bielecka",
-      "dateIdentified": "2026-11-09",
-      "targetRetestDate": "2026-11-10",
-      "notes": "n/a",
+      "notes": "[object Object]",
       "defectType": "Technical Defect"
     },
     {
@@ -4506,8 +4455,93 @@
       "owner": "Brandon Leslie",
       "dateIdentified": "2026-11-10",
       "targetRetestDate": "2027-01-08",
-      "notes": "N/A",
+      "notes": "[object Object]",
       "defectType": "New Requirement"
+    },
+    {
+      "key": "CONAMER1001932-30465",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - Invoice Conversion R1 P2 - GT_Submit Payment_Conversion Closed_USD invoices are not pulled to preliminary",
+      "subledger": "AP",
+      "relatedObject": "Invoice",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Joanna Bielecka",
+      "dateIdentified": "2026-11-12",
+      "targetRetestDate": "2026-11-16",
+      "notes": "[object Object]",
+      "defectType": "Configuration Update"
+    },
+    {
+      "key": "CONAMER1001932-30466",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - Partial Payments Technical Solution Required",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Not Started",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-11-12",
+      "targetRetestDate": "2026-11-30",
+      "notes": "[object Object]",
+      "defectType": "System Functionality Limitation"
+    },
+    {
+      "key": "CONAMER1001932-30468",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoices Conversion R1 P2 - Partial Payments Report does not include all CONVERSION_PARTIAL records & Withholding Issue",
+      "subledger": "AP",
+      "relatedObject": "AP Invoices",
+      "severity": "High",
+      "status": "In Progress",
+      "owner": "Ashley Peterman",
+      "dateIdentified": "2026-11-12",
+      "targetRetestDate": "2026-11-20",
+      "notes": "[object Object]",
+      "defectType": "Requirement Defect"
+    },
+    {
+      "key": "CONAMER1001932-30469",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": " P590 - AP Invoice Conversion R1 P2 - TH_CONVERSION_CLOSED_Initiated status",
+      "subledger": "AP",
+      "relatedObject": "P590 - AP Invoice",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Patrycja Niewiera",
+      "dateIdentified": "2026-11-13",
+      "targetRetestDate": "2026-11-16",
+      "notes": "[object Object]",
+      "defectType": "Technical Defect"
+    },
+    {
+      "key": "CONAMER1001932-30471",
+      "issueType": "Defect",
+      "labels": [
+        "Conversion"
+      ],
+      "summary": "P590 - AP Invoice Conversion R1 P2 - AU_Invoice_Approval_Workflow_Validation_Conversion Closed",
+      "subledger": "AP",
+      "relatedObject": "AP Invoice",
+      "severity": "High",
+      "status": "Ready for Retest",
+      "owner": "Monika Neuhauser",
+      "dateIdentified": "2026-11-13",
+      "targetRetestDate": "2026-11-17",
+      "notes": "[object Object]",
+      "defectType": "Technical Defect"
     }
   ]
 }
