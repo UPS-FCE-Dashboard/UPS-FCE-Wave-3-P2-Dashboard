@@ -136,8 +136,8 @@ function mapTestCase(issue) {
 
 function severityOf(issue) {
   const pri = issue.fields?.priority?.name;
-  if (pri && pri !== "No priority") return pri;
-  return cf(issue, "Complexity") || "Medium";
+  if (!pri || pri === "No priority") return "No severity listed";
+  return pri;
 }
 
 function mapDefect(issue) {
